@@ -358,6 +358,9 @@ footer .contact {
   .tripwire .hero .box .content {
     height: auto; } }
 
+.tripwire .hero .box .content1 .btn-primary:hover {
+  background: #3D8DC8; }
+
 .tripwire .hero .box .content1 h3 {
   font-size: 26px; }
 
@@ -370,10 +373,10 @@ footer .contact {
   color: #fff; }
 
 .tripwire .hero .box .content2 .btn-primary:hover {
-  background: #DA4850; }
+  background: #FF962C; }
 
 .tripwire .hero .box .content2 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(218, 72, 80, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(255, 150, 44, 0.5); }
 
 .tripwire .hero h3 {
   font: 700 28px 'Roboto Condensed';
@@ -402,7 +405,7 @@ footer .contact {
 
 .tripwire #inquiry .tp-main:hover {
   background: #fff;
-  color: #DA4850; }
+  color: #FF962C; }
 
 .tripwire .btn-primary {
   font-size: 22px;
@@ -436,7 +439,7 @@ footer .contact {
 
 .confirmation .btn-primary:hover {
   background: #ffffff;
-  color: #DA4850; }
+  color: #FF962C; }
 
 .ht-bo-exiting {
   font-family: 'Roboto Condensed';

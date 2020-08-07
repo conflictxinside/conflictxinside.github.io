@@ -54,6 +54,7 @@
       }
     }
     .content1{
+      .btn-primary:hover {background: $lightblue;}
       h3{
         font-size: 26px;
       }
@@ -67,10 +68,10 @@
         background: $darkblue;
         color: #fff;
         &:hover{
-          background: $coral;
+          background: $orange;
         }
         &:focus{
-          box-shadow: 0 0 0 0.2rem rgba($coral,0.5);
+          box-shadow: 0 0 0 0.2rem rgba($orange,0.5);
         }
       }
     }
@@ -106,7 +107,7 @@
   .tp-main{
     &:hover{
       background: #fff;
-      color: $coral;
+      color: $orange;
     }    
   }
 }

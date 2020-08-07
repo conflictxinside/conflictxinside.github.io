@@ -1,0 +1,114 @@
+.hero {
+  overflow: hidden;
+  position: relative;
+  @media(max-width: 575px){
+    background: rgba($grey, .7);
+  }
+  .container {
+    position: relative;
+    &:before {
+      -webkit-clip-path: polygon(82% 0, 100% 0, 100% 100%, 16% 100%);
+      clip-path: polygon(82% 0, 100% 0, 100% 100%, 16% 100%);
+      position: absolute;
+      z-index: -1;
+      width: 50%;
+      height: 100%;
+      right: -.02em;
+      top: 0;
+      background: rgba($darkblue, 1);
+      display: block;
+      content: '';
+      @media (max-width: 575px) {
+        display: none;
+      }
+    }
+    &:after {     
+      position: absolute;
+      z-index: -1;
+      width: 50vw;
+      height: 100%;
+      left: 100%;
+      top: 0;
+      background: rgba($darkblue, 1);
+      display: block;
+      content: '';
+      @media (max-width: 575px) {
+        display: none;
+      }
+    }
+  }
+
+  em{
+    font: italic 300 25px 'Roboto';
+    color: $darkblue;
+    @media(max-width: 767px){
+      font: italic 300 25px 'Roboto';
+    }
+    @media(max-width: 575px){
+      font: italic 700 25px 'Roboto';
+    }
+  }
+  h1 {
+    font: 700 48px/1.1em 'Roboto Condensed';
+    color: $darkblue;
+    @media (max-width: 767px) {
+      font: 700 42px/1.1em 'Roboto Condensed';
+    }
+    @media (max-width: 767px) {
+      font: 700 28px/1.1em 'Roboto Condensed';
+    }
+    strong{
+      font-weight: 700;
+    }
+  }
+  h2 {
+    font: 400 22px 'Roboto';
+    color: #262715;
+    @media (max-width: 575px) {
+      font-weight: 900;
+    }
+  }
+  ul {
+    padding: 0 .5em 0 1.75em;
+    list-style: none;
+    @media (max-width: 575px) {
+      padding: 0 0 0 1.5em;
+    }
+    li {
+      font: 400 20px/26px 'Roboto Condensed';
+      color: $black;                         
+      @media (max-width: 768px) {
+        font: 700 18px 'Roboto Condensed';
+      }
+      @media (max-width: 575px) {
+        font: 700 16px 'Roboto Condensed';
+      }
+      &:before {
+        content: '';
+        background: no-repeat 50% 50% / contain url('../img/ico_check.png');
+        width: 1.5em;
+        height: 1.5em;
+        display: inline-block;
+        margin-left: -1.75em;
+        position: relative;
+        top: .5em;
+        margin-right: .25em;
+      }
+    }
+  }
+}
+
+
+.quote {
+  background: $lightblue;
+  color: $white;
+  blockquote {
+    font: italic 400 25px/32px 'Roboto Condensed';
+    @media (max-width: 575px) {
+      font-size: 21px;
+    }
+  }
+}
+
+
+

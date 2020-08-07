@@ -1,0 +1,159 @@
+@import url('https://assets.snappykraken.com/global/css/utilities.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+$lightblue: #3D8DC8;
+$darkblue: #224B7A;
+$darkestblue: #142540;
+$black: #0C1D24;
+$coral: #DA4850;
+$yellow: #E9D57E;
+$pink: #C74280;
+$grey: #8E8E8E;
+$darkgrey: #707070;
+$white: #ffffff;
+$orange: #FF962C;
+
+body {
+  background: #fff;  
+  font: 20px/1.5em 'Roboto';
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+}
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 700 26px 'Roboto Condensed';
+  padding: .75em 1.25em;
+  white-space: normal;
+  @media (max-width: 575px) {
+    font: 700 18px 'Roboto Condensed';
+    padding: 1em 5px;
+    width: 100%;
+  }
+  &.btn-primary {
+    background: $orange;
+    color: #fff;
+    &:hover {
+      background: $darkblue;
+    }
+    &:focus{
+      box-shadow: 0 0 0 0.2rem rgba($orange,.5);
+    }
+  }
+}
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  .dismiss {
+    color: $coral;
+    font-size: 24px;
+    line-height: 1em;
+    opacity: .9;
+    z-index: 9;
+    @media(max-width: 767px){
+      color: #fff;
+    }
+    &:hover {
+      opacity: .75;
+    }
+  }
+}
+.modal-backdrop.show {
+  background-color: $darkblue;
+  opacity: .61;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 400 18px 'Roboto';
+  color: $black;
+  @media(max-width: 320px){
+    font-size: 16px;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($grey, .25);
+    border: $grey;
+    }
+  &::placeholder{
+    color: #ACACAC;
+  }
+}
+.select-control{
+  color: $black;
+
+}
+textarea.form-control {
+  height: 100px;
+}
+footer {
+  font-size: 16px;
+  line-height: 24px;
+  color: $darkgrey;
+  .contact {
+    font-size: 19px;
+    @media(max-width: 575px){
+      font-size: 16px;
+    }
+  }
+}
+
+.registration {
+  @import 'registration';
+}
+#opt-in {
+  @import 'opt-in';
+}
+#exit{
+  @import 'exit';
+}
+.tripwire {
+  @import 'tripwire';
+}
+.confirmation {
+  @import 'confirmation';
+}
+
+//Widget
+@import 'widget';
+
+
+//Platform Styling
+.preview {
+  .interstitial,  + #wrapper  .conf + .interstitial {
+    display: none !important;
+  }
+}
+.preview + .display-modal, #exit{
+  .modal-content{
+    border: 30px solid #fff !important;
+    outline: 1px solid #ccc;
+  }
+}
+.preview + #opt-in{
+  .modal-content{
+    border: 1px solid #ccc !important;
+  }
+}
+.display-modal {
+  position: relative !important;
+  display: block !important;
+  z-index: 1 !important;
+  border-top: 1px solid #707070;
+  padding: 3rem 0;
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.logoBox img.img-fluid {max-height: 200px;}

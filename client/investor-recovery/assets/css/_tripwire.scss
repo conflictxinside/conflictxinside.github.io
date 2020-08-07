@@ -1,0 +1,122 @@
+
+.hero {
+  background: #BAD7EC;
+  h1 {
+    font: 700 38px/46px 'Roboto Condensed';
+    color: $darkblue;
+    @media(max-width: 575px) {
+      font-size: 38px;
+      line-height: 42px;
+    }
+    @media(max-width: 420px){
+      font-size: 36px;
+      line-height: 40px;
+    }
+    @media(max-width: 320px){
+      font-size: 34px;
+      line-height: 36px;
+    }
+  }
+  h2 {
+    font: 400 26px 'Roboto Condensed';
+    color: $lightblue;
+    @media(max-width: 575px){
+      font-size: 20px;
+      line-height: 26px;
+    }
+    width: 60%;
+    margin: 0 auto;
+    @media(max-width: 1024px){
+      width: 70%;
+    }
+    @media(max-width: 991px){
+      width: 75%;
+    }
+    @media(max-width: 767px){
+      width: 100%;
+    }
+  }
+  .box {
+    background: #5FA1D1;
+    &:first-child {background: $darkblue;}
+    .btn-primary {
+        color: #fff;
+    }
+    p {
+      font: 400 22px/30px 'Roboto Condensed';
+      color: #fff;
+      margin: 0;
+    }
+    .content{
+      height: 150px;
+      @media(max-width: 767px){
+        height: auto;
+      }
+    }
+    .content1{
+      h3{
+        font-size: 26px;
+      }
+      em{
+        font: italic 400 22px/30px 'Roboto Condensed';
+        color: #fff;
+      }
+    }
+    .content2{
+      .btn-primary{
+        background: $darkblue;
+        color: #fff;
+        &:hover{
+          background: $coral;
+        }
+        &:focus{
+          box-shadow: 0 0 0 0.2rem rgba($coral,0.5);
+        }
+      }
+    }
+  }
+    h3 {
+      font: 700 28px 'Roboto Condensed';
+      color: #fff;
+
+      em {
+        font: italic 400 30px 'Roboto Condensed';
+      }
+    }
+  }
+
+
+.contact-header {
+  padding: 10px 0;
+  background: $lightblue;
+  h2 {
+    color: $white;
+    margin: 0;
+    font: italic 300 27px 'Roboto Condensed';
+  }
+}
+#inquiry {
+  background: $white;
+  h2 {
+    font: italic 300 27px 'Roboto Condensed';
+  }
+  small {
+    font-style: italic;
+  }
+  .tp-main{
+    &:hover{
+      background: #fff;
+      color: $coral;
+    }    
+  }
+}
+.btn-primary{
+  font-size: 22px;
+  padding: .9em 1.25em;
+  width: 11em;
+  height: 3em;
+  @media(max-width:575px){
+    width: 100%;
+  }
+}
+

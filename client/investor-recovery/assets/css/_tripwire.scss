@@ -54,7 +54,7 @@
       }
     }
     .content1{
-      .btn-primary:hover {background: $lightblue;}
+      .btn-primary:hover {background: #da7915;}
       h3{
         font-size: 26px;
       }
@@ -68,10 +68,10 @@
         background: $darkblue;
         color: #fff;
         &:hover{
-          background: $orange;
+          background: #153458;
         }
         &:focus{
-          box-shadow: 0 0 0 0.2rem rgba($orange,0.5);
+          box-shadow: 0 0 0 0.2rem rgba(#153458,0.5);
         }
       }
     }
@@ -104,12 +104,7 @@
   small {
     font-style: italic;
   }
-  .tp-main{
-    &:hover{
-      background: #fff;
-      color: $orange;
-    }    
-  }
+
 }
 .btn-primary{
   font-size: 22px;

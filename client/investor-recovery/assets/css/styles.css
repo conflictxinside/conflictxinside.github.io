@@ -115,7 +115,7 @@ footer .contact {
   z-index: -1;
   width: 50%;
   height: 100%;
-  right: -.02em;
+  right: -1px;
   top: 0;
   background: #224b7a;
   display: block;
@@ -265,12 +265,13 @@ footer .contact {
   max-width: 600px; }
 
 #exit .modal-content {
-  background: #0C1D24;
+  background: #224B7A;
   color: #fff;
   border: 30px solid #fff; }
 
 #exit .modal-content h3 {
-  font: 700 30px/34px 'Roboto Condensed'; }
+  font: 500 32px/34px 'Roboto Condensed';
+  font-style: italic; }
 
 #exit .modal-content h4 {
   font: 700 26px/30px 'Roboto Condensed'; }
@@ -290,7 +291,8 @@ footer .contact {
 
 #exit .modal-content .spam {
   font-size: 16px;
-  font-style: normal; }
+  font-style: normal;
+  color: #3D8DC8; }
 
 .tripwire .hero {
   background: #BAD7EC; }
@@ -359,7 +361,7 @@ footer .contact {
     height: auto; } }
 
 .tripwire .hero .box .content1 .btn-primary:hover {
-  background: #3D8DC8; }
+  background: #da7915; }
 
 .tripwire .hero .box .content1 h3 {
   font-size: 26px; }
@@ -373,10 +375,10 @@ footer .contact {
   color: #fff; }
 
 .tripwire .hero .box .content2 .btn-primary:hover {
-  background: #FF962C; }
+  background: #153458; }
 
 .tripwire .hero .box .content2 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 150, 44, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(21, 52, 88, 0.5); }
 
 .tripwire .hero h3 {
   font: 700 28px 'Roboto Condensed';
@@ -402,10 +404,6 @@ footer .contact {
 
 .tripwire #inquiry small {
   font-style: italic; }
-
-.tripwire #inquiry .tp-main:hover {
-  background: #fff;
-  color: #FF962C; }
 
 .tripwire .btn-primary {
   font-size: 22px;

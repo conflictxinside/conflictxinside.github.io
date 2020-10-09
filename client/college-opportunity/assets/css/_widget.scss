@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+.ht-bo-exiting {
+  font-family: 'Roboto Condensed';
+  line-height: 1.8em;
+  background-color: #34437C;
+  color: #fff;
+  border: 20px solid #fff;
+  padding: 2rem;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  outline: 1px solid #aaa;
+  .ht-inner {
+    width: 100%;
+  }
+  h2, h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    background: none !important;
+    border: none !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  h2{
+    font: 900 48px 'Roboto Condensed' !important;
+  }
+  h3{
+    font: 900 32px 'Roboto Condensed' !important;
+  }
+  h4 {
+    font: 500 28px 'Roboto Condensed' !important;
+    color: #E9D57E;
+    margin: 1rem 0 2rem !important;
+    padding: 0 !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    background: none !important;
+    border: none !important;
+    width: 100% !important;
+    height: auto !important;
+    
+  }
+  p {
+    font:100 22px/36px 'Roboto Condensed' !important;
+    color: #fff;
+    margin: 1rem 0 !important;
+    padding: 0 !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    background: none !important;
+    border: none !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  p.ht-small {
+    font:100 16px/24px 'Roboto Condensed' !important;
+    color: #A7A7A7;  
+  }
+
+  .ht-form {
+    display: flex !important;
+    
+    @media (max-width: 1023px) {
+      display: block !important;
+    }
+    .ht-input {
+      background-color: #fff !important;
+      color: #262715 !important;
+      font:100 20px 'Roboto Condensed' !important;
+      margin: 1rem auto !important;
+      box-sizing: border-box !important;
+      width: 100% !important;
+      padding: 0 1em !important;
+      border: 0 !important;
+      height: 60px !important;
+      vertical-align: middle !important;
+      &::placeholder {
+        color: #A7A7A7 !important;
+      }
+
+      &.error, &:focus, &:active {
+        border: 3px solid #fff !important; 
+        box-shadow: none;
+        outline: none;
+      }
+              
+      @media (min-width: 1024px) {
+        width: 24% !important;
+      }
+    }
+
+
+    .ht-button {
+      background-color: #DA4850 !important;
+      color: #fff !important;
+      &:hover{
+        background-color: $pink !important;
+      }
+      font: 700 20px 'Roboto Condensed' !important;
+      margin: 1rem auto !important;
+      box-sizing: border-box !important;
+      width: 100% !important;
+      height: 60px !important;
+      vertical-align: middle !important;
+      padding: 0 1em !important;
+      border: 0 !important;
+              
+      @media (min-width: 1024px) {
+        width: 24% !important;
+      }
+    }
+  }
+
+  
+}
+.tooltip-inner {
+  background-color: #444;
+}
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+  border-top-color: #444;
+}

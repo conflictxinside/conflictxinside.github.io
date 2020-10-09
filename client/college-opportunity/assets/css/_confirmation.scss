@@ -1,0 +1,28 @@
+.hero {
+  background: $black;
+  color: #fff;
+  h1 {
+    font: 700 32px/1.4em 'Roboto Condensed';
+    @media(max-width: 320px){
+      line-height: 1.2em;
+    }
+  }
+  .thankyou{
+    font: 700 25px 'Roboto Condensed';
+  }
+  h3 {
+    font: 700 30px 'Roboto Condensed';
+  }
+  .office{
+    font: 400 25px 'Roboto';
+  }
+}
+.btn-primary{
+  &:hover{
+    background: #ffffff;
+    color: $coral;
+  }
+}
+
+
+

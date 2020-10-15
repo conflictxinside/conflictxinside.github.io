@@ -352,7 +352,8 @@ footer .contact {
 
 @media (max-width: 767px) {
   .tripwire .hero .box .content {
-    height: auto; } }
+    height: auto;
+    min-height: 0; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .tripwire .hero .box .content {

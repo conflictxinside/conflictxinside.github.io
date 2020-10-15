@@ -115,7 +115,7 @@ footer .contact {
   z-index: -1;
   width: 50%;
   height: 100%;
-  right: -.02em;
+  right: 0;
   top: 0;
   background: rgba(142, 142, 142, 0.53);
   display: block;
@@ -348,8 +348,7 @@ footer .contact {
 
 @media (max-width: 767px) {
   .tripwire .hero .box .content {
-    height: auto; } 
-  }
+    height: auto; } }
 
 .tripwire .hero .box .content1 h3 {
   font-size: 30px; }

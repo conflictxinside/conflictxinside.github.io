@@ -333,6 +333,7 @@ footer .contact {
     width: 100%; } }
 
 .tripwire .hero .box {
+  position: relative;
   background: #000; }
 
 .tripwire .hero .box.right {
@@ -346,9 +347,16 @@ footer .contact {
   color: #fff;
   margin: 0; }
 
+.tripwire .hero .box .content {
+  min-height: 210px; }
+
 @media (max-width: 767px) {
   .tripwire .hero .box .content {
     height: auto; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .tripwire .hero .box .content {
+    min-height: 250px; } }
 
 .tripwire .hero .box .content1 h3 {
   font-size: 30px; }
@@ -398,10 +406,6 @@ footer .contact {
 
 .tripwire #inquiry small {
   font-style: italic; }
-
-.tripwire #inquiry .tp-main:hover {
-  background: #fff;
-  color: #DA4850; }
 
 .tripwire .btn-primary {
   font-size: 22px;

@@ -357,15 +357,22 @@ footer .contact {
   font: italic 400 22px/30px 'Roboto Condensed';
   color: #fff; }
 
+.tripwire .hero .box .content1 .btn-primary:hover {
+  background: #E65E66; }
+
+.tripwire .hero .box .content1 .btn-primary:focus {
+  background: #DA4850;
+  box-shadow: 0 0 0 0.2rem rgba(218, 72, 80, 0.5); }
+
 .tripwire .hero .box .content2 .btn-primary {
   background: #34437C;
   color: #fff; }
 
 .tripwire .hero .box .content2 .btn-primary:hover {
-  background: #DA4850; }
+  background: #25587E; }
 
 .tripwire .hero .box .content2 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(218, 72, 80, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(37, 88, 126, 0.5); }
 
 .tripwire .hero h3 {
   font: 700 28px 'Roboto Condensed';

@@ -103,7 +103,7 @@ footer .contact {
 
 @media (max-width: 575px) {
   .registration .hero {
-    background: rgba(142, 142, 142, 0.7); } }
+    background: #fff; } }
 
 .registration .hero .container {
   position: relative; }

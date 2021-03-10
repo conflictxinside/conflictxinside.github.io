@@ -1,0 +1,196 @@
+
+.vmsWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  padding: 20px;
+  transition: all .2s ease-in-out;
+  z-index: 500;
+  #vms-toggle {
+      background: $cream;
+      color: #3A5260;
+      opacity: 1;
+      position: static !important;
+      order: 1;
+      margin-top: 0 !important;
+      line-height: 75px;
+      width: 70px;
+      text-align: center;
+      margin-right: 20px;
+      font-size: 32px;
+      font-weight: 700;
+      cursor: pointer;
+      &:hover {
+          background: #000;
+          color: $cream;
+       }
+  }
+  #vms-header {
+      order: 2;
+      background: $darkgrey;
+      color: #fff;
+      padding: 0 !important;
+      height: 75px;
+      font: 400 20px 'Roboto Condensed';
+      position: static !important;
+      line-height: 75px;
+      @media (max-width:767px) {
+          zoom: .8;
+      }
+      span {
+          font-family: 'Roboto Condensed';
+          font-weight: 700;
+      }
+      a {
+          color: #000;
+      }
+      @media (max-width:767px) {
+          height: 60px;
+          line-height: 60px;
+          padding: 0 !important;
+          .contact {
+              height: 60px;
+          }
+          .contact a:before {
+              width: 55px !important;
+              height: 60px;
+              line-height: 60px !important;
+              font-size: 20px !important;
+          }
+      }
+      .company {
+          cursor: pointer;
+          padding-left: 25px;
+          line-height: 75px;
+          font-weight: 300 !important;
+          @media (max-width:767px) {
+              padding-left: 20px;
+              padding-top: 0;
+              span {
+                  display: none;
+              }
+          }
+      }
+      .contact {
+          display: flex;
+          a {
+              font: 700 30px 'Roboto Condensed';
+              display: block;
+              color: #fff;
+              &:before {
+                  font-size: 25px;
+                  height: 75px;
+                  width: 70px;
+                  display: block;
+                  text-align: center;
+                  text-transform: uppercase;
+                  line-height: 75px;
+              }
+              i, span {
+                  display: none !important;
+              }
+              &.website {
+                  background: $darkpink;
+                  &:before {
+                      content: 'W';
+                  }
+                  &:hover{
+                      background: $darkerpink;
+                  }
+              }
+              &.email {
+                  background: $brown;
+                  &:before {
+                      content: '@';
+                  }
+                  &:hover{
+                      background: $darkbrown;
+                  }
+              }
+              &.phone {
+                  background: $pink;
+                  &:before {
+                      content: '#';
+                  }
+                  &:hover{
+                      background: $punch;
+                  }
+              }
+              &:hover{
+                  text-decoration: none;
+              }
+          }
+      }
+  }
+}
+.at-icon-wrapper, .atss .at-share-btn span .at-icon, .atss a span .at-icon {
+  transition: all .2s ease-in-out;
+}
+.compact {
+  @media (max-width:767px) {
+      padding-top: 60px;
+  }
+  .at-icon-wrapper {
+      background: $darkorange !important;
+  }
+  .atss .at-share-btn span .at-icon, .atss a span .at-icon {
+      fill: #fff !important;
+  }
+  .vmsWrap {
+      top: 0;
+      left: 0;
+      padding: 0;
+      height: 60px;
+      line-height: 60px;
+      transition: all .2s ease-in-out;
+      * {
+          height: 60px !important;
+          line-height: 60px !important;
+          .contact a:before {
+              width: 55px !important;
+              line-height: 60px !important;
+              font-size: 20px !important;
+          }
+      }
+      #vms-toggle {
+          width: 55px !important;
+          margin-right: 0 !important;
+          font-size: 20px;
+      }
+      #vms-header {
+          background: rgba(#272426, .9);
+          .company {
+              padding-top: 0;
+              font-weight: 300;
+              @media (max-width:767px) {
+                  padding-left: 20px;
+              }
+          }
+      }
+  }
+}
+
+
+a.at-expanding-share-button-toggle-btn:before {
+  content: "Share";
+  color: $darkorange;
+  font: 300 15px/50px 'UnifrakturCook';
+  margin-right: .5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  position: fixed;
+  right: 55px;
+  transition: all .2s ease-in-out;
+  text-shadow: 0 0 1px $darkorange;
+}
+.at-expanding-share-button-show-icons {
+  a.at-expanding-share-button-toggle-btn:before {
+      opacity: 0;
+      transition: all .2s ease-in-out;
+  }
+}

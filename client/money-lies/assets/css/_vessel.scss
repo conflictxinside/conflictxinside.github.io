@@ -1,0 +1,76 @@
+
+#vessel {
+    position: relative;
+    background-color: $white;
+  .signature {
+      font: 500 35px/42px 'Boogaloo';
+      color: $black;
+      strong{
+          font-weight: normal;
+      }
+      @media(max-width:575px) {
+          font-size: 24px;
+      }
+  }
+  .post-script {
+      font-family: 'UnifrakturCook';
+      line-height: 26px;
+  }
+  .contact {
+      i {
+          font-size: 50px;
+          font-weight: 700;
+          font-family: 'Spartan';
+          font-style: normal;
+      }
+      a {
+          background: $brown;
+          color: #fff;
+          text-decoration: none;
+          padding: 2rem;
+          strong {
+              margin-top: 1rem;
+              font: 400 24px 'Spartan';
+          }
+          &:first-child {
+              background: $darkpink;
+              &:hover{
+                  background: $darkerpink;
+              }
+          }
+          &:last-child {
+              background: $pink;
+              &:hover{
+                  background: $punch;
+              }
+          }
+          &:hover{
+              background: $darkbrown;
+          }
+      }
+  }
+}
+
+
+#vms-modal {
+  .box a:hover {
+      i {
+          background: $darkteal;
+      }
+      strong {
+          color: $darkteal;
+      }
+  }
+  .close {
+      &:hover {
+          color: $teal;
+      }
+      &:focus {
+          outline: 5px auto $darkteal;
+      }
+  }
+}
+.modal-backdrop.show {
+  background: $modal;
+  opacity: .90;
+}

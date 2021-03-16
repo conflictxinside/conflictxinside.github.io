@@ -76,6 +76,7 @@
       }
       .contact {
           display: flex;
+          flex-direction: row-reverse;
           a {
               font: 700 30px 'Roboto Condensed';
               display: block;

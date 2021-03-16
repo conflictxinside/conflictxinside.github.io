@@ -448,18 +448,5 @@
     $('#confirmation').modal('show');
     </script>
 
-    <!-- Corrects the order of the header buttons from external source as shown in the XD file -->
-    <script>
-        jQuery(document).ready(function ($) {
-            var websiteButtonHtml = $('#vms-header .contact a')[2].outerHTML;
-            var emailButtonHtml = $('#vms-header .contact a')[1].outerHTML;
-            var phoneButtonHtml = $('#vms-header .contact a')[0].outerHTML;
-            $('#vms-header .contact a').remove();
-            $('#vms-header .contact').append(websiteButtonHtml);
-            $('#vms-header .contact').append(emailButtonHtml);
-            $('#vms-header .contact').append(phoneButtonHtml);
-        });
-    </script>
-
 </body>
 </html>

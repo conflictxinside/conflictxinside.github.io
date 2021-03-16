@@ -79,7 +79,8 @@
     display: none; } }
 
 .vmsWrap #vms-header .contact {
-  display: flex; }
+  display: flex;
+  flex-direction: row-reverse; }
 
 .vmsWrap #vms-header .contact a {
   font: 700 30px 'Roboto Condensed';

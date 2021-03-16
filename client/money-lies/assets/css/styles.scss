@@ -1,6 +1,6 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.min.css');
 @import url('https://assets.snappykraken.com/global/css/vessel-modal-simple.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto&family=Spartan:wght@500;700&family=UnifrakturCook:wght@700&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spartan:wght@500;700&family=UnifrakturCook:wght@700&family=Roboto+Condensed:wght@700&family=Open+Sans&display=swap');
 
 $lightgreen: #d6da9d;
 $green: #b4bc4c;
@@ -109,7 +109,7 @@ p {
             padding-top: 20%;
         }
         @media(max-width: 575px){
-            height: 100vw;
+            height: 110vw;
             padding-top: 26%;
         }
         .headline{
@@ -125,8 +125,10 @@ p {
                         color: $darkerpink;
                         font-size: 18vw;
                         line-height: 18vw;
+                        margin-bottom: 20px;
                         @media(max-width: 767px){
                             line-height: 22vw;
+                            margin-bottom: 10px;
                         }
                     }
                 }
@@ -149,6 +151,9 @@ p {
             bottom: -130px;
             z-index: 1;
             width: 100%;
+            @media(max-width: 575px){
+                bottom: -80px;
+            }
         }
 }
 #mobile-hero{
@@ -266,18 +271,21 @@ p {
             }    
         }
         span {
-            font: 400 90px/118px 'UnifrakturCook';
+            font: 400 6rem 'UnifrakturCook';
             color: #F5E6C6;
             letter-spacing: .05em;
             margin-top: 1rem;
-            @media(max-width:991px){
+            @media(max-width:1329px){
                 font: 400 4.4rem 'UnifrakturCook';
             }
+            @media(max-width:991px){
+                font: 400 3.0rem 'UnifrakturCook';
+            }
             @media(max-width:767px){
-                font: 400 3.4rem 'UnifrakturCook';
+                font: 400 2.2rem 'UnifrakturCook';
             }
             @media(max-width:575px){
-                font: 400 3.0rem 'UnifrakturCook';
+                font: 400 1.8rem 'UnifrakturCook';
             }
         }
     }

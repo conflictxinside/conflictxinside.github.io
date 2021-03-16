@@ -1,6 +1,6 @@
 @import url("https://assets.snappykraken.com/global/css/utilities.min.css");
 @import url("https://assets.snappykraken.com/global/css/vessel-modal-simple.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto&family=Spartan:wght@500;700&family=UnifrakturCook:wght@700&family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Spartan:wght@500;700&family=UnifrakturCook:wght@700&family=Roboto+Condensed:wght@700&family=Open+Sans&display=swap");
 .vmsWrap {
   position: fixed;
   top: 0;
@@ -313,7 +313,7 @@ a.at-expanding-share-button-toggle-btn:before {
   background-color: #fffdf4; }
 
 #vessel .signature {
-  font: 500 35px/42px 'Boogaloo';
+  font: 500 35px/42px 'Spartan';
   color: #262325; }
 
 #vessel .signature strong {
@@ -454,7 +454,7 @@ a.at-expanding-share-button-toggle-btn:before {
     padding-top: 3rem; } }
 
 .slider1 .text {
-  width: 70%; }
+  width: 85%; }
 
 @media (max-width: 1199px) {
   .slider1 .text {
@@ -888,7 +888,7 @@ p:last-child {
 
 @media (max-width: 575px) {
   #hero {
-    height: 100vw;
+    height: 110vw;
     padding-top: 26%; } }
 
 #hero .headline h1 {
@@ -904,11 +904,13 @@ p:last-child {
 #hero .headline h1 span.two {
   color: #971A2A;
   font-size: 18vw;
-  line-height: 18vw; }
+  line-height: 18vw;
+  margin-bottom: 20px; }
 
 @media (max-width: 767px) {
   #hero .headline h1 span.two {
-    line-height: 22vw; } }
+    line-height: 22vw;
+    margin-bottom: 10px; } }
 
 @media (min-width: 768px) {
   #hero .headline h1 {
@@ -929,6 +931,10 @@ p:last-child {
   bottom: -130px;
   z-index: 1;
   width: 100%; }
+
+@media (max-width: 575px) {
+  #hero .img2 {
+    bottom: -80px; } }
 
 @media (max-width: 767px) {
   #mobile-hero {
@@ -1057,22 +1063,26 @@ p:last-child {
     font-size: 1.4rem; } }
 
 #subscribe h2 span {
-  font: 400 90px/118px 'UnifrakturCook';
+  font: 400 6rem 'UnifrakturCook';
   color: #F5E6C6;
   letter-spacing: .05em;
   margin-top: 1rem; }
 
-@media (max-width: 991px) {
+@media (max-width: 1329px) {
   #subscribe h2 span {
     font: 400 4.4rem 'UnifrakturCook'; } }
 
+@media (max-width: 991px) {
+  #subscribe h2 span {
+    font: 400 3.0rem 'UnifrakturCook'; } }
+
 @media (max-width: 767px) {
   #subscribe h2 span {
-    font: 400 3.4rem 'UnifrakturCook'; } }
+    font: 400 2.2rem 'UnifrakturCook'; } }
 
 @media (max-width: 575px) {
   #subscribe h2 span {
-    font: 400 3.0rem 'UnifrakturCook'; } }
+    font: 400 1.8rem 'UnifrakturCook'; } }
 
 #subscribe .form-control {
   background: #fffAf0;
@@ -1235,7 +1245,7 @@ p:last-child {
     padding-top: 3rem; } }
 
 #slider .slider1 .text {
-  width: 70%; }
+  width: 85%; }
 
 @media (max-width: 1199px) {
   #slider .slider1 .text {

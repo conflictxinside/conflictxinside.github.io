@@ -1,0 +1,157 @@
+@import url('https://assets.snappykraken.com/global/css/utilities.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Pacifico&display=swap');
+
+$green: #0E717C;
+$darkgreen: #00576C;
+$teal: #08576C;
+$mint: #D7F4EE;
+$peach: #F27272;
+$black: #343434;
+
+body {
+  background: #fff;  
+  font: 20px/1.5em 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+}
+.titles{
+  @media(max-width:767px){
+    padding: 4rem 4rem 0;
+  }
+  @media(max-width:420px){
+    padding: 4rem 2rem 0;
+  }
+}
+.content{
+  .image{
+    position: relative;
+    @media(max-width:1199px){
+      align-self: center;
+    }
+    @media(max-width:767px){
+      margin-top: 3rem;
+    }
+    span {
+      @media(max-width:1199px){
+        display: block;
+        width: 100%;
+        position: relative;
+      }
+    }
+    img{
+      position: absolute;
+      width: 70%;
+      left: 10%;
+      @media(max-width:1199px){
+        width: 90%;
+        position: static;
+        &.img_cat {position: absolute; left: 0;}
+      }
+    }
+  }
+}
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 700 24px 'Open Sans';
+  padding: .75em 1.25em;
+  white-space: normal;
+          
+  @media (max-width: 575px) {
+    font: 400 18px 'Open Sans';
+    padding: 1em 5px;
+    width: 100%;
+  }
+  &.btn-primary {
+    background: $peach;
+    color: #fff;
+
+    &:hover {
+      background: #C63B42;
+      color: #fff;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba($peach,.5);
+    }
+  }
+}
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  .dismiss {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1em;
+    opacity: .9;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+label {
+  font-size: 18px;
+}
+
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 18px 'Open Sans';
+  background-color: #FFF6EA;
+  border: none;
+  letter-spacing: 1.5px;
+  color: $black;
+
+  &::placeholder{
+    color: $teal;
+  }
+
+  &:focus {
+    border-color: none;
+    box-shadow: none;
+    color: #000;
+    }
+    textarea.form-control {
+      height: 100px;
+    }
+}
+
+footer {
+  color: $teal;
+  background: $mint;
+  font-weight: 400;
+  .contact{
+    font-size: 19px;
+  }
+  .sources{
+    font-size:16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    p{
+      margin-bottom: 0;
+    }
+    a{
+      color: $black;
+      &:hover{
+        color: $black;
+      }
+    }
+
+  }
+  .disclosures{
+    font-size: 16px;
+  }
+}
+
+.registration {
+  @import 'registration';
+}
+.confirmation {
+  @import 'confirmation';
+}

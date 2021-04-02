@@ -1,0 +1,294 @@
+@import url("https://assets.snappykraken.com/global/css/utilities.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Pacifico&display=swap");
+body {
+  background: #fff;
+  font: 20px/1.5em 'Open Sans';
+  -webkit-font-smoothing: antialiased; }
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0; }
+
+@media (max-width: 767px) {
+  .titles {
+    padding: 4rem 4rem 0; } }
+
+@media (max-width: 420px) {
+  .titles {
+    padding: 4rem 2rem 0; } }
+
+.content .image {
+  position: relative; }
+
+@media (max-width: 1199px) {
+  .content .image {
+    align-self: center; } }
+
+@media (max-width: 767px) {
+  .content .image {
+    margin-top: 3rem; } }
+
+@media (max-width: 1199px) {
+  .content .image span {
+    display: block;
+    width: 100%;
+    position: relative; } }
+
+.content .image img {
+  position: absolute;
+  width: 70%;
+  left: 10%; }
+
+@media (max-width: 1199px) {
+  .content .image img {
+    width: 90%;
+    position: static; }
+  .content .image img.img_cat {
+    position: absolute;
+    left: 0; } }
+
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 700 24px 'Open Sans';
+  padding: .75em 1.25em;
+  white-space: normal; }
+
+@media (max-width: 575px) {
+  .btn {
+    font: 400 18px 'Open Sans';
+    padding: 1em 5px;
+    width: 100%; } }
+
+.btn.btn-primary {
+  background: #F27272;
+  color: #fff; }
+
+.btn.btn-primary:hover {
+  background: #C63B42;
+  color: #fff; }
+
+.btn.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(242, 114, 114, 0.5); }
+
+.modal-content {
+  border-radius: 0;
+  border: 0; }
+
+.modal-content .dismiss {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1em;
+  opacity: .9; }
+
+.modal-content .dismiss:hover {
+  opacity: 1; }
+
+label {
+  font-size: 18px; }
+
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 18px 'Open Sans';
+  background-color: #FFF6EA;
+  border: none;
+  letter-spacing: 1.5px;
+  color: #343434; }
+
+.form-control::placeholder {
+  color: #08576C; }
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+  color: #000; }
+
+.form-control textarea.form-control {
+  height: 100px; }
+
+footer {
+  color: #08576C;
+  background: #D7F4EE;
+  font-weight: 400; }
+
+footer .contact {
+  font-size: 19px; }
+
+footer .sources {
+  font-size: 16px;
+  word-break: break-all;
+  word-wrap: break-word; }
+
+footer .sources p {
+  margin-bottom: 0; }
+
+footer .sources a {
+  color: #343434; }
+
+footer .sources a:hover {
+  color: #343434; }
+
+footer .disclosures {
+  font-size: 16px; }
+
+.registration .hero {
+  background: url(../img/bg_hero.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover; }
+
+.registration .hero .titles h1 {
+  font: 700 2.6rem 'Open Sans';
+  color: #0E717C; }
+
+@media (max-width: 767px) {
+  .registration .hero .titles h1 {
+    font: 700 2rem 'Open Sans'; } }
+
+@media (max-width: 575px) {
+  .registration .hero .titles h1 {
+    font-size: 2rem; } }
+
+@media (max-width: 430px) {
+  .registration .hero .titles h1 {
+    font-size: 1.6rem; } }
+
+.registration .hero .titles h2 {
+  color: #08576C;
+  font-family: 'Open Sans';
+  font-weight: 400; }
+
+@media (max-width: 767px) {
+  .registration .hero .titles h2 {
+    font-size: 2rem; } }
+
+@media (max-width: 430px) {
+  .registration .hero .titles h2 {
+    font-size: 1.6rem; } }
+
+.registration .hero .bullet-points h3 {
+  font: 700 25px 'Open Sans';
+  color: #08576C; }
+
+.registration .hero .list {
+  padding-left: 1.5rem; }
+
+@media (max-width: 767px) {
+  .registration .hero .list {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0; } }
+
+.registration .hero ul {
+  padding: 0 .5em 0 1.75em;
+  list-style: none; }
+
+@media (max-width: 575px) {
+  .registration .hero ul {
+    padding: 0 0 0 1.5em; } }
+
+.registration .hero ul li {
+  font: 700 20px/32px 'Open Sans';
+  color: #08576C; }
+
+@media (max-width: 991px) {
+  .registration .hero ul li {
+    height: auto; } }
+
+@media (max-width: 767px) {
+  .registration .hero ul li {
+    font: 900 18px 'Open Sans'; } }
+
+@media (max-width: 575px) {
+  .registration .hero ul li {
+    font: 900 17px 'Open Sans'; } }
+
+.registration .hero ul li:before {
+  content: '';
+  background: no-repeat 50% 50%/contain url("../img/ico_list.png");
+  width: 1.55em;
+  height: 1.55em;
+  display: inline-block;
+  margin-left: -1.55em;
+  position: relative;
+  top: .25em;
+  left: -1em; }
+
+.registration .hero .form {
+  background: #00576C; }
+
+.registration .hero .form h2 {
+  font: italic 600 2.2rem 'Open Sans';
+  color: #fff; }
+
+@media (max-width: 767px) {
+  .registration .hero .form {
+    margin: 0 auto; } }
+
+.registration .hero .form p {
+  font: italic 600 12px/16.8px 'Open Sans';
+  color: #53B5C9;
+  text-align: center;
+  margin-top: 2rem; }
+
+.registration #bio {
+  background: #fff;
+  color: #08576C; }
+
+.registration #bio .container {
+  max-width: 1200px; }
+
+.registration #bio .contact p {
+  color: #08576C;
+  font: 400 30px 'Open Sans'; }
+
+.registration #bio .content {
+  color: #08576C;
+  font-weight: 300; }
+
+@media (max-width: 1199px) {
+  .registration #bio .btn-primary {
+    font-size: 22px; } }
+
+.confirmation .hero {
+  background: #fff no-repeat 50% 100%/cover url("../img/bg_confirmation.png"); }
+
+.confirmation .hero h1 {
+  font: 800 50px/70px 'Open Sans';
+  color: #08576C; }
+
+@media (max-width: 510px) {
+  .confirmation .hero h1 {
+    font: 800 34px/47.6px 'Open Sans'; } }
+
+@media (max-width: 510px) {
+  .confirmation .hero img {
+    width: 90%; } }
+
+.confirmation .content {
+  background: #fff;
+  color: #08576C; }
+
+.confirmation .content h3 {
+  font: 400 42px/58.8px 'Pacifico'; }
+
+.confirmation .content p {
+  font: 600 28px/39.2px 'Open Sans'; }
+
+@media (max-width: 991px) {
+  .confirmation .content p {
+    font: 600 24px/33.6px 'Open Sans'; } }
+
+@media (max-width: 575px) {
+  .confirmation .content p {
+    font: 600 20px/28px 'Open Sans'; } }
+
+.confirmation .content .office {
+  font: 400 28px 'Open Sans'; }
+
+.confirmation .content .btn {
+  text-transform: uppercase;
+  font-weight: 400; }

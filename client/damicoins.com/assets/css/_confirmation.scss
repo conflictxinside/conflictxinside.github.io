@@ -1,0 +1,38 @@
+.hero {
+  background: #fff no-repeat 50% 100% / cover url('../img/bg_confirmation.png');
+  h1 {
+    font: 800 50px/70px 'Open Sans';
+    color: $teal;
+    @media(max-width: 510px){
+      font: 800 34px/47.6px 'Open Sans';
+    }
+  }
+  img{
+    @media(max-width:510px){
+      width: 90%;
+    }
+  }
+}
+.content {
+  background: #fff;
+  color: $teal;
+  h3 {
+    font: 400 42px/58.8px 'Pacifico';
+  }
+  p{
+    font: 600 28px/39.2px 'Open Sans';
+    @media(max-width:991px){
+      font: 600 24px/33.6px 'Open Sans';
+    }
+    @media(max-width:575px){
+      font: 600 20px/28px 'Open Sans';
+    }
+  }
+  .office{
+    font: 400 28px 'Open Sans';
+  }
+  .btn{
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+}

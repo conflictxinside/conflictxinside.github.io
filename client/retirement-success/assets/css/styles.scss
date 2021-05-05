@@ -1,0 +1,144 @@
+@import url('https://assets.snappykraken.com/global/css/utilities.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+$lightbrown: #C2B3A5;
+$brown: #28241C;
+$red: #A24011;
+$orange: #DD8D18;
+$gray: #242424;
+$darkgray: #1A1B23;
+$darkergray: #161719;
+$green: #0F3203;
+$lightergreen: #B0CB90;
+$lightgreen: #597A32;
+$yellow: #FDE332;
+$darkyellow: #FFD41F;
+$white: #fff;
+$black: #000;
+
+body {
+  color: $green;
+  background: $white;  
+  font: 20px/1.5em 'Roboto Condensed';
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0;
+}
+.titles{
+  @media(max-width:767px){
+    padding: 4rem 4rem 0;
+  }
+  @media(max-width:420px){
+    padding: 4rem 2rem 0;
+  }
+}
+
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 400 24px 'Roboto Condensed';
+  font-weight: 900;
+  padding: .75em 1.25em;
+  white-space: normal;
+          
+  @media (max-width: 575px) {
+    font: 400 18px 'Roboto Condensed';
+    padding: 1em 5px;
+    width: 100%;
+  }
+  &.btn-primary {
+    background: $yellow;
+    color: $green;
+
+    &:hover {
+      background: $darkyellow;
+      color: $green;
+    }
+    &:focus, &:active {
+      color: $green !important;
+      background: $yellow !important;
+      border-color: $yellow !important;
+      box-shadow: 0 0 0 0.2rem rgba($darkyellow,.5) !important;
+    }
+  }
+}
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  .dismiss {
+    color: $white;
+    font-size: 24px;
+    line-height: 1em;
+    opacity: .9;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+label {
+  font-size: 18px;
+}
+
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 18px 'Roboto Condensed';
+  background-color: $white;
+  border: none;
+  letter-spacing: 1.5px;
+  color: $gray;
+
+  &::placeholder{
+    color: $darkergray;
+  }
+
+  &:focus {
+    border-color: none;
+    box-shadow: none;
+    color: $black;
+    }
+    textarea.form-control {
+      height: 100px;
+    }
+}
+
+footer {
+  color: $gray;
+  background: $white;
+  font-weight: 400;
+  .contact{
+    font-size: 19px;
+    color: $green;
+  }
+  .sources{
+    font-size:16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    p{
+      margin-bottom: 0;
+    }
+    a{
+      color: $gray;
+      &:hover{
+        color: $gray;
+      }
+    }
+
+  }
+  .disclosures{
+    font-size: 16px;
+  }
+}
+
+.registration {
+  @import 'registration';
+}
+.confirmation {
+  @import 'confirmation';
+}

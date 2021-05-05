@@ -1,0 +1,129 @@
+.hero {
+  background:     
+  /* top, color */ 
+  linear-gradient(
+    rgba(#fff, 0.69), 
+    rgba(#fff, 0.69)
+  ),
+  /* bottom, image */
+  url(../img/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  @media(max-width:767px){
+    background-position: 50% 100%;
+  }
+
+  .titles{
+    h1{
+      font: 700 2.6rem 'Roboto Condensed';
+      text-transform: uppercase;
+      color: $green;
+      @media(max-width:575px){
+        font-size: 2rem;
+      }
+    }
+    h2{
+      color: $brown;
+      font-family: 'Roboto Condensed';
+      font-weight: 700;
+      @media(max-width:575px){
+        font-size: 26px;
+      }
+      u{
+        color: $green;
+      }
+    }
+    
+  }
+  .bullet-points{
+    p{
+      margin-bottom: 4rem;
+      @media(max-width:767px){
+        margin-bottom: 2rem;
+      }
+    }
+    h3{
+      font: 700 25px 'Roboto Condensed';
+      color: $lightgreen;
+      u{
+        color: $green;
+      }
+    }
+  }
+  .list{
+    padding-left: .6rem;
+  }
+  ul {
+    padding: 0 .5em 0 1.75em;
+    list-style: none;
+
+    @media (max-width: 575px) {
+      padding: 0 0 0 1.5em;
+    }
+    li {
+      font: 400 20px/32px 'Roboto Condensed';
+      margin-bottom: .5rem;
+      color: $green;
+      @media(max-width:991px){
+        height: auto;
+      }                      
+      @media (max-width: 767px) {
+        font: 900 18px 'Roboto Condensed';
+      }
+      @media (max-width: 575px) {
+        font: 900 17px 'Roboto Condensed';
+      }
+      &:before {
+        content: '';
+        background: no-repeat 50% 50% / contain url('../img/ico-list.png');
+        width: 1.55em;
+        height: 1.55em;
+        display: inline-block;
+        margin-left: -1.8em;
+        position: relative;
+        top: .25em;
+        left: -.5em;
+      }
+    }
+  }
+
+  .form{
+    background: $green;
+    h2{
+      font: 700 2.2rem 'Roboto Condensed';
+      color: $lightergreen;
+      u{
+        color: #fff;
+      }
+    }
+    @media(max-width: 767px){
+      margin: 0 auto;
+    }
+  }
+}
+
+
+#bio {
+  background: #fff no-repeat 100% 100% / cover url('../img/bg-main.jpg');
+  color: $gray;
+  .container {
+    max-width: 1200px;
+  }
+  .contact {
+    p {
+      color: $green;
+      font: 400 30px 'Roboto Condensed';
+    }
+  }
+  .content {
+    color: $green;
+    font-weight: 300;
+  }
+  .btn-primary{
+    @media(max-width: 1199px){
+      font-size: 22px;
+    }
+  }
+}
+

@@ -1,0 +1,29 @@
+.hero {
+  background: $white no-repeat 50% 60% / cover url('../img/bg-phone.jpg');
+  height: 15vw;
+  @media (max-width: 575px) {
+    height: 25vw;
+  }
+}
+.content {
+  background: $white;
+  color: $gray;
+  h1 {
+    color: $gray;
+    font: 400 32px/44.8px 'Roboto Condensed';
+    strong{
+      color: $lightgreen;
+    }
+  }
+  h3 {
+    font: 34px 'Roboto Condensed';
+  }
+  p {
+    font-family: 'Roboto Condensed';
+    font-size: 28px;
+    &.my-5 {color: $darkgray;}
+  }
+  .btn{
+    text-transform: unset;
+  }
+}

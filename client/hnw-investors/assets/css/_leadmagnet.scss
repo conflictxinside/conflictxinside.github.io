@@ -1,0 +1,275 @@
+
+.navbar{
+  padding: 1rem !important;
+  justify-content: center !important;
+  text-align: center;
+  @media(min-width: 1312px){
+    justify-content: space-between !important;
+    text-align: left;
+  }
+  .navbar-brand{
+    font-size: 1.5rem !important;
+    @media(max-width:767px){
+      font-size: 1.2rem !important;
+      white-space: normal;
+    }
+    @media(max-width:420px){
+      font-size: 1rem !important;
+    }
+    &:hover{
+      color: $lightestblue !important;
+    }  
+  }
+  .btn-primary{
+    color: $darkblue;
+    &:hover{
+      background: #fff;
+      color: $pink;
+    }
+  }
+  .btn{
+    padding: .5em 1.25em;
+    @media(max-width:767px){
+      width: 100%;
+    }
+  }
+  span{
+    color: $lightestblue;
+  }
+}
+.bg-light{
+  background: $darkblue !important;
+}
+.hero {
+  background: $mediumblue;
+  .headline{
+    padding: 10% 0 0;
+    h2{
+      font: 400 40px/60px 'Lato';
+      color: $lightblue;
+      @media(max-width:575px){
+        font: 400 40px/50px 'Lato';
+      }
+      span{
+        font: 400 45px/67.5px 'Patrick Hand SC';
+        color: #fff;
+        @media(max-width:575px){
+          font: 400 45px/50px 'Patrick Hand SC';
+        }
+      }
+    }
+  }
+}
+
+.section{
+  padding: 5rem 0;
+  color: $darkblue;
+  @media(max-width:767px){
+    padding: 3rem 0;
+  }
+}
+.number{
+  color: #fff;
+  background: no-repeat 50% / cover url(../img/bg_number.png);
+  padding: 1rem;
+}
+h4{
+  margin: 0;
+}
+li{
+  margin: 0 0 5px;
+}
+.questions{
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/bg_border.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    @media(max-width:420px){
+      background-size: 150%;
+    }
+  }
+}
+.grey{
+  background: #F3F3F3;
+}
+.white{
+  background: #fff;
+}
+h5{
+  font: 400 40px/44px 'Patrick Hand SC';
+}
+.last{
+  font: italic 700 29px/40px 'Lato';
+  @media(max-width:767px){
+    font: italic 700 24px/36px 'Lato';
+  }    
+  a{
+    color: $darkblue;
+  }
+}
+
+#intro{
+  padding: 4rem 0 1rem;
+  .container{
+    width: 80%;
+  }
+  .list{
+    background: no-repeat 50% / cover url(../img/bg_highlight.png);
+    h3{
+      font: italic 700 22px 'Lato';
+    }
+    .list-items{
+      font-size: 22px;
+      line-height: 33px;
+    }
+  }
+  .image1{
+    img{
+      position: absolute;
+      left: -12%;
+      top: -18%;
+      @media (max-width:991px){
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+    }
+    @media (max-width:991px){
+      text-align: center;
+      padding: 3rem 0;
+    }
+}
+  .image2{
+    img{
+      top: 35%;
+      left: 95%;
+      position: absolute;
+      @media(max-width:991px){
+        position: relative;
+        top: 0;
+        left: 0;
+      }  
+    }
+    @media(max-width:991px){
+      text-align: center;
+      padding: 3rem 0 0;
+    }
+  }
+}
+#two{
+  .facts{
+    ul{
+      padding-left: 20px;
+    }
+  }
+}
+#four{
+  .facts{
+    p{
+      &:last-of-type{
+        text-transform: uppercase;
+        font: 400 40px/44px 'Patrick Hand';
+        @media(max-width:767px){
+          font: 400 36px/40px 'Patrick Hand';
+        }
+      }
+    }
+  }
+}
+
+#lesson{
+  background: $blue;
+  color: #fff;
+  padding: 5rem 0;
+  h2{
+    font: 400 44px 'Patrick Hand';
+    color: $yellow;
+    text-transform: uppercase;
+    @media(max-width:767px){
+      font: 400 40px/44px 'Patrick Hand';
+    }
+  }
+  .yellow{
+    a{
+      color: $yellow;
+    }
+  }
+}
+
+
+
+#vessel {
+  position: relative;
+.signature {
+    font: 400 30px/38px 'Lato';
+    color: $darkblue;
+    strong{
+        font-weight: normal;
+    }
+    @media(max-width:575px) {
+        font-size: 24px;
+    }
+}
+.contact {
+    i {
+        font-size: 50px;
+        font-family: 'Patrick Hand';
+        font-style: normal;
+    }
+    a {
+        background: $lightblue;
+        color: $darkblue;
+        text-decoration: none;
+        strong {
+            margin-top: 1rem;
+            font: 400 24px 'Lato';
+        }
+        &:first-child {
+            background: $lightestblue;
+            &:hover{
+              background:#60b3dc;
+            }
+        }
+        &:last-child {
+            background: $darkblue;
+            color: #fff;
+            &:hover{
+              background: #305976;
+            }
+        }
+        &:hover{
+            background: #84bbd6;
+            color: #fff;
+        }
+    }
+  }
+}
+
+#inquiry{
+  background: #F3F3F3;
+  h2{
+    color: $darkblue;
+    font: italic 700 32px/40px 'Lato';
+  }
+}
+
+footer{
+  background: rgba($yellow, .25);
+  color: #174060;
+  padding: 3rem 0;
+  h3{
+    font: 400 16px 'Lato';
+    }
+  a{
+    color: #174060;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+}

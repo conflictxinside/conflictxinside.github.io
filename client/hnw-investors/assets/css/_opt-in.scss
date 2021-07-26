@@ -1,0 +1,26 @@
+.modal-dialog {
+  max-width: 960px;
+  border: 0;
+  @media(max-width: 767px){
+    margin: .5rem !important;
+  }
+}
+.content {
+  background: #fff;
+  h3 {
+    font: 700 32px/38px 'Roboto Condensed';
+    color: $darkblue;
+  }
+  h4{
+    font: 400 25px 'Roboto Condensed';
+    color: $darkblue;
+  }
+  p {
+    font: 400 16px 'Roboto Condensed';
+    color: $darkblue;
+  }
+}
+.image {
+    background: #fff;
+  }
+  

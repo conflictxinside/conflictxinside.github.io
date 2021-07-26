@@ -1,0 +1,29 @@
+.modal-dialog {
+  max-width: 600px;
+}
+.modal-content {
+  background: $darkblue;
+  color: #fff;
+  border: 30px solid #fff;
+  h3 {
+    font: italic 400 26px/34px 'Roboto Condensed';
+  }
+  p {
+    font: 700 24px 'Roboto Condensed';
+  }
+  .btn-link {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .dismiss {
+    color: #fff;
+  }
+  .spam{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+  }
+}

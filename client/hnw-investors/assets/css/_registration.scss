@@ -1,0 +1,76 @@
+.hero {
+  overflow: hidden;
+  position: relative;
+
+  p{
+    font: 400 22px 'Roboto';
+    margin: 0;
+    color: $darkgrey;
+    @media(max-width: 767px){
+      font: 400 18px/24px 'Roboto';
+    }
+  }
+  em{
+    color: $blue;
+    font: 400 24px/36px 'Roboto';
+  }
+  h1 {
+    font: 700 44px/1.1em 'Roboto Condensed';
+    color: $darkblue;
+    text-transform: uppercase;
+    strong{
+      font-weight: 700;
+    }
+    @media (max-width: 767px) {
+      font: 700 38px/1.1em 'Roboto Condensed';
+    }
+    @media(max-width:420px){
+      font: 700 34px/1.1em 'Roboto Condensed';
+    }
+  }
+  h2 {
+    font: 400 24px/36px 'Roboto';
+    color: $lightblue;
+    @media (max-width: 767px) {
+      font-weight: 900;      
+    }
+  }
+  ul {
+    padding: 0 .5em 0 1.75em;
+    list-style: none;
+    @media (max-width: 575px) {
+      padding: 0 0 0 1.5em;
+    }
+    li {
+      font: 700 20px/26px 'Roboto Condensed';
+      color: $grey;                         
+      @media (max-width: 768px) {
+        font: 700 18px 'Roboto Condensed';
+      }
+      @media (max-width: 575px) {
+        font: 700 16px 'Roboto Condensed';
+      }
+      &:before {
+        content: '';
+        background: no-repeat 50% 50% / contain url('../img/ico_check.png');
+        width: 1.5em;
+        height: 1.5em;
+        display: inline-block;
+        margin-left: -1.95em;
+        position: relative;
+        top: .5em;
+        margin-right: .25em;
+      }
+    }
+  }
+}
+.quote {
+  background: $lightblue;
+  color: $darkblue;
+  blockquote {
+    font: italic 400 25px/32px 'Roboto Condensed';
+    @media (max-width: 575px) {
+      font-size: 21px;
+    }
+  }
+}

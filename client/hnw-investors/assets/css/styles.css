@@ -1,5 +1,5 @@
 @import url("https://assets.snappykraken.com/global/css/utilities.css");
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@400;700&family=Open+Sans&family=Oregano&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@300;400;700&family=Open+Sans&family=Oregano&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@700&display=swap");
 body {
   background: #fff;
   font: 300 16px/1.5em 'Oswald';
@@ -569,17 +569,39 @@ footer .contact {
 .leadmagnet .box {
   float: right;
   color: #000000;
+  margin-left: 50px;
   max-width: 1205px;
   padding: 50px;
   border: 3px solid #000000;
   border-right: none;
   background: #ffffff; }
 
+.leadmagnet .box h2 {
+  color: #EA9342;
+  font: 300 22px 'Montserrat';
+  margin-bottom: 40px; }
+
+.leadmagnet .box h2 span {
+  display: block;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700; }
+
 .leadmagnet #one {
   background: #CD7F70 url(../img/bg_one.png) no-repeat right bottom/cover; }
 
 .leadmagnet #one .image1 {
   margin-left: -155px; }
+
+@media (max-width: 767px) {
+  .leadmagnet #one .image1 {
+    margin: 0 auto 35px; } }
+
+@media (max-width: 767px) {
+  .leadmagnet #one .image1 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; } }
 
 .leadmagnet #two .facts ul {
   padding-left: 20px; }

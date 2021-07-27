@@ -173,16 +173,38 @@ h5{
 .box {
   float: right;
   color: $black;
+  margin-left: 50px;
   max-width: 1205px;
   padding: 50px;
   border: 3px solid $black;
   border-right: none;
   background: $white;
+  h2 {
+    color: $orange;
+    font: 300 22px 'Montserrat';
+    margin-bottom: 40px;
+    span {
+      display: block;
+      color: $black;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
 }
 #one {
   background: $darkpink url(../img/bg_one.png) no-repeat right bottom / cover;
   .image1 {
     margin-left: -155px;
+    @media (max-width:767px){
+      margin: 0 auto 35px;
+    }
+    img {
+      @media (max-width:767px){
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
   }
 }
 #two{

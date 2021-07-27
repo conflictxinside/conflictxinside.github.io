@@ -27,7 +27,7 @@
   .btn-primary{
     color: $lightestblue;
     &:hover{
-      background: #fff;
+      background: $lightpink;
       color: $pink;
     }
   }
@@ -170,6 +170,13 @@ h5{
     }
   }
 }
+.subscribe {
+  color: $white;
+  font-size: 18px;
+  font-weight: 500;
+  background: $darkblue;
+  p {margin-bottom: 35px;}
+}
 .box {
   float: right;
   color: $black;
@@ -179,16 +186,26 @@ h5{
   border: 3px solid $black;
   border-right: none;
   background: $white;
+  position: relative;
   h2 {
     color: $orange;
     font: 300 22px 'Montserrat';
     margin-bottom: 40px;
     span {
       display: block;
+      margin-top: 10px;
       color: $black;
       font-size: 24px;
       font-weight: 700;
     }
+  }
+  &.box-alt {
+    float: left;
+    max-width: 1042px;
+    margin-left: 0;
+    margin-right: 50px;
+    border: 3px solid $black;
+    border-left: none;
   }
 }
 #one {
@@ -208,9 +225,20 @@ h5{
   }
 }
 #two{
-  .facts{
-    ul{
-      padding-left: 20px;
+  background: #F5EEDA url(../img/bg_two.png) no-repeat left bottom / cover;
+  .image1 {
+    margin-right: -195px;
+    @media (max-width:767px){
+      margin: 0 auto 35px;
+    }
+    img {
+      float: right;
+      @media (max-width:767px){
+        float: none;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
     }
   }
 }
@@ -301,19 +329,5 @@ h5{
   h2{
     color: $darkblue;
     font: italic 700 32px/40px 'Montserrat';
-  }
-}
-
-footer{
-  background: rgba($yellow, .25);
-  color: #174060;
-  padding: 3rem 0;
-  h3{
-    font: 400 16px 'Montserrat';
-    }
-  a{
-    color: #174060;
-    word-break: break-all;
-    word-wrap: break-word;
   }
 }

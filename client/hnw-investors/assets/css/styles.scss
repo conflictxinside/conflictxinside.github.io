@@ -1,23 +1,31 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.css');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300;1,400&family=Patrick+Hand&family=Patrick+Hand+SC&family=Roboto&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@400;700&family=Open+Sans&family=Oregano&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@700&display=swap');
 
-$lightestblue: #9CD8F5;
+$lightestblue: #FEFEFE;
 $lightblue: #63C1EF;
 $mediumblue: #32638E;
 $blue: #285073;
-$darkblue: #133D5C;
+$darkblue: #618F93;
 $lightgrey: #ACACAC;
 $grey: #707070;
 $darkgrey: #96999C;
-$pink: #FF7272;
+$darkergrey: #252525;
+$pink: #C55C42;
+$darkpink: #CD7F70;
 $yellow: #FFDC65;
-$black: #001B1E;
+$black: #000000;
+$white: #ffffff;
 
 body {
-  background: #fff;  
-  font: 20px/1.5em 'Lato';
+  background: #fff;
+  font: 300 16px/1.5em 'Oswald';
   -webkit-font-smoothing: antialiased;
 }
+
+b, strong {font-weight: 500;}
+
+.section {clear: both; float: left; width: 100%;}
+
 .container {
   width: 90%;
   max-width: 1100px;
@@ -27,11 +35,11 @@ body {
 .btn {
   border-radius: 0;
   border: 0;
-  font: 700 26px 'Roboto Condensed';
+  font: 500 18px 'Oswald';
   padding: .75em 1.25em;
   white-space: normal;
   @media (max-width: 575px) {
-    font: 700 18px 'Roboto Condensed';
+    font: 500 18px 'Oswald';
     padding: 1em 5px;
     width: 100%;
   }

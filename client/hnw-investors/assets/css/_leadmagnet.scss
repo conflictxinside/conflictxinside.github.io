@@ -1,35 +1,42 @@
 
 .navbar{
-  padding: 1rem !important;
+  padding: 1.6rem 4rem !important;
   justify-content: center !important;
   text-align: center;
+  @media(max-width: 991px){
+    padding: 1.6rem 1rem !important;
+  }
   @media(min-width: 1312px){
     justify-content: space-between !important;
     text-align: left;
   }
   .navbar-brand{
-    font-size: 1.5rem !important;
+    font-size: 18px !important;
     @media(max-width:767px){
-      font-size: 1.2rem !important;
+      font-size: 16px !important;
       white-space: normal;
+      margin-right: 0;
     }
     @media(max-width:420px){
-      font-size: 1rem !important;
+      font-size: 14px !important;
     }
     &:hover{
       color: $lightestblue !important;
     }  
   }
   .btn-primary{
-    color: $darkblue;
+    color: $lightestblue;
     &:hover{
       background: #fff;
       color: $pink;
     }
   }
   .btn{
-    padding: .5em 1.25em;
+    padding: .9em 1.25em;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px #00000040;
     @media(max-width:767px){
+      padding: .9em 0.6em;
       width: 100%;
     }
   }
@@ -41,20 +48,20 @@
   background: $darkblue !important;
 }
 .hero {
-  background: $mediumblue;
+  background: $white url(../img/bg_hero.png) no-repeat left top / contain;
   .headline{
     padding: 10% 0 0;
     h2{
-      font: 400 40px/60px 'Lato';
+      font: 400 40px/60px 'Montserrat';
       color: $lightblue;
       @media(max-width:575px){
-        font: 400 40px/50px 'Lato';
+        font: 400 40px/50px 'Montserrat';
       }
       span{
-        font: 400 45px/67.5px 'Patrick Hand SC';
-        color: #fff;
+        font: 700 48px/65px 'Montserrat';
+        color: $darkergrey;
         @media(max-width:575px){
-          font: 400 45px/50px 'Patrick Hand SC';
+          font: 700 20px/26px 'Montserrat';
         }
       }
     }
@@ -103,12 +110,12 @@ li{
   background: #fff;
 }
 h5{
-  font: 400 40px/44px 'Patrick Hand SC';
+  font: 400 40px/44px 'Montserrat';
 }
 .last{
-  font: italic 700 29px/40px 'Lato';
+  font: italic 700 29px/40px 'Montserrat';
   @media(max-width:767px){
-    font: italic 700 24px/36px 'Lato';
+    font: italic 700 24px/36px 'Montserrat';
   }    
   a{
     color: $darkblue;
@@ -116,14 +123,14 @@ h5{
 }
 
 #intro{
-  padding: 4rem 0 1rem;
+  padding: 4rem 0;
   .container{
     width: 80%;
   }
   .list{
     background: no-repeat 50% / cover url(../img/bg_highlight.png);
     h3{
-      font: italic 700 22px 'Lato';
+      font: italic 700 22px 'Montserrat';
     }
     .list-items{
       font-size: 22px;
@@ -163,6 +170,21 @@ h5{
     }
   }
 }
+.box {
+  float: right;
+  color: $black;
+  max-width: 1205px;
+  padding: 50px;
+  border: 3px solid $black;
+  border-right: none;
+  background: $white;
+}
+#one {
+  background: $darkpink url(../img/bg_one.png) no-repeat right bottom / cover;
+  .image1 {
+    margin-left: -155px;
+  }
+}
 #two{
   .facts{
     ul{
@@ -175,9 +197,9 @@ h5{
     p{
       &:last-of-type{
         text-transform: uppercase;
-        font: 400 40px/44px 'Patrick Hand';
+        font: 400 40px/44px 'Montserrat';
         @media(max-width:767px){
-          font: 400 36px/40px 'Patrick Hand';
+          font: 400 36px/40px 'Montserrat';
         }
       }
     }
@@ -189,11 +211,11 @@ h5{
   color: #fff;
   padding: 5rem 0;
   h2{
-    font: 400 44px 'Patrick Hand';
+    font: 400 44px 'Montserrat';
     color: $yellow;
     text-transform: uppercase;
     @media(max-width:767px){
-      font: 400 40px/44px 'Patrick Hand';
+      font: 400 40px/44px 'Montserrat';
     }
   }
   .yellow{
@@ -208,7 +230,7 @@ h5{
 #vessel {
   position: relative;
 .signature {
-    font: 400 30px/38px 'Lato';
+    font: 400 30px/38px 'Montserrat';
     color: $darkblue;
     strong{
         font-weight: normal;
@@ -220,7 +242,7 @@ h5{
 .contact {
     i {
         font-size: 50px;
-        font-family: 'Patrick Hand';
+        font-family: 'Montserrat';
         font-style: normal;
     }
     a {
@@ -229,7 +251,7 @@ h5{
         text-decoration: none;
         strong {
             margin-top: 1rem;
-            font: 400 24px 'Lato';
+            font: 400 24px 'Montserrat';
         }
         &:first-child {
             background: $lightestblue;
@@ -256,7 +278,7 @@ h5{
   background: #F3F3F3;
   h2{
     color: $darkblue;
-    font: italic 700 32px/40px 'Lato';
+    font: italic 700 32px/40px 'Montserrat';
   }
 }
 
@@ -265,7 +287,7 @@ footer{
   color: #174060;
   padding: 3rem 0;
   h3{
-    font: 400 16px 'Lato';
+    font: 400 16px 'Montserrat';
     }
   a{
     color: #174060;

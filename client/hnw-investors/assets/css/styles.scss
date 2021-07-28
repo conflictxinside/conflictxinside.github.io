@@ -42,11 +42,11 @@ a {
 .btn {
   border-radius: 0;
   border: 0;
-  font: 500 18px 'Oswald';
+  font: 700 18px 'roboto condensed';
   padding: .75em 1.25em;
   white-space: normal;
   @media (max-width: 575px) {
-    font: 500 18px 'Oswald';
+    font: 700 18px 'roboto condensed';
     padding: 1em 5px;
     width: 100%;
   }
@@ -146,12 +146,12 @@ footer {
     display: none !important;
   }
 }
-.preview + .display-modal, #exit{
-  .modal-content{
-    border: 30px solid #fff !important;
-    outline: 1px solid #ccc;
-  }
-}
+// .preview + .display-modal, #exit{
+//   .modal-content{
+//     border: 30px solid #fff !important;
+//     outline: 1px solid #ccc;
+//   }
+// }
 .preview + #opt-in{
   .modal-content{
     border: 1px solid #ccc !important;

@@ -25,10 +25,10 @@
     }  
   }
   .btn-primary{
-    color: $lightestblue;
+    color: $white;
     &:hover{
-      background: $lightpink;
-      color: $pink;
+      background: $darkpink;
+      color: $white;
     }
   }
   .btn{
@@ -189,19 +189,17 @@ h5{
   position: relative;
   h2 {
     color: $orange;
-    font: 300 22px 'Montserrat';
+    font: 300 22px 'Oswald';
     margin-bottom: 40px;
     span {
       display: block;
       margin-top: 10px;
       color: $black;
-      font-size: 24px;
-      font-weight: 700;
+      font: 700 24px 'Montserrat';
     }
   }
   &.box-alt {
     float: left;
-    max-width: 1042px;
     margin-left: 0;
     margin-right: 50px;
     border: 3px solid $black;
@@ -209,7 +207,7 @@ h5{
   }
 }
 #one {
-  background: $darkpink url(../img/bg_one.png) no-repeat right bottom / cover;
+  background: $darkpink url(../img/bg_one.png) no-repeat right bottom / 100%;
   .image1 {
     margin-left: -155px;
     @media (max-width:767px){
@@ -225,7 +223,8 @@ h5{
   }
 }
 #two{
-  background: #F5EEDA url(../img/bg_two.png) no-repeat left bottom / cover;
+  background: #F5EEDA url(../img/bg_two.png) no-repeat left bottom / 100%;
+  .box {max-width: 1042px;}
   .image1 {
     margin-right: -195px;
     @media (max-width:767px){
@@ -242,15 +241,38 @@ h5{
     }
   }
 }
+#three {
+  background: $orange url(../img/bg_three.png) no-repeat right bottom / 100%;
+  .box {max-width: 1145px;}
+  .image1 {
+    margin-left: -100px;
+    @media (max-width:767px){
+      margin: 0 auto 35px;
+    }
+    img {
+      @media (max-width:767px){
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
+  }
+}
 #four{
-  .facts{
-    p{
-      &:last-of-type{
-        text-transform: uppercase;
-        font: 400 40px/44px 'Montserrat';
-        @media(max-width:767px){
-          font: 400 36px/40px 'Montserrat';
-        }
+  background: $pink url(../img/bg_four.png) no-repeat right bottom / 100%;
+  .box {max-width: 1086px;}
+  .image1 {
+    margin-right: -150px;
+    @media (max-width:767px){
+      margin: 0 auto 35px;
+    }
+    img {
+      float: right;
+      @media (max-width:767px){
+        float: none;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
       }
     }
   }
@@ -324,10 +346,43 @@ h5{
   }
 }
 
-#inquiry{
-  background: #F3F3F3;
-  h2{
-    color: $darkblue;
-    font: italic 700 32px/40px 'Montserrat';
+#final-grouping {
+  color: $black;
+  padding: 115px 0;
+  background: $white url(../img/bg_final_grouping.png) no-repeat right top / 100%;
+  #final-text {
+    h2 {
+      font: 700 48px 'Montserrat';
+      color: $black;
+      margin-bottom: 80px;
+    }
+    p {
+      margin-bottom: 30px;
+      &:last-child {margin-bottom: 0;}
+    }
+  }
+  #inquiry{
+    margin-top: 90px;
+    .form-wrapper {
+      margin: 0 auto;
+      max-width: 924px;
+      .form-bg {
+        background: $lightpink;
+        h2{
+          color: $black;
+          font: 700 24px/29px 'Montserrat';
+          margin-bottom: 40px;
+          &:after {
+            display: block;
+            content: '';
+            width: 320px;
+            height: 1px;
+            margin: 40px auto 0;
+            background: $black;
+          }
+        }
+      }
+    }
   }
 }
+

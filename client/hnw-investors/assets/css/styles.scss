@@ -1,6 +1,7 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.css');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@300;400;700&family=Open+Sans&family=Oregano&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@700&display=swap');
 
+$linkblue: #4C67AC;
 $lightestblue: #FEFEFE;
 $lightblue: #63C1EF;
 $mediumblue: #32638E;
@@ -25,6 +26,10 @@ body {
 }
 
 b, strong {font-weight: 500;}
+
+a {
+  color: $linkblue;
+}
 
 .section {clear: both; float: left; width: 100%;}
 
@@ -51,8 +56,8 @@ b, strong {font-weight: 500;}
     border-radius: 40px;
     box-shadow: 0px 4px 4px 0px #00000040;
     &:hover {
-      color: $pink;
-      background: $lightpink;
+      background: $darkpink;
+      color: $white;
     }
     &:focus{
       box-shadow: 0 0 0 0.2rem rgba($pink,.5);
@@ -162,4 +167,8 @@ footer {
     text-align: center;
     text-transform: uppercase;
   }
+}
+
+.form-control {
+  font: 300 16px 'Oswald';
 }

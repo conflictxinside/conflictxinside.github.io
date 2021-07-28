@@ -1,0 +1,6 @@
+oswald 300 400 500
+montserrat 400 700
+open sans 400
+roboto condensed 700
+barlow condensed 600
+oregano 400

@@ -1,54 +1,66 @@
 .hero {
   overflow: hidden;
   position: relative;
-
+  background: #F1EFE5;
   p{
-    font: 400 22px 'Roboto';
+    font: 400 22px 'Montserrat';
     margin: 0;
     color: $darkgrey;
     @media(max-width: 767px){
-      font: 400 18px/24px 'Roboto';
+      font: 400 18px/24px 'Montserrat';
     }
   }
-  em{
-    color: $blue;
-    font: 400 24px/36px 'Roboto';
+  em {
+    display: block;
+    color: $black;
+    font: 500 32px 'Oswald';
+    margin-bottom: 20px;
+    &:after {
+      display: block;
+      content: '';
+      margin-top: 20px;
+      width: 100%;
+      max-width: 378px;
+      height: 1px;
+      background: $black;
+    }
   }
   h1 {
-    font: 700 44px/1.1em 'Roboto Condensed';
-    color: $darkblue;
-    text-transform: uppercase;
+    font: 700 38px 'Montserrat';
+    color: $darkpink;
+    margin-bottom: 30px;
     strong{
       font-weight: 700;
     }
     @media (max-width: 767px) {
-      font: 700 38px/1.1em 'Roboto Condensed';
+      font: 700 38px/1.1em 'Montserrat';
     }
     @media(max-width:420px){
-      font: 700 34px/1.1em 'Roboto Condensed';
+      font: 700 34px/1.1em 'Montserrat';
     }
   }
   h2 {
-    font: 400 24px/36px 'Roboto';
-    color: $lightblue;
+    font: 700 24px 'Montserrat';
+    color: $black;
     @media (max-width: 767px) {
       font-weight: 900;      
     }
   }
   ul {
-    padding: 0 .5em 0 1.75em;
+    padding: 0 .5em 0 0;
     list-style: none;
     @media (max-width: 575px) {
-      padding: 0 0 0 1.5em;
+      padding: 0;
     }
     li {
-      font: 700 20px/26px 'Roboto Condensed';
-      color: $grey;                         
+      font: 300 18px 'Oswald';
+      color: #050C17;
+      margin-bottom: 20px;
       @media (max-width: 768px) {
-        font: 700 18px 'Roboto Condensed';
+        font: 300 18px 'Oswald';
       }
       @media (max-width: 575px) {
-        font: 700 16px 'Roboto Condensed';
+        font: 300 16px 'Oswald';
       }
       &:before {
         content: '';
@@ -56,7 +68,6 @@
         width: 1.5em;
         height: 1.5em;
         display: inline-block;
-        margin-left: -1.95em;
         position: relative;
         top: .5em;
         margin-right: .25em;
@@ -65,12 +76,17 @@
   }
 }
 .quote {
-  background: $lightblue;
-  color: $darkblue;
+  background: $orange;
+  color: $white;
+  padding: 65px 0;
   blockquote {
-    font: italic 400 25px/32px 'Roboto Condensed';
+    font: 400 24px/32px 'Montserrat';
+    em {
+      font-weight: 700;
+    }
     @media (max-width: 575px) {
       font-size: 21px;
     }
   }
 }
+.disclosure-container {margin: 0 auto; max-width: 712px; font-family: 'open sans'; font-size: 18px;}

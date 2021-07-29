@@ -38,7 +38,7 @@
   }
   h3 {
     font: 300 28px 'Roboto Condensed';
-    color: #fff;
+    color: $black;
     span{
       display: block;
       font: 700 31px 'Roboto Condensed';
@@ -48,7 +48,7 @@
     color: #fff;
     p {
       font: 400 22px/30px 'Roboto Condensed';
-      color: #fff;
+      color: $black;
       margin: 0;
     }
     .content{
@@ -69,10 +69,6 @@
         font-weight: 700;
       }
       .btn-primary{
-        &:hover{
-          background: #fff;
-          color: $darkblue;
-        }
         &:focus{
           box-shadow: 0 0 0 0.2rem rgba($pink,0.5);
         }
@@ -85,11 +81,11 @@
         }
       }
       .btn-primary{
-        background: $lightblue;
-        color: $darkblue;
+          background: $darkblue;
+          color: $white;
         &:hover{
-          background: #fff;
-          color: $darkblue;
+          background: $lightblue;
+          color: $white;
         }
         &:focus{
           box-shadow: 0 0 0 0.2rem rgba($lightblue,0.5);
@@ -98,12 +94,16 @@
     }
   }
   .left{
-    background: $darkblue;
+    color: $black;
+    border: 3px solid $black;
+    background: $white;
   }
   .right{
-    background: $blue;
-    } 
-  }
+    color: $black;
+    border: 3px solid $black;
+    background: $white;
+  } 
+}
 
 
 #inquiry {

@@ -617,7 +617,7 @@ footer .contact {
   background: #618F93 !important; }
 
 .leadmagnet .hero {
-  background: #ffffff url(../img/bg_hero.png) no-repeat left top/contain; }
+  background: #ffffff url(../img/bg_hero.png) no-repeat left top/100%; }
 
 .leadmagnet .hero .headline {
   padding: 10% 0 0; }

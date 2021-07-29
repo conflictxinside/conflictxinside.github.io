@@ -48,7 +48,7 @@
   background: $darkblue !important;
 }
 .hero {
-  background: $white url(../img/bg_hero.png) no-repeat left top / contain;
+  background: $white url(../img/bg_hero.png) no-repeat left top / 100%;
   .headline{
     padding: 10% 0 0;
     h2{

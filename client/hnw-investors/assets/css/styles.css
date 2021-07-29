@@ -26,7 +26,7 @@ a {
   border-radius: 0;
   border: 0;
   font: 700 18px 'roboto condensed';
-  padding: .75em 1.25em;
+  padding: 1.2em 1.25em;
   white-space: normal; }
 
 @media (max-width: 575px) {
@@ -321,6 +321,7 @@ footer .contact {
 
 #exit .exit-form-container {
   padding: 120px 20px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.55);
   background: #F1EFE5; }
 
 @media (max-width: 1199px) {
@@ -472,28 +473,83 @@ footer .contact {
     width: 100%; } }
 
 .confirmation .hero {
-  background: #618F93;
-  color: #fff; }
+  padding: 40px 0;
+  background: #C55C42 url(../img/bg_confirmation.png) no-repeat right top/100%; }
 
 .confirmation .hero h1 {
-  font: 700 32px/1.4em 'Roboto Condensed'; }
+  color: #618F93;
+  font: 700 48px/59px 'montserrat'; }
+
+@media (max-width: 991px) {
+  .confirmation .hero h1 {
+    font: 700 24px/36px 'montserrat'; } }
 
 @media (max-width: 320px) {
   .confirmation .hero h1 {
     line-height: 1.2em; } }
 
 .confirmation .hero .thankyou {
-  font: 700 25px 'Roboto Condensed'; }
+  font: 500 32px 'Oswald'; }
+
+@media (max-width: 991px) {
+  .confirmation .hero .thankyou {
+    font: 500 20px/32px 'Oswald'; } }
 
 .confirmation .hero h3 {
-  font: 700 30px 'Roboto Condensed'; }
+  font: 400 28px/36px 'Oregano'; }
+
+@media (max-width: 991px) {
+  .confirmation .hero h3 {
+    font: 400 18px/26px 'Oregano'; } }
 
 .confirmation .hero .office {
-  font: 400 25px 'Roboto'; }
+  font: 500 32px 'Oswald'; }
 
-.confirmation .hero .btn-primary:hover {
-  color: #C55C42;
-  background: #fff; }
+.confirmation .hero .btn-primary {
+  text-transform: uppercase; }
+
+.confirmation footer {
+  padding: 80px 0; }
+
+.confirmation .disclouser-box {
+  margin: 50px auto 0;
+  padding: 0 15px;
+  max-width: 742px; }
+
+.confirmation .box {
+  float: right;
+  color: #000000;
+  margin-left: 50px;
+  max-width: 1405px;
+  padding: 50px;
+  border: 3px solid #000000;
+  border-right: none;
+  background: #ffffff;
+  position: relative; }
+
+.confirmation .box h2 {
+  color: #EA9342;
+  font: 300 22px 'Oswald';
+  margin-bottom: 40px; }
+
+.confirmation .box h2 span {
+  display: block;
+  margin-top: 10px;
+  color: #000000;
+  font: 700 24px 'Montserrat'; }
+
+.confirmation .box.box-alt {
+  float: left;
+  margin-left: 0;
+  margin-right: 50px;
+  border: 3px solid #000000;
+  border-left: none; }
+
+@media (max-width: 991px) {
+  .confirmation .box img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; } }
 
 .leadmagnet .navbar {
   padding: 1.6rem 4rem !important;

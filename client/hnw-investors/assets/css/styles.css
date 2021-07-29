@@ -344,11 +344,12 @@ footer .contact {
     max-width: 100%; } }
 
 .tripwire .hero {
-  background: rgba(150, 153, 156, 0.35); }
+  background: #EA9342 url(../img/bg_tripwire.png) no-repeat left bottom/100%; }
 
 .tripwire .hero h1 {
-  font: 700 36px/54px 'Roboto Condensed';
-  color: #618F93; }
+  font: 700 48px/59px 'Montserrat';
+  color: #FEFEFE;
+  margin-bottom: 30px; }
 
 @media (max-width: 575px) {
   .tripwire .hero h1 {
@@ -366,9 +367,9 @@ footer .contact {
     line-height: 36px; } }
 
 .tripwire .hero h2 {
-  font: 400 32px 'Roboto Condensed';
-  color: #285073;
-  margin: 0 auto; }
+  font: 500 32px/47px 'Oswald';
+  color: #FEFEFE;
+  margin-bottom: 15px; }
 
 @media (max-width: 575px) {
   .tripwire .hero h2 {
@@ -450,11 +451,12 @@ footer .contact {
   background: #285073; }
 
 .tripwire #inquiry {
-  background: #707070;
-  color: #fff; }
+  background: #CEE1E7;
+  color: #618F93; }
 
 .tripwire #inquiry h2 {
-  font: italic 300 27px 'Roboto Condensed'; }
+  font: 300 32px 'Oswald';
+  text-transform: uppercase; }
 
 .tripwire #inquiry small {
   font-style: italic; }
@@ -471,6 +473,16 @@ footer .contact {
 @media (max-width: 575px) {
   .tripwire .btn-primary {
     width: 100%; } }
+
+.tripwire .disclouser-box {
+  margin: 50px auto 0;
+  padding: 0 15px;
+  max-width: 742px; }
+
+.tripwire .tripwire-boxes {
+  position: relative;
+  z-index: 1;
+  margin-top: -50px; }
 
 .confirmation .hero {
   padding: 40px 0;

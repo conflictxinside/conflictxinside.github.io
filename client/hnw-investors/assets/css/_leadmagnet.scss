@@ -210,6 +210,16 @@ h5{
     border: 3px solid $black;
     border-left: none;
   }
+  .image1 {
+    img {
+      @media (max-width: 767px){
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        max-height: 200px;
+      }
+    }
+  }
 }
 #one {
   background: $darkpink url(../img/bg_one.png) no-repeat right bottom / 100%;

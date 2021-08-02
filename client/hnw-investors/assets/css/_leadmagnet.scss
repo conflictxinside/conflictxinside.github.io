@@ -45,7 +45,7 @@
   }
 }
 .bg-light{
-  background: $darkblue !important;
+  background: $stickybar !important;
 }
 .hero {
   background: $white url(../img/bg_hero.png) no-repeat left top / 100%;
@@ -187,6 +187,11 @@ h5{
   border-right: none;
   background: $white;
   position: relative;
+  @media (min-width: 1920px){
+    margin: 0 auto !important;
+    float: none !important;
+    border: 3px solid $black !important;
+  }
   h2 {
     color: $orange;
     font: 300 22px 'Oswald';
@@ -350,6 +355,9 @@ h5{
   color: $black;
   padding: 115px 0;
   background: $white url(../img/bg_final_grouping.png) no-repeat right top / 100%;
+  @media(max-width:575px) {
+      background-size: auto;
+  }
   #final-text {
     h2 {
       font: 700 48px 'Montserrat';
@@ -379,6 +387,9 @@ h5{
             height: 1px;
             margin: 40px auto 0;
             background: $black;
+            @media(max-width:575px) {
+                width: 220px;
+            }
           }
         }
       }

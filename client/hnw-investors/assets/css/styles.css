@@ -373,9 +373,10 @@ footer .contact {
     line-height: 36px; } }
 
 .tripwire .hero h2 {
+  display: block;
+  margin: 0 auto 15px;
   font: 500 32px/47px 'Oswald';
-  color: #FEFEFE;
-  margin-bottom: 15px; }
+  color: #FEFEFE; }
 
 @media (max-width: 575px) {
   .tripwire .hero h2 {
@@ -395,18 +396,22 @@ footer .contact {
     width: 100%; } }
 
 .tripwire .hero h3 {
-  font: 300 28px 'Roboto Condensed';
+  font: 500 28px 'Oswald';
   color: #000000; }
 
 .tripwire .hero h3 span {
   display: block;
-  font: 700 31px 'Roboto Condensed'; }
+  font: 700 31px 'Oswald'; }
+
+@media (max-width: 991px) {
+  .tripwire .hero h3 {
+    font-size: 24px; } }
 
 .tripwire .hero .box {
   color: #fff; }
 
 .tripwire .hero .box p {
-  font: 400 22px/30px 'Roboto Condensed';
+  font: 300 22px/30px 'Oswald';
   color: #000000;
   margin: 0; }
 
@@ -523,6 +528,10 @@ footer .contact {
 .confirmation .hero .office {
   font: 500 32px 'Oswald'; }
 
+@media (max-width: 767px) {
+  .confirmation .hero .office {
+    font-size: 24px; } }
+
 .confirmation .hero .btn-primary {
   text-transform: uppercase; }
 
@@ -544,6 +553,12 @@ footer .contact {
   border-right: none;
   background: #ffffff;
   position: relative; }
+
+@media (min-width: 1920px) {
+  .confirmation .box {
+    margin: 0 auto !important;
+    float: none !important;
+    border: 3px solid #000000 !important; } }
 
 .confirmation .box h2 {
   color: #EA9342;
@@ -620,7 +635,7 @@ footer .contact {
   color: #FEFEFE; }
 
 .leadmagnet .bg-light {
-  background: #618F93 !important; }
+  background: #578184 !important; }
 
 .leadmagnet .hero {
   background: #ffffff url(../img/bg_hero.png) no-repeat left top/100%; }
@@ -767,6 +782,12 @@ footer .contact {
   border-right: none;
   background: #ffffff;
   position: relative; }
+
+@media (min-width: 1920px) {
+  .leadmagnet .box {
+    margin: 0 auto !important;
+    float: none !important;
+    border: 3px solid #000000 !important; } }
 
 .leadmagnet .box h2 {
   color: #EA9342;
@@ -934,6 +955,10 @@ footer .contact {
   padding: 115px 0;
   background: #ffffff url(../img/bg_final_grouping.png) no-repeat right top/100%; }
 
+@media (max-width: 575px) {
+  .leadmagnet #final-grouping {
+    background-size: auto; } }
+
 .leadmagnet #final-grouping #final-text h2 {
   font: 700 48px 'Montserrat';
   color: #000000;
@@ -967,6 +992,10 @@ footer .contact {
   height: 1px;
   margin: 40px auto 0;
   background: #000000; }
+
+@media (max-width: 575px) {
+  .leadmagnet #final-grouping #inquiry .form-wrapper .form-bg h2:after {
+    width: 220px; } }
 
 .preview .interstitial, .preview + #wrapper .conf + .interstitial {
   display: none !important; }

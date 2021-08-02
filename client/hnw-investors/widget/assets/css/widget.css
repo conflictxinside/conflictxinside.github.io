@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Roboto+Condensed:wght@400;700&display=swap");
-body {
-  background: #F5D1C4; }
-
 img {
   display: block;
   margin: 0 auto;
@@ -12,14 +9,14 @@ img {
   line-height: 1.8em;
   background-color: #F5D1C4;
   color: #fff;
-  border: 20px solid #fff;
   padding: 2rem;
   text-align: center;
   min-height: 400px;
   display: flex;
   align-items: center;
   outline: 1px solid #aaa;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 768px; }
 
 .ht-bo-exiting .ht-inner {
   width: 100%; }

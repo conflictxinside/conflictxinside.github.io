@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Roboto+Condensed:wght@400;700&display=swap');
-body {background: #F5D1C4;}
 img {display: block; margin: 0 auto; max-width: 100%;}
 .ht-bo-exiting {
   font-family: 'Roboto Condensed';
   line-height: 1.8em;
   background-color: #F5D1C4;
   color: #fff;
-  border: 20px solid #fff;
   padding: 2rem;
   text-align: center;
   min-height: 400px;
@@ -14,6 +12,7 @@ img {display: block; margin: 0 auto; max-width: 100%;}
   align-items: center;
   outline: 1px solid #aaa;
   margin: 0 auto;
+  max-width: 768px;
   .ht-inner {
     width: 100%;
   }

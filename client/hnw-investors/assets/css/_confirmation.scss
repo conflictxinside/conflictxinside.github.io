@@ -25,6 +25,9 @@
   }
   .office{
     font: 500 32px 'Oswald';
+    @media(max-width: 767px){
+      font-size: 24px;
+    }
   }
   .btn-primary{
     text-transform: uppercase;
@@ -46,6 +49,11 @@ footer {padding: 80px 0;}
   border-right: none;
   background: $white;
   position: relative;
+  @media (min-width: 1920px){
+    margin: 0 auto !important;
+    float: none !important;
+    border: 3px solid $black !important;
+  }
   h2 {
     color: $orange;
     font: 300 22px 'Oswald';

@@ -19,9 +19,10 @@
     }
   }
   h2 {
+    display: block;
+    margin: 0 auto 15px;
     font: 500 32px/47px 'Oswald';
     color: $lightestblue;
-    margin-bottom: 15px;
     @media(max-width: 575px){
       font-size: 20px;
       line-height: 26px;
@@ -37,17 +38,20 @@
     }
   }
   h3 {
-    font: 300 28px 'Roboto Condensed';
+    font: 500 28px 'Oswald';
     color: $black;
     span{
       display: block;
-      font: 700 31px 'Roboto Condensed';
+      font: 700 31px 'Oswald';
+    }
+    @media(max-width: 991px){
+      font-size: 24px;
     }
   }
   .box {
     color: #fff;
     p {
-      font: 400 22px/30px 'Roboto Condensed';
+      font: 300 22px/30px 'Oswald';
       color: $black;
       margin: 0;
     }

@@ -11,6 +11,11 @@
     }
   }
   .btn {max-width: 337px;}
+  .mobile-image-1 img {
+    @media (max-width: 767px) {
+      max-height: 350px;
+    }
+  }
   em {
     display: block;
     color: $black;
@@ -24,6 +29,9 @@
       max-width: 378px;
       height: 1px;
       background: $black;
+      @media (max-width: 767px) {
+        margin: 20px auto 0;
+      }
     }
   }
   h1 {

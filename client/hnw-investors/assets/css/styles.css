@@ -124,6 +124,10 @@ footer .contact {
 .registration .hero .btn {
   max-width: 337px; }
 
+@media (max-width: 767px) {
+  .registration .hero .mobile-image-1 img {
+    max-height: 350px; } }
+
 .registration .hero em {
   display: block;
   color: #000000;
@@ -138,6 +142,10 @@ footer .contact {
   max-width: 378px;
   height: 1px;
   background: #000000; }
+
+@media (max-width: 767px) {
+  .registration .hero em:after {
+    margin: 20px auto 0; } }
 
 .registration .hero h1 {
   font: 700 38px 'Montserrat';

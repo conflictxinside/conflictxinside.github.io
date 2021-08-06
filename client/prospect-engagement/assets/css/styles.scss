@@ -1,7 +1,6 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.css');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Charm:wght@700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
-$red: #FA0D0D;
 $lightgrey: #E5EAEF;
 $darkgrey: #393838;
 
@@ -11,11 +10,12 @@ $pink: #E54582;
 $grey: #707070;
 
 $purple: #2F202F;
-$red: #AE4224;
+$red: #CB524A;
 $black: #393838;
 $darkred: #983013;
 
 $white: #ffffff;
+$black: #000000;
 
 
 body {
@@ -33,9 +33,11 @@ body {
 .btn {
   border-radius: 0;
   border: 0;
-  font: 400 24px 'Playfair Display';
-  padding: .75em 1.25em;
+  font: 700 18px/21.6px 'Lato';
+  padding: .96em 2.75em;
   white-space: normal;
+  border-radius: 80px;
+  text-transform: uppercase;
   @media (max-width: 575px) {
     padding: .5em 1em;
     font: 400 20px 'Asap';

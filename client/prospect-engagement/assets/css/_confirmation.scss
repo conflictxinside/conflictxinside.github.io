@@ -1,46 +1,36 @@
 .hero {
-  background: #fff no-repeat 50% 60% / cover url('../img/bg-phone.jpg');
-  height: 15vw;
-  @media (max-width: 575px) {
-    height: 25vw;
-  }
-}
-.wrapper{
-  background: rgba($lightgrey, .7);
-}
-.content {
-  color: #000;
+  color: $white;
+  background: $black no-repeat 50% 60% / cover url('../img/bg_confirmation.png');
   h1 {
-    font: 400 32px/1.2em 'Playfair Display';
-    color: $purple;
-    @media(max-width:575px){
-      font: 400 26px/36.4px 'Playfair Display';
+    font: 900 48px/78px 'Lato';
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+    &:after {
+      display: block;
+      content: '';
+      max-width: 265px;
+      height: 1px;
+      margin-top: 30px;
+      background: #F5F5F5;
     }
-    em{
-      font-weight: 700;
+  }
+  h2 {
+    font: 700 32px/48px 'Bodoni MT';
+    span {
+      color: #F5C578;
     }
   }
   h3 {
-    font: italic 400 34px 'Playfair Display';
-    color: $purple;
+    font: 700 32px/48px 'Charm';
   }
   p {
-    &:first-of-type{
-      font-size: 25px;
-      color: $purple;
-      @media(max-width:575px){
-        font-size: 23px;
-      }
-      }
-    &:last-of-type{
-      font-family: 'Abel';
-      color: $purple;
-    }
-  }
-  .btn{
-    text-transform: unset;
+    font: 700 32px/48px 'Bodoni MT';
   }
 }
-.disclosures{
-  background: #EFEFEF;
+
+.contact {
+  font: 400 16px/24px 'Lato';
+}
+.disclosures {
+  font: 400 16px/24px 'Lato';
 }

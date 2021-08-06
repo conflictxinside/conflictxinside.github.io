@@ -14,9 +14,11 @@ body {
 .btn {
   border-radius: 0;
   border: 0;
-  font: 400 24px 'Playfair Display';
-  padding: .75em 1.25em;
-  white-space: normal; }
+  font: 700 18px/21.6px 'Lato';
+  padding: .96em 2.75em;
+  white-space: normal;
+  border-radius: 80px;
+  text-transform: uppercase; }
 
 @media (max-width: 575px) {
   .btn {
@@ -30,14 +32,14 @@ body {
     width: 100%; } }
 
 .btn.btn-primary {
-  background: #AE4224;
+  background: #CB524A;
   color: #fff; }
 
 .btn.btn-primary:hover {
   background: #983013; }
 
 .btn.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(174, 66, 36, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(203, 82, 74, 0.5); }
 
 .modal-content {
   border-radius: 0;
@@ -152,11 +154,11 @@ footer .disclosures {
   max-width: 1200px; }
 
 .registration #bio .contact p {
-  color: #AE4224;
+  color: #CB524A;
   font: 400 30px 'Playfair Display'; }
 
 .registration #bio .content {
-  color: #393838; }
+  color: #000000; }
 
 .registration #bio .btn-primary {
   color: #fff; }
@@ -166,51 +168,39 @@ footer .disclosures {
     font-size: 22px; } }
 
 .confirmation .hero {
-  background: #fff no-repeat 50% 60%/cover url("../img/bg-phone.jpg");
-  height: 15vw; }
+  color: #ffffff;
+  background: #000000 no-repeat 50% 60%/cover url("../img/bg_confirmation.png"); }
 
-@media (max-width: 575px) {
-  .confirmation .hero {
-    height: 25vw; } }
+.confirmation .hero h1 {
+  font: 900 48px/78px 'Lato';
+  letter-spacing: 0.01em;
+  margin-bottom: 30px; }
 
-.confirmation .wrapper {
-  background: rgba(229, 234, 239, 0.7); }
+.confirmation .hero h1:after {
+  display: block;
+  content: '';
+  max-width: 265px;
+  height: 1px;
+  margin-top: 30px;
+  background: #F5F5F5; }
 
-.confirmation .content {
-  color: #000; }
+.confirmation .hero h2 {
+  font: 700 32px/48px 'Bodoni MT'; }
 
-.confirmation .content h1 {
-  font: 400 32px/1.2em 'Playfair Display';
-  color: #2F202F; }
+.confirmation .hero h2 span {
+  color: #F5C578; }
 
-@media (max-width: 575px) {
-  .confirmation .content h1 {
-    font: 400 26px/36.4px 'Playfair Display'; } }
+.confirmation .hero h3 {
+  font: 700 32px/48px 'Charm'; }
 
-.confirmation .content h1 em {
-  font-weight: 700; }
+.confirmation .hero p {
+  font: 700 32px/48px 'Bodoni MT'; }
 
-.confirmation .content h3 {
-  font: italic 400 34px 'Playfair Display';
-  color: #2F202F; }
-
-.confirmation .content p:first-of-type {
-  font-size: 25px;
-  color: #2F202F; }
-
-@media (max-width: 575px) {
-  .confirmation .content p:first-of-type {
-    font-size: 23px; } }
-
-.confirmation .content p:last-of-type {
-  font-family: 'Abel';
-  color: #2F202F; }
-
-.confirmation .content .btn {
-  text-transform: unset; }
+.confirmation .contact {
+  font: 400 16px/24px 'Lato'; }
 
 .confirmation .disclosures {
-  background: #EFEFEF; }
+  font: 400 16px/24px 'Lato'; }
 
 .video_landing .hero {
   background: #6E4232 url("../img/bg_video.png") no-repeat center top/cover; }

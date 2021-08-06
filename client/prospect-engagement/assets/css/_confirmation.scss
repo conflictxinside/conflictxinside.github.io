@@ -1,0 +1,46 @@
+.hero {
+  background: #fff no-repeat 50% 60% / cover url('../img/bg-phone.jpg');
+  height: 15vw;
+  @media (max-width: 575px) {
+    height: 25vw;
+  }
+}
+.wrapper{
+  background: rgba($lightgrey, .7);
+}
+.content {
+  color: #000;
+  h1 {
+    font: 400 32px/1.2em 'Playfair Display';
+    color: $purple;
+    @media(max-width:575px){
+      font: 400 26px/36.4px 'Playfair Display';
+    }
+    em{
+      font-weight: 700;
+    }
+  }
+  h3 {
+    font: italic 400 34px 'Playfair Display';
+    color: $purple;
+  }
+  p {
+    &:first-of-type{
+      font-size: 25px;
+      color: $purple;
+      @media(max-width:575px){
+        font-size: 23px;
+      }
+      }
+    &:last-of-type{
+      font-family: 'Abel';
+      color: $purple;
+    }
+  }
+  .btn{
+    text-transform: unset;
+  }
+}
+.disclosures{
+  background: #EFEFEF;
+}

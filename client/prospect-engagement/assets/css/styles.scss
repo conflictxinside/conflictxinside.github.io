@@ -1,0 +1,111 @@
+@import url('https://assets.snappykraken.com/global/css/utilities.css');
+@import url('https://fonts.googleapis.com/css?family=Abel|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aleo:ital@0;1&family=Asap:ital,wght@0,400;0,700;1,600&family=Open+Sans:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+$red: #FA0D0D;
+$lightgrey: #E5EAEF;
+$darkgrey: #393838;
+
+$blue: #254A9B;
+$lightblue: #53B5C9;
+$pink: #E54582;
+$grey: #707070;
+
+$purple: #2F202F;
+$red: #AE4224;
+$black: #393838;
+$darkred: #983013;
+
+
+body {
+  background: #fff;  
+  font: 20px/1.5em 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 400 24px 'Playfair Display';
+  padding: .75em 1.25em;
+  white-space: normal;
+  @media (max-width: 575px) {
+    padding: .5em 1em;
+    font: 400 20px 'Asap';
+  }          
+  @media (max-width: 575px) {
+    font: 400 18px 'Asap';
+    padding: 1em 5px;
+    width: 100%;
+  }
+  &.btn-primary {
+    background: $red;
+    color: #fff;
+    &:hover {
+      background: $darkred;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba($red,.5);
+    }
+  }
+}
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  .dismiss {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1em;
+    opacity: .9;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+label {
+  font-size: 18px;
+}
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 18px 'Abel';
+  background-color: #E5EAEF;
+  border: 0;
+  letter-spacing: 2.5px;
+  color: #000;
+  &::placeholder{
+    color: #000;
+  }
+  &:focus {
+    border: 0;
+    box-shadow: none;
+    color: #000;
+    }
+}
+textarea.form-control {
+  height: 100px;
+}
+footer {
+  font: 400 20px 'Abel';
+  color: $grey;
+  background: #fff;
+  .disclosures{
+    font-size: 17px;
+  }
+}
+
+.registration {
+  @import 'registration';
+}
+.confirmation {
+  @import 'confirmation';
+}

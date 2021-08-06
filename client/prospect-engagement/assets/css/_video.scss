@@ -1,0 +1,23 @@
+.hero {
+  background: #6E4232 url('../img/bg_video.png') no-repeat center top / cover;
+  .titles{
+    h1{
+      color: $white;
+      font: 900 64px/78px 'Lato';
+      letter-spacing: 0.01em;
+      @media(max-width: 991px){
+        font-size: 48px;
+      }
+      @media(max-width: 767px){
+        font-size: 32px;
+        line-height: 38.4px;
+      }
+    }   
+  }
+}
+.contact {
+  font: 400 16px/24px 'Lato';
+}
+.disclosures {
+  font: 400 16px/24px 'Lato';
+}

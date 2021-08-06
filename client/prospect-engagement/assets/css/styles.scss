@@ -1,9 +1,5 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.css');
-@import url('https://fonts.googleapis.com/css?family=Abel|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aleo:ital@0;1&family=Asap:ital,wght@0,400;0,700;1,600&family=Open+Sans:wght@400;600&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Charm:wght@700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
 $red: #FA0D0D;
 $lightgrey: #E5EAEF;
@@ -18,6 +14,8 @@ $purple: #2F202F;
 $red: #AE4224;
 $black: #393838;
 $darkred: #983013;
+
+$white: #ffffff;
 
 
 body {
@@ -108,4 +106,7 @@ footer {
 }
 .confirmation {
   @import 'confirmation';
+}
+.video_landing {
+  @import 'video';
 }

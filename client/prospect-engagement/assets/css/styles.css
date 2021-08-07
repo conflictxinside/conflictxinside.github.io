@@ -22,12 +22,7 @@ body {
 
 @media (max-width: 575px) {
   .btn {
-    padding: .5em 1em;
-    font: 400 20px 'Asap'; } }
-
-@media (max-width: 575px) {
-  .btn {
-    font: 400 18px 'Asap';
+    font-size: 16px;
     padding: 1em 5px;
     width: 100%; } }
 
@@ -169,7 +164,11 @@ footer .disclosures {
 
 .confirmation .hero {
   color: #ffffff;
-  background: #000000 no-repeat 50% 60%/cover url("../img/bg_confirmation.png"); }
+  background: #26262A no-repeat 50% 60%/cover url("../img/bg_confirmation.png"); }
+
+@media (max-width: 575px) {
+  .confirmation .hero {
+    background-image: none; } }
 
 .confirmation .hero h1 {
   font: 900 48px/78px 'Lato';
@@ -184,6 +183,22 @@ footer .disclosures {
   margin-top: 30px;
   background: #F5F5F5; }
 
+@media (max-width: 991px) {
+  .confirmation .hero h1:after {
+    margin: 30px auto 0; } }
+
+@media (max-width: 575px) {
+  .confirmation .hero h1:after {
+    max-width: 150px; } }
+
+@media (max-width: 991px) {
+  .confirmation .hero h1 {
+    font: 700 36px/52px 'Lato'; } }
+
+@media (max-width: 575px) {
+  .confirmation .hero h1 {
+    font: 700 32px/52px 'Lato'; } }
+
 .confirmation .hero h2 {
   font: 700 32px/48px 'Bodoni MT'; }
 
@@ -193,8 +208,16 @@ footer .disclosures {
 .confirmation .hero h3 {
   font: 700 32px/48px 'Charm'; }
 
+@media (max-width: 575px) {
+  .confirmation .hero h3 {
+    font: 700 24px/28.8px 'Charm'; } }
+
 .confirmation .hero p {
   font: 700 32px/48px 'Bodoni MT'; }
+
+@media (max-width: 575px) {
+  .confirmation .hero p {
+    font: 700 22px/28.8px 'Bodoni MT'; } }
 
 .confirmation .contact {
   font: 400 16px/24px 'Lato'; }

@@ -1,6 +1,9 @@
 .hero {
   color: $white;
-  background: $black no-repeat 50% 60% / cover url('../img/bg_confirmation.png');
+  background: #26262A no-repeat 50% 60% / cover url('../img/bg_confirmation.png');
+  @media (max-width: 575px) {
+    background-image: none;
+  }
   h1 {
     font: 900 48px/78px 'Lato';
     letter-spacing: 0.01em;
@@ -12,6 +15,18 @@
       height: 1px;
       margin-top: 30px;
       background: #F5F5F5;
+      @media (max-width: 991px) {
+        margin: 30px auto 0;
+      }
+      @media (max-width: 575px) {
+        max-width: 150px;
+      }
+    }
+    @media (max-width: 991px) {
+      font: 700 36px/52px 'Lato';
+    }
+    @media (max-width: 575px) {
+      font: 700 32px/52px 'Lato';
     }
   }
   h2 {
@@ -22,9 +37,15 @@
   }
   h3 {
     font: 700 32px/48px 'Charm';
+    @media (max-width: 575px) {
+      font: 700 24px/28.8px 'Charm';
+    }
   }
   p {
     font: 700 32px/48px 'Bodoni MT';
+    @media (max-width: 575px) {
+      font: 700 22px/28.8px 'Bodoni MT';
+    }
   }
 }
 

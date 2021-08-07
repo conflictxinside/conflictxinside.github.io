@@ -98,53 +98,11 @@ footer .disclosures {
     padding: 0;
     background: none; } }
 
-.registration .hero .titles {
-  color: #2F202F; }
-
-.registration .hero .titles h1 {
-  font: 700 2.9rem 'Playfair Display'; }
-
-@media (max-width: 767px) {
-  .registration .hero .titles h1 {
-    line-height: 4rem; } }
-
-@media (max-width: 575px) {
-  .registration .hero .titles h1 {
-    font-size: 2.5rem;
-    line-height: 3.4rem; } }
-
-.registration .hero .titles p {
-  font: 400 30px/42px 'Open Sans'; }
-
-@media (max-width: 767px) {
-  .registration .hero .titles p {
-    font-size: 26px;
-    line-height: 36.4px; } }
-
-@media (max-width: 575px) {
-  .registration .hero .titles p {
-    font-size: 25px;
-    line-height: 35px; } }
-
-.registration .hero .form {
-  background: #2F202F; }
-
-@media (max-width: 767px) {
-  .registration .hero .form {
-    margin: 0 auto; } }
-
-.registration .hero .form h2 {
-  font-family: 'Abel';
-  color: #fff; }
-
 .registration #bio {
   background: #FAFAFA; }
 
 .registration #bio .logoBox img {
   max-height: none; }
-
-.registration #bio .container {
-  max-width: 1200px; }
 
 .registration #bio .contact p {
   color: #000000;

@@ -5,12 +5,6 @@
   background-size: cover, cover;
   min-height: 500px;
   padding-bottom: 5rem;
-  .mobile{
-    @media(max-width:767px){
-      height: 60vw;
-      background: no-repeat 50% 80% / cover url(../img/bg-hero.png);
-    }
-  }
   @media(max-width:991px){
     background-position: 60% 50%;
     padding: 3rem 0;
@@ -55,23 +49,33 @@
   }
 }
 #bio {
-  background: #fff no-repeat 50% 50% / cover url('../img/bg-main.jpg');
+  background: #FAFAFA;
+  .logoBox img {max-height: none;}
   .container {
     max-width: 1200px;
   }
   .contact {
     p {
-      color: $red;
-      font: 400 30px 'Playfair Display';
+      color: $black;
+      font: 700 21px/30px 'Lato';
+      em {
+        font: 400 italic 19px/30px 'Lato';
+      }
     }
   }
   .content {
     color: $black;
+    font: 400 16px/19px 'Lato';
   }
   .btn-primary{
-    color: #fff;
-    @media(max-width: 1199px){
-      font-size: 22px;
-    }
+    text-transform: none;
+    font-size: 21px;
+    line-height: 24px;
   }
+}
+.contact {
+  font: 400 16px/24px 'Lato';
+}
+.disclosures {
+  font: 400 16px/24px 'Lato';
 }

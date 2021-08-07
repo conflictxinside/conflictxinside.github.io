@@ -88,11 +88,6 @@ footer .disclosures {
   min-height: 500px;
   padding-bottom: 5rem; }
 
-@media (max-width: 767px) {
-  .registration .hero .mobile {
-    height: 60vw;
-    background: no-repeat 50% 80%/cover url(../img/bg-hero.png); } }
-
 @media (max-width: 991px) {
   .registration .hero {
     background-position: 60% 50%;
@@ -143,24 +138,35 @@ footer .disclosures {
   color: #fff; }
 
 .registration #bio {
-  background: #fff no-repeat 50% 50%/cover url("../img/bg-main.jpg"); }
+  background: #FAFAFA; }
+
+.registration #bio .logoBox img {
+  max-height: none; }
 
 .registration #bio .container {
   max-width: 1200px; }
 
 .registration #bio .contact p {
-  color: #CB524A;
-  font: 400 30px 'Playfair Display'; }
+  color: #000000;
+  font: 700 21px/30px 'Lato'; }
+
+.registration #bio .contact p em {
+  font: 400 italic 19px/30px 'Lato'; }
 
 .registration #bio .content {
-  color: #000000; }
+  color: #000000;
+  font: 400 16px/19px 'Lato'; }
 
 .registration #bio .btn-primary {
-  color: #fff; }
+  text-transform: none;
+  font-size: 21px;
+  line-height: 24px; }
 
-@media (max-width: 1199px) {
-  .registration #bio .btn-primary {
-    font-size: 22px; } }
+.registration .contact {
+  font: 400 16px/24px 'Lato'; }
+
+.registration .disclosures {
+  font: 400 16px/24px 'Lato'; }
 
 .confirmation .hero {
   color: #ffffff;

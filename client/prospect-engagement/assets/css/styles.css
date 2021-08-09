@@ -80,6 +80,7 @@ footer .disclosures {
   font-size: 17px; }
 
 .registration .hero {
+  background: #5E5E5E;
   color: #ffffff; }
 
 @media (min-width: 992px) {
@@ -90,14 +91,14 @@ footer .disclosures {
   max-width: 1300px; }
 
 @media (max-width: 991px) {
-  .registration .hero .container-fluid {
-    padding-left: 0;
-    padding-right: 0; } }
+  .registration .hero .left .content {
+    position: relative;
+    z-index: 2; } }
 
 @media (max-width: 991px) {
   .registration .hero .left .mobile {
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
@@ -120,7 +121,7 @@ footer .disclosures {
 
 @media (max-width: 575px) {
   .registration .hero .left {
-    padding: 25px 40px; } }
+    padding: 25px; } }
 
 .registration .hero .left h1 {
   margin-bottom: 30px;

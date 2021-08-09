@@ -1,7 +1,7 @@
 @import url("https://assets.snappykraken.com/global/css/utilities.css");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Charm:wght@700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap");
 body {
-  background: #fff;
+  background: #ffffff;
   font: 20px/1.5em 'Open Sans';
   -webkit-font-smoothing: antialiased; }
 
@@ -41,7 +41,7 @@ body {
   border: 0; }
 
 .modal-content .dismiss {
-  color: #fff;
+  color: #ffffff;
   font-size: 24px;
   line-height: 1em;
   opacity: .9; }
@@ -56,18 +56,19 @@ label {
   border-radius: 0;
   height: 45px;
   font: 18px 'Abel';
-  background-color: #E5EAEF;
+  background-color: #3E3E3E;
   border: 0;
   letter-spacing: 2.5px;
-  color: #000; }
+  color: #ffffff; }
 
 .form-control::placeholder {
-  color: #000; }
+  color: #ffffff; }
 
 .form-control:focus {
   border: 0;
   box-shadow: none;
-  color: #000; }
+  color: #ffffff;
+  background-color: #3E3E3E; }
 
 textarea.form-control {
   height: 100px; }
@@ -81,6 +82,7 @@ footer .disclosures {
   font-size: 17px; }
 
 .registration .hero {
+  color: #ffffff;
   background-image: url("../img/bg-hero.png");
   background-repeat: no-repeat;
   background-position: left top;
@@ -99,7 +101,49 @@ footer .disclosures {
     background: none; } }
 
 .registration .hero .form {
-  background: #515152; }
+  background: rgba(94, 94, 94, 0.8); }
+
+.registration .hero .container-fluid {
+  max-width: 1300px; }
+
+.registration .hero h1 {
+  margin-bottom: 30px;
+  font: 700 36px/43px 'Bodoni MT'; }
+
+.registration .hero h1 span {
+  color: #F5C578; }
+
+.registration .hero h1:after {
+  display: block;
+  content: '';
+  max-width: 265px;
+  height: 1px;
+  background: #ffffff;
+  margin-top: 30px; }
+
+.registration .hero h2 {
+  font: 900 56px/78px 'Lato'; }
+
+.registration .hero h3 {
+  font: 700 32px/48px 'Bodoni MT'; }
+
+.registration .hero h3 span {
+  color: #F5C578; }
+
+.registration .hero ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.registration .hero ul li {
+  display: block;
+  margin: 30px 0 0;
+  padding: 10px 0 0 60px;
+  min-height: 54px;
+  list-style: none;
+  font: 400 24px/28.8px 'Lato';
+  background: transparent url("../img/check.png") no-repeat left top; }
 
 .registration #bio {
   background: #FAFAFA; }

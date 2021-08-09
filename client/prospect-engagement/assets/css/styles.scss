@@ -1,25 +1,18 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.css');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Charm:wght@700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
-$lightgrey: #E5EAEF;
-$darkgrey: #393838;
-
-$blue: #254A9B;
-$lightblue: #53B5C9;
 $pink: #E54582;
 $grey: #707070;
-
-$purple: #2F202F;
+$darkgrey: #3E3E3E;
 $red: #CB524A;
-$black: #393838;
 $darkred: #983013;
-
 $white: #ffffff;
 $black: #000000;
+$gold: #F5C578;
 
 
 body {
-  background: #fff;  
+  background: $white;  
   font: 20px/1.5em 'Open Sans';
   -webkit-font-smoothing: antialiased;
 }
@@ -58,7 +51,7 @@ body {
   border-radius: 0;
   border: 0;
   .dismiss {
-    color: #fff;
+    color: $white;
     font-size: 24px;
     line-height: 1em;
     opacity: .9;
@@ -74,18 +67,19 @@ label {
   border-radius: 0;
   height: 45px;
   font: 18px 'Abel';
-  background-color: #E5EAEF;
+  background-color: $darkgrey;
   border: 0;
   letter-spacing: 2.5px;
-  color: #000;
+  color: $white;
   &::placeholder{
-    color: #000;
+    color: $white;
   }
   &:focus {
     border: 0;
     box-shadow: none;
-    color: #000;
-    }
+    color: $white;
+    background-color: $darkgrey;
+  }
 }
 textarea.form-control {
   height: 100px;

@@ -100,9 +100,6 @@ footer .disclosures {
     padding: 0;
     background: none; } }
 
-.registration .hero .form {
-  background: rgba(94, 94, 94, 0.8); }
-
 .registration .hero .container-fluid {
   max-width: 1300px; }
 
@@ -144,6 +141,27 @@ footer .disclosures {
   list-style: none;
   font: 400 24px/28.8px 'Lato';
   background: transparent url("../img/check.png") no-repeat left top; }
+
+.registration .hero .form {
+  background: rgba(94, 94, 94, 0.8); }
+
+.registration .hero .form h2 {
+  font: 700 32px/48px 'Bodoni MT'; }
+
+.registration .hero .form h2 span {
+  color: #F5C578; }
+
+.registration .hero .form .form-group {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  max-width: 328px; }
+
+.registration .hero .form .form-control {
+  font: 400 16px/19.2px 'Lato'; }
+
+.registration .hero .form .form-control.custom-select {
+  height: 45px !important; }
 
 .registration #bio {
   background: #FAFAFA; }

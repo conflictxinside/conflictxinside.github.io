@@ -20,12 +20,6 @@ body {
   border-radius: 80px;
   text-transform: uppercase; }
 
-@media (max-width: 575px) {
-  .btn {
-    font-size: 16px;
-    padding: 1em 5px;
-    width: 100%; } }
-
 .btn.btn-primary {
   background: #CB524A;
   color: #fff; }
@@ -82,35 +76,42 @@ footer .disclosures {
   font-size: 17px; }
 
 .registration .hero {
-  color: #ffffff;
-  background-image: url("../img/bg-hero.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  min-height: 500px;
-  padding-bottom: 5rem; }
+  color: #ffffff; }
 
-@media (max-width: 991px) {
+@media (min-width: 992px) {
   .registration .hero {
-    background-position: 60% 50%;
-    padding: 3rem 0; } }
-
-@media (max-width: 767px) {
-  .registration .hero {
-    padding: 0;
-    background: none; } }
+    background: #3E3E3E url("../img/bg-hero.png") no-repeat left top/cover; } }
 
 .registration .hero .container-fluid {
   max-width: 1300px; }
 
-.registration .hero h1 {
+@media (max-width: 991px) {
+  .registration .hero .container-fluid {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 991px) {
+  .registration .hero .left {
+    padding: 80px 60px 60px;
+    background: #3E3E3E url("../img/bg-hero.png") no-repeat left top/cover; } }
+
+@media (max-width: 525px) {
+  .registration .hero .left {
+    padding: 25px 40px; } }
+
+.registration .hero .left h1 {
   margin-bottom: 30px;
+  letter-spacing: 0.02em;
   font: 700 36px/43px 'Bodoni MT'; }
 
-.registration .hero h1 span {
+@media (max-width: 525px) {
+  .registration .hero .left h1 {
+    font: 700 22px/26px 'Bodoni MT'; } }
+
+.registration .hero .left h1 span {
   color: #F5C578; }
 
-.registration .hero h1:after {
+.registration .hero .left h1:after {
   display: block;
   content: '';
   max-width: 265px;
@@ -118,49 +119,88 @@ footer .disclosures {
   background: #ffffff;
   margin-top: 30px; }
 
-.registration .hero h2 {
+@media (max-width: 525px) {
+  .registration .hero .left h1:after {
+    max-width: 150px; } }
+
+.registration .hero .left h2 {
+  letter-spacing: 0.01em;
   font: 900 56px/78px 'Lato'; }
 
-.registration .hero h3 {
+@media (max-width: 991px) {
+  .registration .hero .left h2 {
+    font-size: 48px; } }
+
+@media (max-width: 525px) {
+  .registration .hero .left h2 {
+    font: 900 32px/44px 'Lato'; } }
+
+.registration .hero .left h3 {
+  letter-spacing: 0.02em;
   font: 700 32px/48px 'Bodoni MT'; }
 
-.registration .hero h3 span {
+@media (max-width: 525px) {
+  .registration .hero .left h3 {
+    font: 700 24px/28.7px 'Bodoni MT'; } }
+
+.registration .hero .left h3 span {
   color: #F5C578; }
 
-.registration .hero ul {
+.registration .hero .left ul {
   display: block;
   margin: 0;
   padding: 0;
   list-style: none; }
 
-.registration .hero ul li {
+@media (max-width: 991px) {
+  .registration .hero .left ul {
+    margin: 0 auto;
+    max-width: 560px; } }
+
+.registration .hero .left ul li {
   display: block;
   margin: 30px 0 0;
   padding: 10px 0 0 60px;
   min-height: 54px;
   list-style: none;
+  letter-spacing: 0.02em;
   font: 400 24px/28.8px 'Lato';
   background: transparent url("../img/check.png") no-repeat left top; }
 
-.registration .hero .form {
+@media (max-width: 525px) {
+  .registration .hero .left ul li {
+    font: 400 18px/21.6px 'Lato';
+    padding-left: 50px;
+    padding-top: 5px;
+    background-size: 33px 40.5px; } }
+
+.registration .hero .right .form {
   background: rgba(94, 94, 94, 0.8); }
 
-.registration .hero .form h2 {
+@media (max-width: 991px) {
+  .registration .hero .right .form {
+    background: #5E5E5E; } }
+
+.registration .hero .right .form h2 {
   font: 700 32px/48px 'Bodoni MT'; }
 
-.registration .hero .form h2 span {
+.registration .hero .right .form h2 span {
   color: #F5C578; }
 
-.registration .hero .form .form-group {
+@media (max-width: 525px) {
+  .registration .hero .right .form h2 {
+    font: 700 26px/36px 'Bodoni MT'; } }
+
+.registration .hero .right .form .form-group {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
   max-width: 328px; }
 
-.registration .hero .form .form-control {
+.registration .hero .right .form .form-control {
   font: 400 16px/19.2px 'Lato'; }
 
-.registration .hero .form .form-control.custom-select {
+.registration .hero .right .form .form-control.custom-select {
   height: 45px !important; }
 
 .registration #bio {

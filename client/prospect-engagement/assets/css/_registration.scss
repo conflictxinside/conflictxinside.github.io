@@ -1,75 +1,116 @@
 .hero {
   color: $white;
-  background-image: url('../img/bg-hero.png');
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  min-height: 500px;
-  padding-bottom: 5rem;
-  @media(max-width:991px){
-    background-position: 60% 50%;
-    padding: 3rem 0;
+  @media(min-width:992px){
+    background: $darkgrey url('../img/bg-hero.png') no-repeat left top / cover;
   }
-  @media(max-width:767px){
-    padding: 0;
-    background: none;
-  }
-  .container-fluid {max-width: 1300px;}
-  h1 {
-    margin-bottom: 30px;
-    font: 700 36px/43px 'Bodoni MT';
-    span {
-      color: $gold;
-    }
-    &:after {
-      display: block;
-      content: '';
-      max-width: 265px;
-      height: 1px;
-      background: $white;
-      margin-top: 30px;
+  .container-fluid {
+    max-width: 1300px;
+    @media(max-width:991px){
+      padding-left: 0;
+      padding-right: 0;
     }
   }
-  h2 {
-    //font: 900 64px/78px 'Lato';
-    font: 900 56px/78px 'Lato';
-  }
-  h3 {
-    font: 700 32px/48px 'Bodoni MT';
-    span {
-      color: $gold;
+  .left {
+    @media(max-width:991px){
+      padding: 80px 60px 60px;
+      background: $darkgrey url('../img/bg-hero.png') no-repeat left top / cover;
     }
-  }
-  ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      display: block;
-      margin: 30px 0 0;
-      padding: 10px 0 0 60px;
-      min-height: 54px;
-      list-style: none;
-      font: 400 24px/28.8px 'Lato';
-      background: transparent url('../img/check.png') no-repeat left top;
+    @media(max-width:525px){
+      padding: 25px 40px;
     }
-  }
-  .form {
-    background: rgba(94, 94, 94, 0.8);
+    h1 {
+      margin-bottom: 30px;
+      letter-spacing: 0.02em;
+      font: 700 36px/43px 'Bodoni MT';
+      @media(max-width:525px){
+        font: 700 22px/26px 'Bodoni MT';
+      }
+      span {
+        color: $gold;
+      }
+      &:after {
+        display: block;
+        content: '';
+        max-width: 265px;
+        height: 1px;
+        background: $white;
+        margin-top: 30px;
+        @media(max-width:525px){
+          max-width: 150px;
+        }
+      }
+    }
     h2 {
+      //font: 900 64px/78px 'Lato';
+      letter-spacing: 0.01em;
+      font: 900 56px/78px 'Lato';
+      @media(max-width:991px){
+        font-size: 48px;
+      }
+      @media(max-width:525px){
+        font: 900 32px/44px 'Lato';
+      }
+    }
+    h3 {
+      letter-spacing: 0.02em;
       font: 700 32px/48px 'Bodoni MT';
-      span {color: $gold;}
+      @media(max-width:525px){
+        font: 700 24px/28.7px 'Bodoni MT';
+      }
+      span {
+        color: $gold;
+      }
     }
-    .form-group {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-      max-width: 328px;
+    ul {
+      display: block;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      @media(max-width:991px){
+        margin: 0 auto;
+        max-width: 560px;
+      }
+      li {
+        display: block;
+        margin: 30px 0 0;
+        padding: 10px 0 0 60px;
+        min-height: 54px;
+        list-style: none;
+        letter-spacing: 0.02em;
+        font: 400 24px/28.8px 'Lato';
+        background: transparent url('../img/check.png') no-repeat left top;
+        @media(max-width:525px){
+          font: 400 18px/21.6px 'Lato';
+          padding-left: 50px;
+          padding-top: 5px;
+          background-size: 33px 40.5px;
+        }
+      }
     }
-    .form-control {
-      font: 400 16px/19.2px 'Lato';
-      &.custom-select {height: 45px !important;}
+  }
+  .right {
+    .form {
+      background: rgba(94, 94, 94, 0.8);
+      @media(max-width:991px){
+        background: $formgrey;
+      }
+      h2 {
+        font: 700 32px/48px 'Bodoni MT';
+        span {color: $gold;}
+        @media(max-width:525px){
+          font: 700 26px/36px 'Bodoni MT';
+        }
+      }
+      .form-group {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        max-width: 328px;
+      }
+      .form-control {
+        font: 400 16px/19.2px 'Lato';
+        &.custom-select {height: 45px !important;}
+      }
     }
   }
 }

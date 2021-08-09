@@ -14,7 +14,7 @@ $gold: #F5C578;
 
 body {
   background: $white;  
-  font: 20px/1.5em 'Open Sans';
+  font: 20px/1.5em 'Lato';
   -webkit-font-smoothing: antialiased;
 }
 
@@ -32,11 +32,11 @@ body {
   white-space: normal;
   border-radius: 80px;
   text-transform: uppercase;      
-  // @media (max-width: 575px) {
-  //   font-size: 16px;
-  //   padding: 1em 5px;
-  //   width: 100%;
-  // }
+  @media (max-width: 575px) {
+    font-size: 16px;
+    // padding: 1em 5px;
+    // width: 100%;
+  }
   &.btn-primary {
     background: $red;
     color: #fff;
@@ -67,7 +67,7 @@ label {
 .form-control {
   border-radius: 0;
   height: 45px;
-  font: 18px 'Abel';
+  font: 18px 'Lato';
   background-color: $darkgrey;
   border: 0;
   letter-spacing: 2.5px;
@@ -86,7 +86,7 @@ textarea.form-control {
   height: 100px;
 }
 footer {
-  font: 400 20px 'Abel';
+  font: 400 20px 'Lato';
   color: $grey;
   background: #fff;
   .disclosures{

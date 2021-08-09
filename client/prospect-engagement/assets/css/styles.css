@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Charm:wght@700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap");
 body {
   background: #ffffff;
-  font: 20px/1.5em 'Open Sans';
+  font: 20px/1.5em 'Lato';
   -webkit-font-smoothing: antialiased; }
 
 .container {
@@ -19,6 +19,10 @@ body {
   white-space: normal;
   border-radius: 80px;
   text-transform: uppercase; }
+
+@media (max-width: 575px) {
+  .btn {
+    font-size: 16px; } }
 
 .btn.btn-primary {
   background: #CB524A;
@@ -49,7 +53,7 @@ label {
 .form-control {
   border-radius: 0;
   height: 45px;
-  font: 18px 'Abel';
+  font: 18px 'Lato';
   background-color: #3E3E3E;
   border: 0;
   letter-spacing: 2.5px;
@@ -68,7 +72,7 @@ textarea.form-control {
   height: 100px; }
 
 footer {
-  font: 400 20px 'Abel';
+  font: 400 20px 'Lato';
   color: #707070;
   background: #fff; }
 
@@ -114,18 +118,18 @@ footer .disclosures {
   .registration .hero .left {
     padding: 80px 60px 60px; } }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .left {
     padding: 25px 40px; } }
 
 .registration .hero .left h1 {
   margin-bottom: 30px;
   letter-spacing: 0.02em;
-  font: 700 32px/43px 'Bodoni MT'; }
+  font: 700 28px/43px 'Bodoni Moda', 'bodoni mt'; }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .left h1 {
-    font: 700 22px/26px 'Bodoni MT'; } }
+    font: 700 22px/26px 'Bodoni Moda', 'bodoni mt'; } }
 
 .registration .hero .left h1 span {
   color: #F5C578; }
@@ -138,7 +142,7 @@ footer .disclosures {
   background: #ffffff;
   margin-top: 30px; }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .left h1:after {
     max-width: 150px; } }
 
@@ -150,17 +154,17 @@ footer .disclosures {
   .registration .hero .left h2 {
     font-size: 48px; } }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .left h2 {
     font: 900 30px/44px 'Lato'; } }
 
 .registration .hero .left h3 {
   letter-spacing: 0.02em;
-  font: 700 32px/48px 'Bodoni MT'; }
+  font: 700 28px/48px 'Bodoni Moda', 'bodoni mt'; }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .left h3 {
-    font: 700 24px/28.7px 'Bodoni MT'; } }
+    font: 700 24px/28.7px 'Bodoni Moda', 'bodoni mt'; } }
 
 .registration .hero .left h3 span {
   color: #F5C578; }
@@ -186,7 +190,7 @@ footer .disclosures {
   font: 400 24px/28.8px 'Lato';
   background: transparent url("../img/check.png") no-repeat left top; }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .left ul li {
     font: 400 18px/21.6px 'Lato';
     padding-left: 50px;
@@ -201,14 +205,14 @@ footer .disclosures {
     background: #5E5E5E; } }
 
 .registration .hero .right .form h2 {
-  font: 700 32px/48px 'Bodoni MT'; }
+  font: 700 26px/48px 'Bodoni Moda', 'bodoni mt'; }
 
 .registration .hero .right .form h2 span {
   color: #F5C578; }
 
-@media (max-width: 525px) {
+@media (max-width: 575px) {
   .registration .hero .right .form h2 {
-    font: 700 26px/36px 'Bodoni MT'; } }
+    font: 700 24px/36px 'Bodoni Moda', 'bodoni mt'; } }
 
 .registration .hero .right .form .form-group {
   margin-left: auto;
@@ -288,10 +292,14 @@ footer .disclosures {
     font: 700 32px/52px 'Lato'; } }
 
 .confirmation .hero h2 {
-  font: 700 32px/48px 'Bodoni MT'; }
+  font: 700 32px/48px 'Bodoni Moda', 'bodoni mt'; }
 
 .confirmation .hero h2 span {
   color: #F5C578; }
+
+@media (max-width: 575px) {
+  .confirmation .hero h2 {
+    font: 700 18px/28.78px 'Bodoni Moda', 'bodoni mt'; } }
 
 .confirmation .hero h3 {
   font: 700 32px/48px 'Charm'; }
@@ -301,11 +309,11 @@ footer .disclosures {
     font: 700 24px/28.8px 'Charm'; } }
 
 .confirmation .hero p {
-  font: 700 32px/48px 'Bodoni MT'; }
+  font: 700 32px/48px 'Bodoni Moda', 'bodoni mt'; }
 
 @media (max-width: 575px) {
   .confirmation .hero p {
-    font: 700 22px/28.8px 'Bodoni MT'; } }
+    font: 700 20px/28.8px 'Bodoni Moda', 'bodoni mt'; } }
 
 .confirmation .contact {
   font: 400 16px/24px 'Lato'; }

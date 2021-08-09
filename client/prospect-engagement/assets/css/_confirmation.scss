@@ -30,9 +30,12 @@
     }
   }
   h2 {
-    font: 700 32px/48px 'Bodoni MT';
+    font: 700 32px/48px 'Bodoni Moda', 'bodoni mt';
     span {
       color: $gold;
+    }
+    @media (max-width: 575px) {
+      font: 700 18px/28.78px 'Bodoni Moda', 'bodoni mt';
     }
   }
   h3 {
@@ -42,9 +45,9 @@
     }
   }
   p {
-    font: 700 32px/48px 'Bodoni MT';
+    font: 700 32px/48px 'Bodoni Moda', 'bodoni mt';
     @media (max-width: 575px) {
-      font: 700 22px/28.8px 'Bodoni MT';
+      font: 700 20px/28.8px 'Bodoni Moda', 'bodoni mt';
     }
   }
 }

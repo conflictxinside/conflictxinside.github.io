@@ -34,15 +34,15 @@
     @media(max-width:991px){
       padding: 80px 60px 60px;
     }
-    @media(max-width:525px){
+    @media(max-width:575px){
       padding: 25px 40px;
     }
     h1 {
       margin-bottom: 30px;
       letter-spacing: 0.02em;
-      font: 700 32px/43px 'Bodoni MT';
-      @media(max-width:525px){
-        font: 700 22px/26px 'Bodoni MT';
+      font: 700 28px/43px 'Bodoni Moda', 'bodoni mt';
+      @media(max-width:575px){
+        font: 700 22px/26px 'Bodoni Moda', 'bodoni mt';
       }
       span {
         color: $gold;
@@ -54,7 +54,7 @@
         height: 1px;
         background: $white;
         margin-top: 30px;
-        @media(max-width:525px){
+        @media(max-width:575px){
           max-width: 150px;
         }
       }
@@ -66,16 +66,16 @@
       @media(max-width:991px){
         font-size: 48px;
       }
-      @media(max-width:525px){
+      @media(max-width:575px){
         //font: 900 32px/44px 'Lato';
         font: 900 30px/44px 'Lato';
       }
     }
     h3 {
       letter-spacing: 0.02em;
-      font: 700 32px/48px 'Bodoni MT';
-      @media(max-width:525px){
-        font: 700 24px/28.7px 'Bodoni MT';
+      font: 700 28px/48px 'Bodoni Moda', 'bodoni mt';
+      @media(max-width:575px){
+        font: 700 24px/28.7px 'Bodoni Moda', 'bodoni mt';
       }
       span {
         color: $gold;
@@ -99,7 +99,7 @@
         letter-spacing: 0.02em;
         font: 400 24px/28.8px 'Lato';
         background: transparent url('../img/check.png') no-repeat left top;
-        @media(max-width:525px){
+        @media(max-width:575px){
           font: 400 18px/21.6px 'Lato';
           padding-left: 50px;
           padding-top: 5px;
@@ -115,10 +115,10 @@
         background: $formgrey;
       }
       h2 {
-        font: 700 32px/48px 'Bodoni MT';
+        font: 700 26px/48px 'Bodoni Moda', 'bodoni mt';
         span {color: $gold;}
-        @media(max-width:525px){
-          font: 700 26px/36px 'Bodoni MT';
+        @media(max-width:575px){
+          font: 700 24px/36px 'Bodoni Moda', 'bodoni mt';
         }
       }
       .form-group {

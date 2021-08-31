@@ -1,0 +1,7 @@
+From html dir:
+
+Empty 'html' dir.
+Create new repo at github.  Click clone button there.
+npm install node-sass --save
+Then, copy package.json and .gitignore from college-opportunity dir.  Edit to match new repo.
+npm run scss

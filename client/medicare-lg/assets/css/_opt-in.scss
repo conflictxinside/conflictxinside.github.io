@@ -1,0 +1,58 @@
+.modal-dialog {
+  max-width: 885px;
+  border: 0;
+  @media(max-width: 767px){
+    margin: .5rem !important;
+  }
+}
+.content {
+  background: #fff;
+  h3 {
+    font: 700 32px/38px 'Montserrat';
+    color: $darkblue;
+  }
+  h4{
+    font: 400 25px 'Montserrat';
+    color: $darkblue;
+  }
+  p {
+    font: 400 16px 'Montserrat';
+    color: $darkblue;
+  }
+}
+.image {
+    background: #fff;
+}
+.popup-form {
+  padding: 60px 5px;
+  background: $darkblue;
+  h3 {
+    color: $white;
+    font: 700 48px/59px 'Montserrat';
+    margin-bottom: 30px;
+    &:after {
+      content: '';
+      display: block;
+      margin: 30px auto 0;
+      width: 160px;
+      height: 1px;
+      background: $white;
+    }
+  }
+  h4 {
+    color: $white;
+    font: 500 32px/47px 'Oswald';
+    margin-bottom: 40px;
+  }
+  p {
+    color: #E5E5E5;
+  }
+}
+
+form {
+  color: $white;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  max-width: 538px;
+}

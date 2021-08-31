@@ -1,0 +1,73 @@
+.modal-dialog {
+  max-width: 1378px;
+}
+.modal-content {
+  color: #fff;
+  background: $darkblue url('../img/bg_exit.png') no-repeat right top / cover;
+  h3 {
+    color: #050C17;
+    font: 500 32px/47px 'Oswald';
+    margin-bottom: 40px;
+    &:after {
+      display: block;
+      content: '';
+      margin: 40px auto 0;
+      width: 100%;
+      max-width: 378px;
+      height: 1px;
+      background: $black;
+    }
+  }
+  p {
+    font: 700 24px 'Roboto Condensed';
+  }
+  .btn-link {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .dismiss {
+    display: inline-block;
+    text-align: right;
+    color: #c4c4c4;
+    right: 40px;
+    top: 20px;
+  }
+  .spam{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+form {
+  color: $black;
+  display: block;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.exit-form-container {
+  padding: 120px 20px;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.55);
+  background: #F1EFE5;
+  @media(max-width: 1199px){
+    padding: 50px 15px;
+  }
+}
+
+.image1 {
+  margin-left: -200px;
+  @media(max-width: 1199px){
+    margin-left: -100px;
+  }
+  @media(max-width: 991px){
+    margin: 25px auto 0;
+  }
+  img {
+    @media(max-width: 991px){
+      max-width: 100%;
+    }
+  }
+}

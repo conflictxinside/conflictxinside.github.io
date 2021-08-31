@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Roboto+Condensed:wght@400;700&display=swap");
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.ht-bo-exiting {
+  font-family: 'Roboto Condensed';
+  line-height: 1.8em;
+  background-color: #F5D1C4;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  outline: 1px solid #aaa;
+  margin: 0 auto;
+  max-width: 768px; }
+
+.ht-bo-exiting .ht-inner {
+  width: 100%; }
+
+.ht-bo-exiting h2 {
+  color: #618F93;
+  font: 700 60px 'Montserrat' !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+  height: auto !important; }
+
+@media (max-width: 1023px) {
+  .ht-bo-exiting h2 {
+    font-size: 32px !important; } }
+
+.ht-bo-exiting h3 {
+  font: 400 32px 'Roboto Condensed' !important;
+  margin: 1rem 0 2rem !important;
+  padding: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+  height: auto !important;
+  color: #618F93; }
+
+@media (max-width: 1023px) {
+  .ht-bo-exiting h3 {
+    font-size: 26px !important; } }
+
+.ht-bo-exiting p {
+  font: 400 22px/36px 'Roboto Condensed' !important;
+  color: #A7A7AA;
+  margin: 1rem 0 !important;
+  padding: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+  height: auto !important; }
+
+.ht-bo-exiting p.ht-small {
+  font: 400 16px/30px 'Roboto Condensed' !important;
+  color: #F2F1F0 !important; }
+
+.ht-bo-exiting .ht-form {
+  display: block !important;
+  margin: 0 auto;
+  max-width: 404px; }
+
+.ht-bo-exiting .ht-form .ht-input {
+  background-color: #fff !important;
+  color: #737373 !important;
+  font: 400 18px 'Open Sans' !important;
+  margin: 5px auto !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  padding: 0 1em !important;
+  border: 0 !important;
+  height: 40px !important;
+  vertical-align: middle !important; }
+
+.ht-bo-exiting .ht-form .ht-input::placeholder {
+  color: #6E5344 !important; }
+
+.ht-bo-exiting .ht-form .ht-input.error, .ht-bo-exiting .ht-form .ht-input:focus, .ht-bo-exiting .ht-form .ht-input:active {
+  border: 3px solid #fff !important;
+  box-shadow: none;
+  outline: none; }
+
+.ht-bo-exiting .ht-form .ht-button {
+  background-color: #C55C42 !important;
+  color: #fff !important;
+  font: 700 22px 'Roboto Condensed' !important;
+  margin: 65px auto 10px !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 60px !important;
+  vertical-align: middle !important;
+  padding: 0 1em !important;
+  border: 0 !important;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px #00000040; }
+
+.ht-bo-exiting .ht-form .ht-button:hover {
+  background: #CD7F70 !important; }
+
+.tooltip-inner {
+  background-color: #444; }
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+  border-top-color: #444; }

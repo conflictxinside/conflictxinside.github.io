@@ -1,0 +1,175 @@
+@import url('https://assets.snappykraken.com/global/css/utilities.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@300;400;700&family=Open+Sans&family=Oregano&family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@700&display=swap');
+
+$linkblue: #4C67AC;
+$lightestblue: #FEFEFE;
+$lightblue: #63C1EF;
+$mediumblue: #32638E;
+$blue: #285073;
+$darkblue: #618F93;
+$lightgrey: #ACACAC;
+$grey: #707070;
+$darkgrey: #96999C;
+$darkergrey: #252525;
+$lightpink: #F5D1C4;
+$pink: #C55C42;
+$darkpink: #CD7F70;
+$yellow: #FFDC65;
+$black: #000000;
+$white: #ffffff;
+$orange: #EA9342;
+$stickybar: #578184;
+
+body {
+  background: #fff;
+  font: 300 16px/1.5em 'Oswald';
+  -webkit-font-smoothing: antialiased;
+}
+
+b, strong {font-weight: 500;}
+
+a {
+  color: $linkblue;
+}
+
+.section {clear: both; float: left; width: 100%;}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 700 18px 'roboto condensed';
+  padding: 1.2em 1.25em;
+  white-space: normal;
+  @media (max-width: 575px) {
+    font: 700 18px 'roboto condensed';
+    padding: 1em 5px;
+    width: 100%;
+  }
+  &.btn-primary {
+    background: $pink;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    &:hover {
+      background: $darkpink;
+      color: $white;
+    }
+    &:focus{
+      box-shadow: 0 0 0 0.2rem rgba($pink,.5);
+    }
+  }
+}
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  .dismiss {
+    color: $darkgrey;
+    font-size: 24px;
+    line-height: 1em;
+    opacity: .9;
+    z-index: 9;
+    &:hover {
+      opacity: .75;
+    }
+  }
+}
+.modal-backdrop.show {
+  background-color: $lightblue;
+  opacity: .61;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 400 18px 'Open Sans';
+  color: $grey;
+  @media(max-width: 320px){
+    font-size: 16px;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($grey, .25);
+    border: $grey;
+    }
+}
+.select-control{
+  color: $black;
+
+}
+textarea.form-control {
+  height: 100px;
+}
+footer {
+  padding: 50px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+  background: $white;
+  a {color: $black;}
+  .contact {
+    font-size: 19px;
+    @media(max-width: 575px){
+      font-size: 16px;
+    }
+  }
+}
+
+.registration {
+  @import 'registration';
+}
+#opt-in {
+  @import 'opt-in';
+}
+#exit{
+  @import 'exit';
+}
+.tripwire {
+  @import 'tripwire';
+}
+.confirmation {
+  @import 'confirmation';
+}
+.leadmagnet {
+  @import 'leadmagnet';
+}
+
+//Platform Styling
+.preview {
+  .interstitial,  + #wrapper  .conf + .interstitial {
+    display: none !important;
+  }
+}
+// .preview + .display-modal, #exit{
+//   .modal-content{
+//     border: 30px solid #fff !important;
+//     outline: 1px solid #ccc;
+//   }
+// }
+.preview + #opt-in{
+  .modal-content{
+    border: 1px solid #ccc !important;
+  }
+}
+.display-modal {
+  position: relative !important;
+  display: block !important;
+  z-index: 1 !important;
+  border-top: 1px solid #707070;
+  padding: 3rem 0;
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.form-control {
+  font: 300 16px 'Oswald';
+}

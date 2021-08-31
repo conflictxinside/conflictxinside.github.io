@@ -1,0 +1,82 @@
+.hero {
+  padding: 40px 0;
+  background: $pink url(../img/bg_confirmation.png) no-repeat right top / 100%;
+  h1 {
+    color: $darkblue;
+    font: 700 48px/59px 'montserrat';
+    @media(max-width: 991px){
+      font: 700 24px/36px 'montserrat';
+    }
+    @media(max-width: 320px){
+      line-height: 1.2em;
+    }
+  }
+  .thankyou{
+    font: 500 32px 'Oswald';
+    @media(max-width: 991px){
+      font: 500 20px/32px 'Oswald';
+    }
+  }
+  h3 {
+    font: 400 28px/36px 'Oregano';
+    @media(max-width: 991px){
+      font: 400 18px/26px 'Oregano';
+    }
+  }
+  .office{
+    font: 500 32px 'Oswald';
+    @media(max-width: 767px){
+      font-size: 24px;
+    }
+  }
+  .btn-primary{
+    text-transform: uppercase;
+  }
+}
+footer {padding: 80px 0;}
+.disclouser-box {
+  margin: 50px auto 0;
+  padding: 0 15px;
+  max-width: 742px;
+}
+.box {
+  float: right;
+  color: $black;
+  margin-left: 50px;
+  max-width: 1405px;
+  padding: 50px;
+  border: 3px solid $black;
+  border-right: none;
+  background: $white;
+  position: relative;
+  @media (min-width: 1920px){
+    margin: 0 auto !important;
+    float: none !important;
+    border: 3px solid $black !important;
+  }
+  h2 {
+    color: $orange;
+    font: 300 22px 'Oswald';
+    margin-bottom: 40px;
+    span {
+      display: block;
+      margin-top: 10px;
+      color: $black;
+      font: 700 24px 'Montserrat';
+    }
+  }
+  &.box-alt {
+    float: left;
+    margin-left: 0;
+    margin-right: 50px;
+    border: 3px solid $black;
+    border-left: none;
+  }
+  img {
+    @media(max-width: 991px){
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+}

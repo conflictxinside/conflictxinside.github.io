@@ -1,5 +1,5 @@
 .modal-dialog {
-  max-width: 885px;
+  max-width: 640px;
   border: 0;
   @media(max-width: 767px){
     margin: .5rem !important;
@@ -21,32 +21,26 @@
   }
 }
 .image {
-    background: #fff;
+    background: $darkblue;
 }
 .popup-form {
-  padding: 60px 5px;
+  padding: 20px 5px;
   background: $darkblue;
   h3 {
     color: $white;
-    font: 700 48px/59px 'Montserrat';
+    font: 400 55px/60.5px 'Alfa Slab One', cursive;
     margin-bottom: 30px;
-    &:after {
-      content: '';
-      display: block;
-      margin: 30px auto 0;
-      width: 160px;
-      height: 1px;
-      background: $white;
-    }
   }
   h4 {
     color: $white;
-    font: 500 32px/47px 'Work Sans';
+    font: 500 25px/29.33px 'Work Sans';
     margin-bottom: 40px;
   }
   p {
-    color: #E5E5E5;
+    color: #ADD6F9;
+    font: 400 14px/16.41px "Roboto";
   }
+  .btn-cta {width: 287px;}
 }
 
 form {

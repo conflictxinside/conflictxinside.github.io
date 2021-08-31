@@ -1,22 +1,17 @@
 .modal-dialog {
-  max-width: 1378px;
+  max-width: 1106px;
 }
 .modal-content {
   color: #fff;
-  background: $darkblue url('../img/bg_exit.png') no-repeat right top / cover;
+  background: $darkblue;
   h3 {
-    color: #050C17;
-    font: 500 32px/47px 'Work Sans';
+    color: $white;
+    font: 400 55px/60.5px 'Alfa Slab One';
     margin-bottom: 40px;
-    &:after {
-      display: block;
-      content: '';
-      margin: 40px auto 0;
-      width: 100%;
-      max-width: 378px;
-      height: 1px;
-      background: $black;
-    }
+  }
+  h4 {
+    font: 400 32px/37.54px 'Work Sans';
+    color: $paleyellow;
   }
   p {
     font: 700 24px 'Work Sans';
@@ -31,31 +26,25 @@
     display: inline-block;
     text-align: right;
     color: #c4c4c4;
-    right: 40px;
+    right: 20px;
     top: 20px;
   }
   .spam{
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 16.41px;
     font-style: normal;
     font-weight: 400;
-    color: #fff;
+    color: #45AFED;
+    font-family: "roboto";
   }
 }
 form {
   color: $black;
   display: block;
   margin: 0 auto;
-  max-width: 540px;
+  max-width: 1026px;
 }
 
-.exit-form-container {
-  padding: 120px 20px;
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.55);
-  background: #F1EFE5;
-  @media(max-width: 1199px){
-    padding: 50px 15px;
-  }
-}
 
 .image1 {
   margin-left: -200px;

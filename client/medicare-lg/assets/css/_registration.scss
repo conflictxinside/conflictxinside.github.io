@@ -1,7 +1,7 @@
 .hero {
   overflow: hidden;
   position: relative;
-  background: #263C49;
+  background: $darkblue;
   @media(min-width: 992px){
     .container, .container-fluid {position: relative; z-index: 2;}
     &:after {

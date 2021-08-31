@@ -9,7 +9,6 @@ $lightestblue: #FEFEFE;
 $lightblue: #63C1EF;
 $mediumblue: #32638E;
 $blue: #285073;
-$darkblue: #618F93;
 $lightgrey: #ACACAC;
 $grey: #707070;
 $darkgrey: #96999C;
@@ -25,6 +24,7 @@ $paleyellow: #FFF7E1;
 $pinkpill: #F9C9C9;
 $pink: #E63D36;
 $darkpink: #A31414;
+$darkblue: #263C49;
 
 body {
   background: #fff;
@@ -74,6 +74,7 @@ a {
     // font: 700 30px 'Work Sans';
     font: 700 24px 'Work Sans';
     padding: .75em 1em;
+    min-width: 287px;
   }
 }
 .modal-content {
@@ -101,15 +102,16 @@ label {
 .form-control {
   border-radius: 0;
   height: 45px;
-  font: 400 18px 'Open Sans';
+  font: 400 18px 'Roboto';
   color: $grey;
+  background: #EEC2C3;
   @media(max-width: 320px){
     font-size: 16px;
   }
   &:focus {
     box-shadow: 0 0 0 0.2rem rgba($grey, .25);
     border: $grey;
-    }
+  }
 }
 .select-control{
   color: $black;
@@ -118,6 +120,10 @@ label {
 textarea.form-control {
   height: 100px;
 }
+
+.floating-label{position:relative;margin-bottom:1rem}.floating-label>input,.floating-label>label{height:3.125rem;padding:.75rem}.floating-label>label{position:absolute;top:0;left:0;display:block;width:100%;margin-bottom:0;line-height:1.5;color:#495057;pointer-events:none;cursor:text;border:1px solid transparent;border-radius:.25rem;transition:all .1s ease-in-out}.floating-label input::-webkit-input-placeholder{color:transparent}.floating-label input:-ms-input-placeholder{color:transparent}.floating-label input::-ms-input-placeholder{color:transparent}.floating-label input::-moz-placeholder{color:transparent}.floating-label input::placeholder{color:transparent}.floating-label input:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}.floating-label input:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:15px;color:$darkblue;}
+.floating-label label {font: 400 18px "Roboto"; color: $darkblue;}
+
 footer {
   padding: 50px 0;
   font-size: 16px;
@@ -200,6 +206,21 @@ footer {
   }
 }
 
-.form-control {
-  font: 300 16px 'Work Sans';
+
+@supports (-ms-ime-align: auto) {
+  .floating-label > label {
+    display: none;
+  }
+  .floating-label input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .floating-label > label {
+    display: none;
+  }
+  .floating-label input:-ms-input-placeholder {
+    color: #777;
+  }
 }

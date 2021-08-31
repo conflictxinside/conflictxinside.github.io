@@ -50,7 +50,8 @@ a {
 
 .btn.btn-cta {
   font: 700 24px 'Work Sans';
-  padding: .75em 1em; }
+  padding: .75em 1em;
+  min-width: 287px; }
 
 .modal-content {
   border-radius: 0;
@@ -77,8 +78,9 @@ label {
 .form-control {
   border-radius: 0;
   height: 45px;
-  font: 400 18px 'Open Sans';
-  color: #707070; }
+  font: 400 18px 'Roboto';
+  color: #707070;
+  background: #EEC2C3; }
 
 @media (max-width: 320px) {
   .form-control {
@@ -93,6 +95,58 @@ label {
 
 textarea.form-control {
   height: 100px; }
+
+.floating-label {
+  position: relative;
+  margin-bottom: 1rem; }
+
+.floating-label > input, .floating-label > label {
+  height: 3.125rem;
+  padding: .75rem; }
+
+.floating-label > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out; }
+
+.floating-label input::-webkit-input-placeholder {
+  color: transparent; }
+
+.floating-label input:-ms-input-placeholder {
+  color: transparent; }
+
+.floating-label input::-ms-input-placeholder {
+  color: transparent; }
+
+.floating-label input::-moz-placeholder {
+  color: transparent; }
+
+.floating-label input::placeholder {
+  color: transparent; }
+
+.floating-label input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem; }
+
+.floating-label input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 15px;
+  color: #263C49; }
+
+.floating-label label {
+  font: 400 18px "Roboto";
+  color: #263C49; }
 
 footer {
   padding: 50px 0;
@@ -233,7 +287,7 @@ footer .contact {
     font-size: 21px; } }
 
 #opt-in .modal-dialog {
-  max-width: 885px;
+  max-width: 640px;
   border: 0; }
 
 @media (max-width: 767px) {
@@ -245,43 +299,39 @@ footer .contact {
 
 #opt-in .content h3 {
   font: 700 32px/38px 'Montserrat';
-  color: #618F93; }
+  color: #263C49; }
 
 #opt-in .content h4 {
   font: 400 25px 'Montserrat';
-  color: #618F93; }
+  color: #263C49; }
 
 #opt-in .content p {
   font: 400 16px 'Montserrat';
-  color: #618F93; }
+  color: #263C49; }
 
 #opt-in .image {
-  background: #fff; }
+  background: #263C49; }
 
 #opt-in .popup-form {
-  padding: 60px 5px;
-  background: #618F93; }
+  padding: 20px 5px;
+  background: #263C49; }
 
 #opt-in .popup-form h3 {
   color: #ffffff;
-  font: 700 48px/59px 'Montserrat';
+  font: 400 55px/60.5px 'Alfa Slab One', cursive;
   margin-bottom: 30px; }
-
-#opt-in .popup-form h3:after {
-  content: '';
-  display: block;
-  margin: 30px auto 0;
-  width: 160px;
-  height: 1px;
-  background: #ffffff; }
 
 #opt-in .popup-form h4 {
   color: #ffffff;
-  font: 500 32px/47px 'Work Sans';
+  font: 500 25px/29.33px 'Work Sans';
   margin-bottom: 40px; }
 
 #opt-in .popup-form p {
-  color: #E5E5E5; }
+  color: #ADD6F9;
+  font: 400 14px/16.41px "Roboto"; }
+
+#opt-in .popup-form .btn-cta {
+  width: 287px; }
 
 #opt-in form {
   color: #ffffff;
@@ -291,25 +341,20 @@ footer .contact {
   max-width: 538px; }
 
 #exit .modal-dialog {
-  max-width: 1378px; }
+  max-width: 1106px; }
 
 #exit .modal-content {
   color: #fff;
-  background: #618F93 url("../img/bg_exit.png") no-repeat right top/cover; }
+  background: #263C49; }
 
 #exit .modal-content h3 {
-  color: #050C17;
-  font: 500 32px/47px 'Work Sans';
+  color: #ffffff;
+  font: 400 55px/60.5px 'Alfa Slab One';
   margin-bottom: 40px; }
 
-#exit .modal-content h3:after {
-  display: block;
-  content: '';
-  margin: 40px auto 0;
-  width: 100%;
-  max-width: 378px;
-  height: 1px;
-  background: #000000; }
+#exit .modal-content h4 {
+  font: 400 32px/37.54px 'Work Sans';
+  color: #FFF7E1; }
 
 #exit .modal-content p {
   font: 700 24px 'Work Sans'; }
@@ -324,29 +369,22 @@ footer .contact {
   display: inline-block;
   text-align: right;
   color: #c4c4c4;
-  right: 40px;
+  right: 20px;
   top: 20px; }
 
 #exit .modal-content .spam {
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 16.41px;
   font-style: normal;
   font-weight: 400;
-  color: #fff; }
+  color: #45AFED;
+  font-family: "roboto"; }
 
 #exit form {
   color: #000000;
   display: block;
   margin: 0 auto;
-  max-width: 540px; }
-
-#exit .exit-form-container {
-  padding: 120px 20px;
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.55);
-  background: #F1EFE5; }
-
-@media (max-width: 1199px) {
-  #exit .exit-form-container {
-    padding: 50px 15px; } }
+  max-width: 1026px; }
 
 #exit .image1 {
   margin-left: -200px; }
@@ -455,7 +493,7 @@ footer .contact {
   font-weight: 400; }
 
 .tripwire .hero .box .content2 .btn-primary {
-  background: #618F93;
+  background: #263C49;
   color: #ffffff; }
 
 .tripwire .hero .box .content2 .btn-primary:hover {
@@ -477,7 +515,7 @@ footer .contact {
 
 .tripwire #inquiry {
   background: #CEE1E7;
-  color: #618F93; }
+  color: #263C49; }
 
 .tripwire #inquiry h2 {
   font: 300 32px 'Work Sans';
@@ -514,7 +552,7 @@ footer .contact {
   background: #E63D36 url(../img/bg_confirmation.png) no-repeat right top/100%; }
 
 .confirmation .hero h1 {
-  color: #618F93;
+  color: #263C49;
   font: 700 48px/59px 'montserrat'; }
 
 @media (max-width: 991px) {
@@ -675,7 +713,7 @@ footer .contact {
 
 .leadmagnet .section {
   padding: 5rem 0;
-  color: #618F93; }
+  color: #263C49; }
 
 @media (max-width: 767px) {
   .leadmagnet .section {
@@ -727,7 +765,7 @@ footer .contact {
     font: italic 700 24px/36px 'Montserrat'; } }
 
 .leadmagnet .last a {
-  color: #618F93; }
+  color: #263C49; }
 
 .leadmagnet #intro {
   padding: 4rem 0; }
@@ -781,7 +819,7 @@ footer .contact {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
-  background: #618F93; }
+  background: #263C49; }
 
 .leadmagnet .subscribe p {
   margin-bottom: 35px; }
@@ -931,7 +969,7 @@ footer .contact {
 
 .leadmagnet #vessel .signature {
   font: 400 30px/38px 'Montserrat';
-  color: #618F93; }
+  color: #263C49; }
 
 .leadmagnet #vessel .signature strong {
   font-weight: normal; }
@@ -947,7 +985,7 @@ footer .contact {
 
 .leadmagnet #vessel .contact a {
   background: #63C1EF;
-  color: #618F93;
+  color: #263C49;
   text-decoration: none; }
 
 .leadmagnet #vessel .contact a strong {
@@ -961,7 +999,7 @@ footer .contact {
   background: #60b3dc; }
 
 .leadmagnet #vessel .contact a:last-child {
-  background: #618F93;
+  background: #263C49;
   color: #fff; }
 
 .leadmagnet #vessel .contact a:last-child:hover {
@@ -1035,5 +1073,14 @@ footer .contact {
   text-align: center;
   text-transform: uppercase; }
 
-.form-control {
-  font: 300 16px 'Work Sans'; }
+@supports (-ms-ime-align: auto) {
+  .floating-label > label {
+    display: none; }
+  .floating-label input::-ms-input-placeholder {
+    color: #777; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .floating-label > label {
+    display: none; }
+  .floating-label input:-ms-input-placeholder {
+    color: #777; } }

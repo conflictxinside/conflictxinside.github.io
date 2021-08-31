@@ -12,9 +12,9 @@
     }
   }
   .thankyou{
-    font: 500 32px 'Oswald';
+    font: 500 32px 'Work Sans';
     @media(max-width: 991px){
-      font: 500 20px/32px 'Oswald';
+      font: 500 20px/32px 'Work Sans';
     }
   }
   h3 {
@@ -24,7 +24,7 @@
     }
   }
   .office{
-    font: 500 32px 'Oswald';
+    font: 500 32px 'Work Sans';
     @media(max-width: 767px){
       font-size: 24px;
     }
@@ -56,7 +56,7 @@ footer {padding: 80px 0;}
   }
   h2 {
     color: $orange;
-    font: 300 22px 'Oswald';
+    font: 300 22px 'Work Sans';
     margin-bottom: 40px;
     span {
       display: block;

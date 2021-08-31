@@ -21,7 +21,7 @@
   h2 {
     display: block;
     margin: 0 auto 15px;
-    font: 500 32px/47px 'Oswald';
+    font: 500 32px/47px 'Work Sans';
     color: $lightestblue;
     @media(max-width: 575px){
       font-size: 20px;
@@ -38,11 +38,11 @@
     }
   }
   h3 {
-    font: 500 28px 'Oswald';
+    font: 500 28px 'Work Sans';
     color: $black;
     span{
       display: block;
-      font: 700 31px 'Oswald';
+      font: 700 31px 'Work Sans';
     }
     @media(max-width: 991px){
       font-size: 24px;
@@ -51,7 +51,7 @@
   .box {
     color: #fff;
     p {
-      font: 300 22px/30px 'Oswald';
+      font: 300 22px/30px 'Work Sans';
       color: $black;
       margin: 0;
     }
@@ -114,7 +114,7 @@
   background: #CEE1E7;
   color: $darkblue;
   h2 {
-    font: 300 32px 'Oswald';
+    font: 300 32px 'Work Sans';
     text-transform: uppercase;
   }
   small {

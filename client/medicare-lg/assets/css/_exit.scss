@@ -44,19 +44,3 @@ form {
   margin: 0 auto;
   max-width: 1026px;
 }
-
-
-.image1 {
-  margin-left: -200px;
-  @media(max-width: 1199px){
-    margin-left: -100px;
-  }
-  @media(max-width: 991px){
-    margin: 25px auto 0;
-  }
-  img {
-    @media(max-width: 991px){
-      max-width: 100%;
-    }
-  }
-}

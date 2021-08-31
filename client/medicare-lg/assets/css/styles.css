@@ -294,21 +294,6 @@ footer .contact {
   #opt-in .modal-dialog {
     margin: .5rem !important; } }
 
-#opt-in .content {
-  background: #fff; }
-
-#opt-in .content h3 {
-  font: 700 32px/38px 'Montserrat';
-  color: #263C49; }
-
-#opt-in .content h4 {
-  font: 400 25px 'Montserrat';
-  color: #263C49; }
-
-#opt-in .content p {
-  font: 400 16px 'Montserrat';
-  color: #263C49; }
-
 #opt-in .image {
   background: #263C49; }
 
@@ -385,21 +370,6 @@ footer .contact {
   display: block;
   margin: 0 auto;
   max-width: 1026px; }
-
-#exit .image1 {
-  margin-left: -200px; }
-
-@media (max-width: 1199px) {
-  #exit .image1 {
-    margin-left: -100px; } }
-
-@media (max-width: 991px) {
-  #exit .image1 {
-    margin: 25px auto 0; } }
-
-@media (max-width: 991px) {
-  #exit .image1 img {
-    max-width: 100%; } }
 
 .tripwire .hero {
   background: #EA9342 url(../img/bg_tripwire.png) no-repeat left bottom/100%; }

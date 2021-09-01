@@ -605,12 +605,6 @@ footer .contact {
 .leadmagnet .navbar span {
   color: #FEFEFE; }
 
-.leadmagnet .bg-light {
-  background: #578184 !important; }
-
-.leadmagnet .hero {
-  background: #ffffff url(../img/bg_hero.png) no-repeat left top/100%; }
-
 .leadmagnet .hero .headline {
   padding: 10% 0 0; }
 
@@ -630,110 +624,6 @@ footer .contact {
   .leadmagnet .hero .headline h2 span {
     font: 700 20px/26px 'Montserrat'; } }
 
-.leadmagnet .section {
-  padding: 5rem 0;
-  color: #263C49; }
-
-@media (max-width: 767px) {
-  .leadmagnet .section {
-    padding: 3rem 0; } }
-
-.leadmagnet .number {
-  color: #fff;
-  background: no-repeat 50%/cover url(../img/bg_number.png);
-  padding: 1rem; }
-
-.leadmagnet h4 {
-  margin: 0; }
-
-.leadmagnet li {
-  margin: 0 0 5px; }
-
-.leadmagnet .questions {
-  position: relative; }
-
-.leadmagnet .questions:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-image: url(../img/bg_border.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-@media (max-width: 420px) {
-  .leadmagnet .questions:before {
-    background-size: 150%; } }
-
-.leadmagnet .grey {
-  background: #F3F3F3; }
-
-.leadmagnet .white {
-  background: #fff; }
-
-.leadmagnet h5 {
-  font: 400 40px/44px 'Montserrat'; }
-
-.leadmagnet .last {
-  font: italic 700 29px/40px 'Montserrat'; }
-
-@media (max-width: 767px) {
-  .leadmagnet .last {
-    font: italic 700 24px/36px 'Montserrat'; } }
-
-.leadmagnet .last a {
-  color: #263C49; }
-
-.leadmagnet #intro {
-  padding: 4rem 0; }
-
-.leadmagnet #intro .container {
-  width: 80%; }
-
-.leadmagnet #intro .list {
-  background: no-repeat 50%/cover url(../img/bg_highlight.png); }
-
-.leadmagnet #intro .list h3 {
-  font: italic 700 22px 'Montserrat'; }
-
-.leadmagnet #intro .list .list-items {
-  font-size: 22px;
-  line-height: 33px; }
-
-.leadmagnet #intro .image1 img {
-  position: absolute;
-  left: -12%;
-  top: -18%; }
-
-@media (max-width: 991px) {
-  .leadmagnet #intro .image1 img {
-    position: relative;
-    top: 0;
-    left: 0; } }
-
-@media (max-width: 991px) {
-  .leadmagnet #intro .image1 {
-    text-align: center;
-    padding: 3rem 0; } }
-
-.leadmagnet #intro .image2 img {
-  top: 35%;
-  left: 95%;
-  position: absolute; }
-
-@media (max-width: 991px) {
-  .leadmagnet #intro .image2 img {
-    position: relative;
-    top: 0;
-    left: 0; } }
-
-@media (max-width: 991px) {
-  .leadmagnet #intro .image2 {
-    text-align: center;
-    padding: 3rem 0 0; } }
-
 .leadmagnet .subscribe {
   color: #ffffff;
   font-size: 18px;
@@ -743,195 +633,9 @@ footer .contact {
 .leadmagnet .subscribe p {
   margin-bottom: 35px; }
 
-.leadmagnet .box {
-  float: right;
-  color: #000000;
-  margin-left: 50px;
-  max-width: 1205px;
-  padding: 50px;
-  border: 3px solid #000000;
-  border-right: none;
-  background: #ffffff;
-  position: relative; }
-
-@media (min-width: 1920px) {
-  .leadmagnet .box {
-    margin: 0 auto !important;
-    float: none !important;
-    border: 3px solid #000000 !important; } }
-
-.leadmagnet .box h2 {
-  color: #EA9342;
-  font: 300 22px 'Work Sans';
-  margin-bottom: 40px; }
-
-.leadmagnet .box h2 span {
-  display: block;
-  margin-top: 10px;
-  color: #000000;
-  font: 700 24px 'Montserrat'; }
-
-.leadmagnet .box.box-alt {
-  float: left;
-  margin-left: 0;
-  margin-right: 50px;
-  border: 3px solid #000000;
-  border-left: none; }
-
-@media (max-width: 767px) {
-  .leadmagnet .box .image1 img {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    max-height: 200px; } }
-
-.leadmagnet #one {
-  background: #A31414 url(../img/bg_one.png) no-repeat right bottom/100%; }
-
-.leadmagnet #one .image1 {
-  margin-left: -155px; }
-
-@media (max-width: 767px) {
-  .leadmagnet #one .image1 {
-    margin: 0 auto 35px; } }
-
-@media (max-width: 767px) {
-  .leadmagnet #one .image1 img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; } }
-
-.leadmagnet #two {
-  background: #F5EEDA url(../img/bg_two.png) no-repeat left bottom/100%; }
-
-.leadmagnet #two .box {
-  max-width: 1042px; }
-
-.leadmagnet #two .image1 {
-  margin-right: -195px; }
-
-@media (max-width: 767px) {
-  .leadmagnet #two .image1 {
-    margin: 0 auto 35px; } }
-
-.leadmagnet #two .image1 img {
-  float: right; }
-
-@media (max-width: 767px) {
-  .leadmagnet #two .image1 img {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; } }
-
-.leadmagnet #three {
-  background: #EA9342 url(../img/bg_three.png) no-repeat right bottom/100%; }
-
-.leadmagnet #three .box {
-  max-width: 1145px; }
-
-.leadmagnet #three .image1 {
-  margin-left: -100px; }
-
-@media (max-width: 767px) {
-  .leadmagnet #three .image1 {
-    margin: 0 auto 35px; } }
-
-@media (max-width: 767px) {
-  .leadmagnet #three .image1 img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; } }
-
-.leadmagnet #four {
-  background: #E63D36 url(../img/bg_four.png) no-repeat right bottom/100%; }
-
-.leadmagnet #four .box {
-  max-width: 1086px; }
-
-.leadmagnet #four .image1 {
-  margin-right: -150px; }
-
-@media (max-width: 767px) {
-  .leadmagnet #four .image1 {
-    margin: 0 auto 35px; } }
-
-.leadmagnet #four .image1 img {
-  float: right; }
-
-@media (max-width: 767px) {
-  .leadmagnet #four .image1 img {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; } }
-
-.leadmagnet #lesson {
-  background: #285073;
-  color: #fff;
-  padding: 5rem 0; }
-
-.leadmagnet #lesson h2 {
-  font: 400 44px 'Montserrat';
-  color: #FFDC65;
-  text-transform: uppercase; }
-
-@media (max-width: 767px) {
-  .leadmagnet #lesson h2 {
-    font: 400 40px/44px 'Montserrat'; } }
-
-.leadmagnet #lesson .yellow a {
-  color: #FFDC65; }
-
-.leadmagnet #vessel {
-  position: relative; }
-
-.leadmagnet #vessel .signature {
-  font: 400 30px/38px 'Montserrat';
-  color: #263C49; }
-
-.leadmagnet #vessel .signature strong {
-  font-weight: normal; }
-
-@media (max-width: 575px) {
-  .leadmagnet #vessel .signature {
-    font-size: 24px; } }
-
-.leadmagnet #vessel .contact i {
-  font-size: 50px;
-  font-family: 'Montserrat';
-  font-style: normal; }
-
-.leadmagnet #vessel .contact a {
-  background: #63C1EF;
-  color: #263C49;
-  text-decoration: none; }
-
-.leadmagnet #vessel .contact a strong {
-  margin-top: 1rem;
-  font: 400 24px 'Montserrat'; }
-
-.leadmagnet #vessel .contact a:first-child {
-  background: #FEFEFE; }
-
-.leadmagnet #vessel .contact a:first-child:hover {
-  background: #60b3dc; }
-
-.leadmagnet #vessel .contact a:last-child {
-  background: #263C49;
-  color: #fff; }
-
-.leadmagnet #vessel .contact a:last-child:hover {
-  background: #305976; }
-
-.leadmagnet #vessel .contact a:hover {
-  background: #84bbd6;
-  color: #fff; }
-
 .leadmagnet #final-grouping {
   color: #000000;
-  padding: 115px 0;
-  background: #ffffff url(../img/bg_final_grouping.png) no-repeat right top/100%; }
+  padding: 115px 0; }
 
 @media (max-width: 575px) {
   .leadmagnet #final-grouping {
@@ -974,6 +678,10 @@ footer .contact {
 @media (max-width: 575px) {
   .leadmagnet #final-grouping #inquiry .form-wrapper .form-bg h2:after {
     width: 220px; } }
+
+.leadmagnet .footer-inner {
+  padding-bottom: 0;
+  border: none; }
 
 .preview .interstitial, .preview + #wrapper .conf + .interstitial {
   display: none !important; }

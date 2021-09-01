@@ -172,6 +172,7 @@ footer .contact {
   padding-bottom: 70px;
   border-bottom: 3px solid #14497C;
   max-width: 760px;
+  padding: 0 15px;
   font-family: 'roboto';
   font-size: 15px;
   line-height: 175%; }
@@ -560,7 +561,9 @@ footer .contact {
 .leadmagnet .navbar {
   padding: 1.6rem 4rem !important;
   justify-content: center !important;
-  text-align: center; }
+  text-align: center;
+  background: rgba(249, 201, 201, 0.95);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); }
 
 @media (max-width: 991px) {
   .leadmagnet .navbar {
@@ -675,9 +678,24 @@ footer .contact {
     font-size: 28px;
     line-height: 32px; } }
 
-.leadmagnet .footer-inner {
+.leadmagnet footer {
+  padding: 0; }
+
+.leadmagnet footer .footer-contact {
+  padding: 75px 0;
+  background: #263C49 url(../img/img_footer_contact.png) no-repeat center top/cover; }
+
+.leadmagnet footer .footer-contact .footer-box {
+  padding: 60px 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+  background: #ffffff; }
+
+.leadmagnet footer .footer-contact .footer-inner {
   padding-bottom: 0;
   border: none; }
+
+.leadmagnet footer .fine {
+  padding: 85px 0; }
 
 .preview .interstitial, .preview + #wrapper .conf + .interstitial {
   display: none !important; }

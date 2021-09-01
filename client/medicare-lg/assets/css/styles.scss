@@ -13,7 +13,6 @@ $lightgrey: #ACACAC;
 $grey: #707070;
 $darkgrey: #96999C;
 $darkergrey: #252525;
-$lightpink: #F5D1C4;
 
 
 $yellow: #FFDC65;
@@ -25,6 +24,7 @@ $pinkpill: #F9C9C9;
 $pink: #E63D36;
 $darkpink: #A31414;
 $darkblue: #263C49;
+$lightpink: #EEC2C3;
 
 body {
   background: #fff;
@@ -104,7 +104,7 @@ label {
   height: 45px;
   font: 400 18px 'Roboto';
   color: $grey;
-  background: #EEC2C3;
+  background: $lightpink;
   @media(max-width: 320px){
     font-size: 16px;
   }
@@ -157,6 +157,7 @@ footer {
   padding-bottom: 70px;
   border-bottom: 3px solid #14497C;
   max-width: 760px;
+  padding: 0 15px;
   font-family: 'roboto';
   font-size: 15px;
   line-height: 175%;

@@ -3,6 +3,8 @@
   padding: 1.6rem 4rem !important;
   justify-content: center !important;
   text-align: center;
+  background: rgba(249, 201, 201, 0.95);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   @media(max-width: 991px){
     padding: 1.6rem 1rem !important;
   }
@@ -117,5 +119,22 @@
     }
   }
 }
+footer {
+  padding: 0;
+  .footer-contact {
+    padding: 75px 0;
+    background: $darkblue url(../img/img_footer_contact.png) no-repeat center top / cover;
+    .footer-box {
+      padding: 60px 0;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+      background: $white;
+    }
+      .footer-inner {
+        padding-bottom: 0; border: none;
+      }
+  }
+  .fine {
+    padding: 85px 0;
+  }
+}
 
-.footer-inner {padding-bottom: 0; border: none;}

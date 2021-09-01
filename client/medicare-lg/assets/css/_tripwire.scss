@@ -1,121 +1,88 @@
-
 .hero {
-  background: $orange url(../img/bg_tripwire.png) no-repeat left bottom / 100%;
+  background: $paleyellow;
   h1 {
-    font: 700 48px/59px 'Montserrat';
-    color: $lightestblue;
-    margin-bottom: 30px;
+    text-transform: uppercase;
+    font: 600 31px/130.8% 'Work Sans';
+    color: #45AFED;
     @media(max-width: 575px) {
-      font-size: 38px;
-      line-height: 42px;
+      font-size: 26px;
     }
     @media(max-width: 420px){
-      font-size: 36px;
-      line-height: 40px;
+      font-size: 24px;
     }
     @media(max-width: 320px){
-      font-size: 34px;
-      line-height: 36px;
+      font-size: 20px;
     }
   }
   h2 {
-    display: block;
-    margin: 0 auto 15px;
-    font: 500 32px/47px 'Work Sans';
-    color: $lightestblue;
+    font: 700 43px/91.5% 'Allan', cursive;
+    color: #0D2646;
     @media(max-width: 575px){
       font-size: 20px;
       line-height: 26px;
     }
-    @media(max-width: 1024px){
-      width: 70%;
-    }
-    @media(max-width: 991px){
-      width: 75%;
-    }
-    @media(max-width: 767px){
-      width: 100%;
-    }
-  }
-  h3 {
-    font: 500 28px 'Work Sans';
-    color: $black;
-    span{
-      display: block;
-      font: 700 31px 'Work Sans';
-    }
-    @media(max-width: 991px){
-      font-size: 24px;
-    }
+    margin: 25px auto 0;
   }
   .box {
-    color: #fff;
+    position: relative;
+    background: $darkblue;
+    &.right {background: #F5D354;}
+    .btn-primary {
+        color: #fff;
+        font-size: 30px;
+        @media(max-width: 991px){
+          font-size: 24px;
+        }
+    }
     p {
-      font: 300 22px/30px 'Work Sans';
-      color: $black;
+      font: 400 22px/30px 'Roboto';
+      color: #fff;
       margin: 0;
     }
     .content{
-      height: 130px;
-      @media(max-width:1199px){
-        height: 150px; 
+      min-height: 150px;
+      h3{
+        font: 700 20px/110% 'Roboto';
       }
-      @media(max-width:991px){
-        height: 180px;
-      }
-      @media(max-width: 767px){
-        height: auto;
+      p, h3 span{
+        font: 400 20px/110% 'Roboto';
       }
     }
-    .content1{
-      h3{
-        font-size: 28px;
-        font-weight: 700;
-      }
-      .btn-primary{
-        &:focus{
-          box-shadow: 0 0 0 0.2rem rgba($pink,0.5);
-        }
-      }
-  }
+    .content1 {color: $white;}
     .content2{
-      h3{
-        em{
-          font-weight: 400;
-        }
-      }
+      h3 {color: $darkblue;}
       .btn-primary{
-          background: $darkblue;
-          color: $white;
+        background: $white;
+        color: $darkblue;
         &:hover{
-          background: $lightblue;
           color: $white;
+          background: $darkblue;
         }
         &:focus{
-          box-shadow: 0 0 0 0.2rem rgba($lightblue,0.5);
+          box-shadow: 0 0 0 0.2rem rgba($blue,0.5);
         }
       }
     }
   }
-  .left{
-    color: $black;
-    border: 3px solid $black;
-    background: $white;
+  h3 {
+    font: 700 28px 'Roboto';
+    color: #fff;
+
+    em {
+      font: italic 400 30px 'Roboto';
+    }
   }
-  .right{
-    color: $black;
-    border: 3px solid $black;
-    background: $white;
-  } 
 }
 
-
 #inquiry {
-  background: #CEE1E7;
-  color: $darkblue;
+  color: $white;
+  background: $darkblue;
   h2 {
-    font: 300 32px 'Work Sans';
-    text-transform: uppercase;
+    color: $white;
+    font: 500 italic 31px/43.4px 'Roboto';
+    @media(max-width: 767px){
+      font: 500 italic 24px/32px 'Roboto';
+    }
   }
   small {
     font-style: italic;
@@ -125,15 +92,15 @@
       color: $lightgrey !important;
     }
   }
+  form {max-width: 1000px;}
+  .form-control {color: $darkblue;}
+  .form-control::placeholder {color: $darkblue;}
 }
 .btn-primary{
-  font-size: 22px;
-  padding: .9em 1.25em;
-  width: 11em;
-  height: 3em;
-  @media(max-width:575px){
-    width: 100%;
-  }
+  padding: .48em 1.25em;
+  display: block;
+  max-width: 291px;
+  margin: 0 auto;
 }
 
 .disclouser-box {

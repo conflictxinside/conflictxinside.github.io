@@ -372,124 +372,99 @@ footer .contact {
   max-width: 1026px; }
 
 .tripwire .hero {
-  background: #EA9342 url(../img/bg_tripwire.png) no-repeat left bottom/100%; }
+  background: #FFF7E1; }
 
 .tripwire .hero h1 {
-  font: 700 48px/59px 'Montserrat';
-  color: #FEFEFE;
-  margin-bottom: 30px; }
+  text-transform: uppercase;
+  font: 600 31px/130.8% 'Work Sans';
+  color: #45AFED; }
 
 @media (max-width: 575px) {
   .tripwire .hero h1 {
-    font-size: 38px;
-    line-height: 42px; } }
+    font-size: 26px; } }
 
 @media (max-width: 420px) {
   .tripwire .hero h1 {
-    font-size: 36px;
-    line-height: 40px; } }
+    font-size: 24px; } }
 
 @media (max-width: 320px) {
   .tripwire .hero h1 {
-    font-size: 34px;
-    line-height: 36px; } }
+    font-size: 20px; } }
 
 .tripwire .hero h2 {
-  display: block;
-  margin: 0 auto 15px;
-  font: 500 32px/47px 'Work Sans';
-  color: #FEFEFE; }
+  font: 700 43px/91.5% 'Allan', cursive;
+  color: #0D2646;
+  margin: 25px auto 0; }
 
 @media (max-width: 575px) {
   .tripwire .hero h2 {
     font-size: 20px;
     line-height: 26px; } }
 
-@media (max-width: 1024px) {
-  .tripwire .hero h2 {
-    width: 70%; } }
+.tripwire .hero .box {
+  position: relative;
+  background: #263C49; }
+
+.tripwire .hero .box.right {
+  background: #F5D354; }
+
+.tripwire .hero .box .btn-primary {
+  color: #fff;
+  font-size: 30px; }
 
 @media (max-width: 991px) {
-  .tripwire .hero h2 {
-    width: 75%; } }
-
-@media (max-width: 767px) {
-  .tripwire .hero h2 {
-    width: 100%; } }
-
-.tripwire .hero h3 {
-  font: 500 28px 'Work Sans';
-  color: #000000; }
-
-.tripwire .hero h3 span {
-  display: block;
-  font: 700 31px 'Work Sans'; }
-
-@media (max-width: 991px) {
-  .tripwire .hero h3 {
+  .tripwire .hero .box .btn-primary {
     font-size: 24px; } }
 
-.tripwire .hero .box {
-  color: #fff; }
-
 .tripwire .hero .box p {
-  font: 300 22px/30px 'Work Sans';
-  color: #000000;
+  font: 400 22px/30px 'Roboto';
+  color: #fff;
   margin: 0; }
 
 .tripwire .hero .box .content {
-  height: 130px; }
+  min-height: 150px; }
 
-@media (max-width: 1199px) {
-  .tripwire .hero .box .content {
-    height: 150px; } }
+.tripwire .hero .box .content h3 {
+  font: 700 20px/110% 'Roboto'; }
 
-@media (max-width: 991px) {
-  .tripwire .hero .box .content {
-    height: 180px; } }
+.tripwire .hero .box .content p, .tripwire .hero .box .content h3 span {
+  font: 400 20px/110% 'Roboto'; }
 
-@media (max-width: 767px) {
-  .tripwire .hero .box .content {
-    height: auto; } }
-
-.tripwire .hero .box .content1 h3 {
-  font-size: 28px;
-  font-weight: 700; }
-
-.tripwire .hero .box .content1 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(230, 61, 54, 0.5); }
-
-.tripwire .hero .box .content2 h3 em {
-  font-weight: 400; }
-
-.tripwire .hero .box .content2 .btn-primary {
-  background: #263C49;
+.tripwire .hero .box .content1 {
   color: #ffffff; }
 
-.tripwire .hero .box .content2 .btn-primary:hover {
-  background: #63C1EF;
-  color: #ffffff; }
-
-.tripwire .hero .box .content2 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(99, 193, 239, 0.5); }
-
-.tripwire .hero .left {
-  color: #000000;
-  border: 3px solid #000000;
-  background: #ffffff; }
-
-.tripwire .hero .right {
-  color: #000000;
-  border: 3px solid #000000;
-  background: #ffffff; }
-
-.tripwire #inquiry {
-  background: #CEE1E7;
+.tripwire .hero .box .content2 h3 {
   color: #263C49; }
 
+.tripwire .hero .box .content2 .btn-primary {
+  background: #ffffff;
+  color: #263C49; }
+
+.tripwire .hero .box .content2 .btn-primary:hover {
+  color: #ffffff;
+  background: #263C49; }
+
+.tripwire .hero .box .content2 .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 80, 115, 0.5); }
+
+.tripwire .hero h3 {
+  font: 700 28px 'Roboto';
+  color: #fff; }
+
+.tripwire .hero h3 em {
+  font: italic 400 30px 'Roboto'; }
+
+.tripwire #inquiry {
+  color: #ffffff;
+  background: #263C49; }
+
 .tripwire #inquiry h2 {
-  font: 300 32px 'Work Sans';
-  text-transform: uppercase; }
+  color: #ffffff;
+  font: 500 italic 31px/43.4px 'Roboto'; }
+
+@media (max-width: 767px) {
+  .tripwire #inquiry h2 {
+    font: 500 italic 24px/32px 'Roboto'; } }
 
 .tripwire #inquiry small {
   font-style: italic; }
@@ -497,15 +472,20 @@ footer .contact {
 .tripwire #inquiry .custom-select::placeholder {
   color: #ACACAC !important; }
 
-.tripwire .btn-primary {
-  font-size: 22px;
-  padding: .9em 1.25em;
-  width: 11em;
-  height: 3em; }
+.tripwire #inquiry form {
+  max-width: 1000px; }
 
-@media (max-width: 575px) {
-  .tripwire .btn-primary {
-    width: 100%; } }
+.tripwire #inquiry .form-control {
+  color: #263C49; }
+
+.tripwire #inquiry .form-control::placeholder {
+  color: #263C49; }
+
+.tripwire .btn-primary {
+  padding: .48em 1.25em;
+  display: block;
+  max-width: 291px;
+  margin: 0 auto; }
 
 .tripwire .disclouser-box {
   margin: 50px auto 0;

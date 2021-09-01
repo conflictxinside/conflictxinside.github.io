@@ -50,6 +50,9 @@
       padding: .9em 0.6em;
       width: 100%;
     }
+    @media(max-width: 575px){
+      font-size: 14px;
+    }
   }
   span{
     color: $lightestblue;
@@ -118,6 +121,10 @@
         font-size: 32px;
         line-height: 51px;
       }
+        @media(max-width: 575px){
+          font-size: 26px;
+          line-height: 36px;
+        }
       span {
         font-family: Bevan;
         font-style: normal;
@@ -131,6 +138,10 @@
         @media(max-width: 767px){
           font-size: 46px;
           line-height: 43px;
+        }
+        @media(max-width: 575px){
+          font-size: 32px;
+          line-height: 30px;
         }
       }
     }
@@ -187,16 +198,179 @@
   font-size: 18px;
   font-weight: 500;
   background: $darkblue;
+  @media(max-width: 575px){
+    font-size: 14px;
+  }
   p {margin-bottom: 20px;}
-  .btn-primary {padding: .6em 1.25em;}
+  .btn-primary {
+    padding: .6em 1.25em;
+    @media(max-width: 575px){
+      padding: .6em .2em;
+      font-size: 15px;
+    }
+  }
   &.subscribe-yellow {color: $darkblue; background: $paleyellow;}
+  &.subscribe-lightblue {color: $darkblue; background: #B0DBFF;}
 }
 
 .lead-section {
   padding: 70px 0;
-  background: $white;
+  background: #FFF9EA;
   @media(max-width: 991px){
     padding: 35px 0;
+  }
+  a {font-weight: bold; color: $pink;}
+  h2 {
+    font-family: Bevan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 59px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #0D2646;
+    margin-bottom: 40px;
+    @media(max-width: 991px){
+      font-size: 42px;
+      line-height: 59px;
+      margin-bottom: 20px;
+    }
+    @media(max-width: 767px){
+      font-size: 36px;
+      line-height: 53px;
+    }
+  }
+  h3 {
+    font-family: Allan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 91.5%;
+    color: $darkblue;
+    margin-bottom: 30px;
+    @media(max-width: 991px){
+      font-size: 26px;
+    }
+    span {
+      font-weight: normal;
+    }
+  }
+  p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130.8%;
+    letter-spacing: -0.02em;
+    color: $darkblue;
+    b, strong {color: $black;}
+    &.fancy {
+      font-family: Allan;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 130.8%;
+      letter-spacing: -0.02em;
+      color: $black;
+    }
+  }
+  ul.bold-list {
+    padding-left: 15px;
+    li {font-weight: bold;}
+  }
+  &.why-choose {padding-bottom: 35px; background: #D8EDFF;}
+}
+.document-section {
+  padding-bottom: 65px;
+  background: #D8EDFF;
+  .document {
+    background: #FFF7E1;
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 60px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    @media(max-width: 991px){
+      padding: 25px;
+    }
+    @media(max-width: 767px){
+      padding: 15px;
+    }
+    .dashed {
+      @media(min-width: 768px){
+        border-right: 3px dashed #ADD6F9;
+      }
+      @media(max-width: 767px){
+        border-bottom: 3px dashed #ADD6F9;
+      }
+    }
+    .document-row {
+      margin-top: 40px;
+      &:first-child {margin-top: 0;}
+      .headline {
+        padding: 20px 15px;
+        background: #F9CCCA;
+        h4 {
+          font-family: Work Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 30px;
+          line-height: 130.8%;
+          text-align: center;
+          letter-spacing: -0.02em;
+          text-transform: uppercase;
+          color: $darkblue;
+          margin-top: 0;
+          padding: 0;
+          &:last-child {margin: 0;}
+          @media(max-width: 991px){
+            font-size: 24px;
+          }
+          @media(max-width: 767px){
+            font-size: 20px;
+          }
+        }
+        p {
+          font-family: Work Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 130.8%;
+          text-align: center;
+          letter-spacing: -0.02em;
+        }
+      }
+      h5 {
+        font-family: Allan;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 130.8%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #45AFED;
+        margin: 0;
+        padding: 0;
+        @media(max-width: 767px){
+          font-size: 24px;
+        }
+      }
+      ul {
+        padding: 0 0 0 15px;
+        li {
+          padding: 0;
+          font-family: Work Sans;
+          font-style: italic;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 130.8%;
+          letter-spacing: -0.02em;
+          color: $black;
+        }
+      }
+      p.image {
+        margin: 40px 0;
+        &:first-child {margin-top: 0;}
+      }
+    }
   }
 }
 

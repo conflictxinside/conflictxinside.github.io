@@ -628,6 +628,10 @@ footer .contact {
     padding: .9em 0.6em;
     width: 100%; } }
 
+@media (max-width: 575px) {
+  .leadmagnet .navbar .btn {
+    font-size: 14px; } }
+
 .leadmagnet .navbar span {
   color: #FEFEFE; }
 
@@ -704,6 +708,11 @@ footer .contact {
     font-size: 32px;
     line-height: 51px; } }
 
+@media (max-width: 575px) {
+  .leadmagnet .hero .hero-box-main h1 {
+    font-size: 26px;
+    line-height: 36px; } }
+
 .leadmagnet .hero .hero-box-main h1 span {
   font-family: Bevan;
   font-style: normal;
@@ -720,6 +729,11 @@ footer .contact {
   .leadmagnet .hero .hero-box-main h1 span {
     font-size: 46px;
     line-height: 43px; } }
+
+@media (max-width: 575px) {
+  .leadmagnet .hero .hero-box-main h1 span {
+    font-size: 32px;
+    line-height: 30px; } }
 
 .leadmagnet .hero .hero-box-main h2 {
   color: #263C49;
@@ -774,23 +788,213 @@ footer .contact {
   font-weight: 500;
   background: #263C49; }
 
+@media (max-width: 575px) {
+  .leadmagnet .subscribe {
+    font-size: 14px; } }
+
 .leadmagnet .subscribe p {
   margin-bottom: 20px; }
 
 .leadmagnet .subscribe .btn-primary {
   padding: .6em 1.25em; }
 
+@media (max-width: 575px) {
+  .leadmagnet .subscribe .btn-primary {
+    padding: .6em .2em;
+    font-size: 15px; } }
+
 .leadmagnet .subscribe.subscribe-yellow {
   color: #263C49;
   background: #FFF7E1; }
 
+.leadmagnet .subscribe.subscribe-lightblue {
+  color: #263C49;
+  background: #B0DBFF; }
+
 .leadmagnet .lead-section {
   padding: 70px 0;
-  background: #ffffff; }
+  background: #FFF9EA; }
 
 @media (max-width: 991px) {
   .leadmagnet .lead-section {
     padding: 35px 0; } }
+
+.leadmagnet .lead-section a {
+  font-weight: bold;
+  color: #E63D36; }
+
+.leadmagnet .lead-section h2 {
+  font-family: Bevan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 59px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #0D2646;
+  margin-bottom: 40px; }
+
+@media (max-width: 991px) {
+  .leadmagnet .lead-section h2 {
+    font-size: 42px;
+    line-height: 59px;
+    margin-bottom: 20px; } }
+
+@media (max-width: 767px) {
+  .leadmagnet .lead-section h2 {
+    font-size: 36px;
+    line-height: 53px; } }
+
+.leadmagnet .lead-section h3 {
+  font-family: Allan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 91.5%;
+  color: #263C49;
+  margin-bottom: 30px; }
+
+@media (max-width: 991px) {
+  .leadmagnet .lead-section h3 {
+    font-size: 26px; } }
+
+.leadmagnet .lead-section h3 span {
+  font-weight: normal; }
+
+.leadmagnet .lead-section p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130.8%;
+  letter-spacing: -0.02em;
+  color: #263C49; }
+
+.leadmagnet .lead-section p b, .leadmagnet .lead-section p strong {
+  color: #000000; }
+
+.leadmagnet .lead-section p.fancy {
+  font-family: Allan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 130.8%;
+  letter-spacing: -0.02em;
+  color: #000000; }
+
+.leadmagnet .lead-section ul.bold-list {
+  padding-left: 15px; }
+
+.leadmagnet .lead-section ul.bold-list li {
+  font-weight: bold; }
+
+.leadmagnet .lead-section.why-choose {
+  padding-bottom: 35px;
+  background: #D8EDFF; }
+
+.leadmagnet .document-section {
+  padding-bottom: 65px;
+  background: #D8EDFF; }
+
+.leadmagnet .document-section .document {
+  background: #FFF7E1;
+  border: 10px solid #FFFFFF;
+  box-sizing: border-box;
+  padding: 60px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4); }
+
+@media (max-width: 991px) {
+  .leadmagnet .document-section .document {
+    padding: 25px; } }
+
+@media (max-width: 767px) {
+  .leadmagnet .document-section .document {
+    padding: 15px; } }
+
+@media (min-width: 768px) {
+  .leadmagnet .document-section .document .dashed {
+    border-right: 3px dashed #ADD6F9; } }
+
+@media (max-width: 767px) {
+  .leadmagnet .document-section .document .dashed {
+    border-bottom: 3px dashed #ADD6F9; } }
+
+.leadmagnet .document-section .document .document-row {
+  margin-top: 40px; }
+
+.leadmagnet .document-section .document .document-row:first-child {
+  margin-top: 0; }
+
+.leadmagnet .document-section .document .document-row .headline {
+  padding: 20px 15px;
+  background: #F9CCCA; }
+
+.leadmagnet .document-section .document .document-row .headline h4 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 130.8%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #263C49;
+  margin-top: 0;
+  padding: 0; }
+
+.leadmagnet .document-section .document .document-row .headline h4:last-child {
+  margin: 0; }
+
+@media (max-width: 991px) {
+  .leadmagnet .document-section .document .document-row .headline h4 {
+    font-size: 24px; } }
+
+@media (max-width: 767px) {
+  .leadmagnet .document-section .document .document-row .headline h4 {
+    font-size: 20px; } }
+
+.leadmagnet .document-section .document .document-row .headline p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130.8%;
+  text-align: center;
+  letter-spacing: -0.02em; }
+
+.leadmagnet .document-section .document .document-row h5 {
+  font-family: Allan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 130.8%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #45AFED;
+  margin: 0;
+  padding: 0; }
+
+@media (max-width: 767px) {
+  .leadmagnet .document-section .document .document-row h5 {
+    font-size: 24px; } }
+
+.leadmagnet .document-section .document .document-row ul {
+  padding: 0 0 0 15px; }
+
+.leadmagnet .document-section .document .document-row ul li {
+  padding: 0;
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130.8%;
+  letter-spacing: -0.02em;
+  color: #000000; }
+
+.leadmagnet .document-section .document .document-row p.image {
+  margin: 40px 0; }
+
+.leadmagnet .document-section .document .document-row p.image:first-child {
+  margin-top: 0; }
 
 .leadmagnet #inquiry {
   padding: 60px 0;

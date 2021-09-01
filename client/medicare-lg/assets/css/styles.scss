@@ -121,7 +121,19 @@ textarea.form-control {
   height: 100px;
 }
 
-.floating-label{position:relative;margin-bottom:1rem}.floating-label>input,.floating-label>label{height:3.125rem;padding:.75rem}.floating-label>label{position:absolute;top:0;left:0;display:block;width:100%;margin-bottom:0;line-height:1.5;color:#495057;pointer-events:none;cursor:text;border:1px solid transparent;border-radius:.25rem;transition:all .1s ease-in-out}.floating-label input::-webkit-input-placeholder{color:transparent}.floating-label input:-ms-input-placeholder{color:transparent}.floating-label input::-ms-input-placeholder{color:transparent}.floating-label input::-moz-placeholder{color:transparent}.floating-label input::placeholder{color:transparent}.floating-label input:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}.floating-label input:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:15px;color:$darkblue;}
+
+
+.floating-label{position:relative;}
+.floating-label>input,.floating-label>label{height:3.125rem;padding:.75rem}
+.floating-label>textarea {padding:.75rem}
+.floating-label>label{position:absolute;top:0;left:0;display:block;width:100%;margin-bottom:0;line-height:1.5;color:#495057;pointer-events:none;cursor:text;border:1px solid transparent;border-radius:.25rem;transition:all .1s ease-in-out}
+.floating-label input::-webkit-input-placeholder, .floating-label textarea::-webkit-input-placeholder{color:transparent}
+.floating-label input:-ms-input-placeholder, .floating-label textarea:-ms-input-placeholder{color:transparent}
+.floating-label input::-ms-input-placeholder, .floating-label textarea::-ms-input-placeholder{color:transparent}
+.floating-label input::-moz-placeholder, .floating-label textarea::-moz-placeholder{color:transparent}
+.floating-label input::placeholder, .floating-label textarea::placeholder{color:transparent}
+.floating-label input:not(:placeholder-shown), .floating-label textarea:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}
+.floating-label input:not(:placeholder-shown)~label, .floating-label textarea:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:15px;color:$darkblue;}
 .floating-label label {font: 400 18px "Roboto"; color: $darkblue;}
 
 footer {

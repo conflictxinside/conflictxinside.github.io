@@ -78,48 +78,44 @@
 
 
 
-#final-grouping {
-  color: $black;
-  padding: 115px 0;
-  @media(max-width:575px) {
-      background-size: auto;
-  }
-  #final-text {
-    h2 {
-      font: 700 48px 'Montserrat';
-      color: $black;
-      margin-bottom: 80px;
-    }
-    p {
-      margin-bottom: 30px;
-      &:last-child {margin-bottom: 0;}
-    }
-  }
-  #inquiry{
-    margin-top: 90px;
-    .form-wrapper {
-      margin: 0 auto;
-      max-width: 924px;
-      .form-bg {
-        background: $lightpink;
-        h2{
-          color: $black;
-          font: 700 24px/29px 'Montserrat';
-          margin-bottom: 40px;
-          &:after {
-            display: block;
-            content: '';
-            width: 320px;
-            height: 1px;
-            margin: 40px auto 0;
-            background: $black;
-            @media(max-width:575px) {
-                width: 220px;
-            }
+#inquiry{
+  padding: 60px 0;
+  background: $darkblue;
+  .btn {width: 158px; padding: 13.5px 0;}
+  .form-wrapper {
+    .form-bg {
+      h2{
+        font-family: "Allan", cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: $white;
+        @media(max-width:991px){
+          font-size: 24px;
+          line-height: 28px;
+        }
+        span {
+          display: block;
+          font-family: Work Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 39px;
+          text-align: center;
+          letter-spacing: -0.02em;
+          text-transform: uppercase;
+          margin-top: 5px;
+          @media(max-width:991px){
+            font-size: 28px;
+            line-height: 32px;
           }
         }
       }
     }
   }
 }
+
 .footer-inner {padding-bottom: 0; border: none;}

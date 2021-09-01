@@ -47,8 +47,8 @@
 
     <div class="subscribe p-5 text-center d-flex flex-column justify-content-center align-items-center">
       <div class="subscribe-text-wrapper">
-        <p>Reveal the portfolio "ingredients" you may be missing?</p>
-        <a href="#inquiry" class="btn btn-primary">Book your “Perfect Cocktail” Strategy Session today</a>
+        <p>Would you like help comparing plans and prices?</p>
+        <a href="#inquiry" class="btn btn-primary">Book a FREE Medicare Optimization Session</a>
       </div>
     </div>
 
@@ -56,59 +56,74 @@
 
 
 
-    <section id="final-grouping" class="section">
-      <div class="newsletter-wrapper" id="inquiry">
-        <div class="container">
-          <div class="form-wrapper">
-            <div class="form-bg mx-auto white-bg p-5 shadowed">
-              <h2 class="text-center">
-                Reveal the portfolio "ingredients" you may be missing?<br />
-                Book your “Perfect Cocktail” Strategy Session today
-              </h2>
-              <div class="hr-black"></div>
-              <form class="form mx-auto w-100 w-md-70 align-items-center" id="contact" action="#" method="post">
-                <div>
-                  <div class="form-group row">
-                    <div class="col-md-4 pt-2 form-field-tag">First Name</div>
-                    <div class="col-md-8 form-field-input"><input type="text" class="form-control" required pattern="[a-zA-Z]+" name="name[]" placeholder="Jane" title="Please enter a valid name. No numbers or special characters are allowed." /></div>
+    <section id="inquiry" class="section newsletter-wrapper">
+      <div class="container">
+        <div class="form-wrapper">
+          <div class="form-bg">
+            <h2 class="mb-5 text-center">
+              Would you like help comparing plans and prices?
+              <span>Book a FREE Medicare <br class="d-block d-md-none" />Optimization Session</span>
+            </h2>
+            <div class="hr-black"></div>
+            <form class="form mx-auto" id="contact" action="#" method="post">
+              <div>
+                <div class="row form-group">
+                  <div class="col-md-6">
+                    <div class="floating-label">
+                      <input type="text" class="form-control" required pattern="[a-zA-Z]+" name="name[]" placeholder="Jane" title="Please enter a valid name. No numbers or special characters are allowed." />
+                      <label>First Name</label>
+                    </div>
                   </div>
-                  <div class="form-group row">
-                    <div class="col-md-4 pt-2 form-field-tag">Last Name</div>
-                    <div class="col-md-8 form-field-input"><input type="text" class="form-control" required pattern="[a-zA-Z]+" name="name[]" placeholder="Doe" title="Please enter a valid name. No numbers or special characters are allowed." /></div>
+                  <div class="col-md-6 mt-3 mt-md-0">
+                    <div class="floating-label">
+                      <input type="text" class="form-control" required pattern="[a-zA-Z]+" name="name[]" placeholder="Doe" title="Please enter a valid name. No numbers or special characters are allowed." />
+                      <label>Last Name</label>
+                    </div>
                   </div>
-                  <div class="form-group row">
-                    <div class="col-md-4 pt-2 form-field-tag">Email</div>
-                    <div class="col-md-8 form-field-input"><input type="email" class="form-control" required name="email" placeholder="me@email.com" /></div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-12">
+                    <div class="floating-label">
+                      <input type="email" class="form-control" required name="email" placeholder="me@email.com" />
+                      <label>Email</label>
+                    </div>
                   </div>
-                  <div class="form-group row">
-                    <div class="col-md-4 pt-2 form-field-tag">Phone</div>
-                    <div class="col-md-8 form-field-input"><input type="tel" class="form-control" name="phone_number" placeholder="555.555.5555" /></div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-12">
+                    <div class="floating-label">
+                      <input type="tel" class="form-control" name="phone_number" placeholder="555.555.5555" />
+                      <label>Phone</label>
+                    </div>
                   </div>
-                  <div class="form-group row">
-                    <div class="col-md-4 pt-2 form-field-tag">Best Time to Reach You</div>
-                    <div class="col-md-8 form-field-input">
+                </div>
+                <div class="row form-group">
+                  <div class="col-12">
                       <select class="form-control custom-select" name="preferred-call-window">
                         <option selected>Preferred Call Window</option>
                         <option value="Morning">No Preference</option>
                         <option value="Morning">Morning</option>
                         <option value="Afternoon">Afternoon</option>
                       </select>
+                  </div>
+                </div>
+                <div class="row form-group">
+                  <div class="col-12">
+                    <div class="floating-label">
+                      <textarea class="form-control" name="about-info" placeholder="Tell me more here." rows="3"></textarea>
+                      <label>What should I know about you to prepare for our call?</label>
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <div class="col-md-4 pt-2 form-field-tag">What should I know about you to prepare for our call?</div>
-                    <div class="col-md-8 form-field-input"><textarea class="form-control" name="about-info" placeholder="Tell me more here." rows="3"></textarea></div>
-                  </div>
                 </div>
-                <input type="hidden" name="vessel-id" value="[VESSEL_ID_HASH]" />
-                <input type="hidden" name="campaign-id" value="[CAMPAIGN_ID_HASH]" />
-                <input type="hidden" name="step-id" value="[STEP_ID_HASH]" />
-                <input type="hidden" name="target-step-id" value='[STEP_ID order="4"]' />
-                <div class="form-submit-container text-center">
-                  <input type="submit" style="white-space: normal;" class="btn button btn-primary mt-3 px-5" value="Book Now!" />
-                </div>
-              </form>
-            </div>
+              </div>
+              <input type="hidden" name="vessel-id" value="[VESSEL_ID_HASH]" />
+              <input type="hidden" name="campaign-id" value="[CAMPAIGN_ID_HASH]" />
+              <input type="hidden" name="step-id" value="[STEP_ID_HASH]" />
+              <input type="hidden" name="target-step-id" value='[STEP_ID order="4"]' />
+              <div class="form-submit-container text-center">
+                <input type="submit" style="white-space: normal;" class="btn button btn-primary mt-4 mx-auto d-block" value="SUBMIT" />
+              </div>
+            </form>
           </div>
         </div>
       </div>

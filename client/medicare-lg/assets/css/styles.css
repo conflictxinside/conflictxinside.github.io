@@ -97,11 +97,13 @@ textarea.form-control {
   height: 100px; }
 
 .floating-label {
-  position: relative;
-  margin-bottom: 1rem; }
+  position: relative; }
 
 .floating-label > input, .floating-label > label {
   height: 3.125rem;
+  padding: .75rem; }
+
+.floating-label > textarea {
   padding: .75rem; }
 
 .floating-label > label {
@@ -119,26 +121,26 @@ textarea.form-control {
   border-radius: .25rem;
   transition: all .1s ease-in-out; }
 
-.floating-label input::-webkit-input-placeholder {
+.floating-label input::-webkit-input-placeholder, .floating-label textarea::-webkit-input-placeholder {
   color: transparent; }
 
-.floating-label input:-ms-input-placeholder {
+.floating-label input:-ms-input-placeholder, .floating-label textarea:-ms-input-placeholder {
   color: transparent; }
 
-.floating-label input::-ms-input-placeholder {
+.floating-label input::-ms-input-placeholder, .floating-label textarea::-ms-input-placeholder {
   color: transparent; }
 
-.floating-label input::-moz-placeholder {
+.floating-label input::-moz-placeholder, .floating-label textarea::-moz-placeholder {
   color: transparent; }
 
-.floating-label input::placeholder {
+.floating-label input::placeholder, .floating-label textarea::placeholder {
   color: transparent; }
 
-.floating-label input:not(:placeholder-shown) {
+.floating-label input:not(:placeholder-shown), .floating-label textarea:not(:placeholder-shown) {
   padding-top: 1.25rem;
   padding-bottom: .25rem; }
 
-.floating-label input:not(:placeholder-shown) ~ label {
+.floating-label input:not(:placeholder-shown) ~ label, .floating-label textarea:not(:placeholder-shown) ~ label {
   padding-top: .25rem;
   padding-bottom: .25rem;
   font-size: 15px;
@@ -633,51 +635,45 @@ footer .contact {
 .leadmagnet .subscribe p {
   margin-bottom: 35px; }
 
-.leadmagnet #final-grouping {
-  color: #000000;
-  padding: 115px 0; }
+.leadmagnet #inquiry {
+  padding: 60px 0;
+  background: #263C49; }
 
-@media (max-width: 575px) {
-  .leadmagnet #final-grouping {
-    background-size: auto; } }
+.leadmagnet #inquiry .btn {
+  width: 158px;
+  padding: 13.5px 0; }
 
-.leadmagnet #final-grouping #final-text h2 {
-  font: 700 48px 'Montserrat';
-  color: #000000;
-  margin-bottom: 80px; }
+.leadmagnet #inquiry .form-wrapper .form-bg h2 {
+  font-family: "Allan", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff; }
 
-.leadmagnet #final-grouping #final-text p {
-  margin-bottom: 30px; }
+@media (max-width: 991px) {
+  .leadmagnet #inquiry .form-wrapper .form-bg h2 {
+    font-size: 24px;
+    line-height: 28px; } }
 
-.leadmagnet #final-grouping #final-text p:last-child {
-  margin-bottom: 0; }
-
-.leadmagnet #final-grouping #inquiry {
-  margin-top: 90px; }
-
-.leadmagnet #final-grouping #inquiry .form-wrapper {
-  margin: 0 auto;
-  max-width: 924px; }
-
-.leadmagnet #final-grouping #inquiry .form-wrapper .form-bg {
-  background: #F5D1C4; }
-
-.leadmagnet #final-grouping #inquiry .form-wrapper .form-bg h2 {
-  color: #000000;
-  font: 700 24px/29px 'Montserrat';
-  margin-bottom: 40px; }
-
-.leadmagnet #final-grouping #inquiry .form-wrapper .form-bg h2:after {
+.leadmagnet #inquiry .form-wrapper .form-bg h2 span {
   display: block;
-  content: '';
-  width: 320px;
-  height: 1px;
-  margin: 40px auto 0;
-  background: #000000; }
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-top: 5px; }
 
-@media (max-width: 575px) {
-  .leadmagnet #final-grouping #inquiry .form-wrapper .form-bg h2:after {
-    width: 220px; } }
+@media (max-width: 991px) {
+  .leadmagnet #inquiry .form-wrapper .form-bg h2 span {
+    font-size: 28px;
+    line-height: 32px; } }
 
 .leadmagnet .footer-inner {
   padding-bottom: 0;

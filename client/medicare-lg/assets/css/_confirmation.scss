@@ -1,82 +1,53 @@
 .hero {
   padding: 40px 0;
-  background: $pink url(../img/bg_confirmation.png) no-repeat right top / 100%;
+  color: $white;
+  background: $darkblue;
   h1 {
-    color: $darkblue;
-    font: 700 48px/59px 'montserrat';
-    @media(max-width: 991px){
-      font: 700 24px/36px 'montserrat';
+    color: $white;
+    font: 700 38px/63.19px 'roboto';
+    margin-bottom: 50px;
+    span {
+      display: block;
+      font: 400 30px/49.89px 'roboto';
     }
-    @media(max-width: 320px){
-      line-height: 1.2em;
+    @media(max-width: 991px){
+      font: 700 24px/36px 'roboto';
+      span {
+        font: 400 18px/30px 'roboto';
+      }
+    }
+    @media(max-width: 575px){
+      font: 700 18px/24px 'roboto';
+      span {
+        font: 400 16px/20px 'roboto';
+      }
     }
   }
   .thankyou{
-    font: 500 32px 'Work Sans';
-    @media(max-width: 991px){
-      font: 500 20px/32px 'Work Sans';
+    font: 500 18px 'Roboto';
+    color: $pinkpill;
+    @media(max-width: 575px){
+      font-size: 16px;
     }
   }
   h3 {
-    font: 400 28px/36px 'Oregano';
+    font: 400 24px 'Satisfy';
     @media(max-width: 991px){
-      font: 400 18px/26px 'Oregano';
+      font: 400 18px 'Satisfy';
     }
   }
   .office{
-    font: 500 32px 'Work Sans';
+    color: $pinkpill;
+    font: 400 20px 'Roboto';
+    span {font-weight: 700;}
     @media(max-width: 767px){
-      font-size: 24px;
+      font-size: 18px;
     }
   }
   .btn-primary{
-    text-transform: uppercase;
-  }
-}
-footer {padding: 80px 0;}
-.disclouser-box {
-  margin: 50px auto 0;
-  padding: 0 15px;
-  max-width: 742px;
-}
-.box {
-  float: right;
-  color: $black;
-  margin-left: 50px;
-  max-width: 1405px;
-  padding: 50px;
-  border: 3px solid $black;
-  border-right: none;
-  background: $white;
-  position: relative;
-  @media (min-width: 1920px){
-    margin: 0 auto !important;
-    float: none !important;
-    border: 3px solid $black !important;
-  }
-  h2 {
-    color: $orange;
-    font: 300 22px 'Work Sans';
-    margin-bottom: 40px;
-    span {
-      display: block;
-      margin-top: 10px;
-      color: $black;
-      font: 700 24px 'Montserrat';
-    }
-  }
-  &.box-alt {
-    float: left;
-    margin-left: 0;
-    margin-right: 50px;
-    border: 3px solid $black;
-    border-left: none;
-  }
-  img {
-    @media(max-width: 991px){
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-    }
+    display: block;
+    max-width: 482px;
+    margin: 0 auto;
+    padding: .93em 1.25em;
   }
 }

@@ -1,5 +1,5 @@
 @import url("https://assets.snappykraken.com/global/css/utilities.css");
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan:wght@400;700&family=Bevan&family=Goblin+One&family=Roboto:wght@300;400;500;700&family=Work+Sans:ital,wght@0,400;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan:wght@400;700&family=Bevan&family=Goblin+One&family=Roboto:wght@300;400;500;700&family=Work+Sans:ital,wght@0,400;0,700;1,500&family=Satisfy&display=swap");
 body {
   background: #fff;
   font: 300 16px/1.5em 'Work Sans';
@@ -519,92 +519,61 @@ footer .contact {
 
 .confirmation .hero {
   padding: 40px 0;
-  background: #E63D36 url(../img/bg_confirmation.png) no-repeat right top/100%; }
+  color: #ffffff;
+  background: #263C49; }
 
 .confirmation .hero h1 {
-  color: #263C49;
-  font: 700 48px/59px 'montserrat'; }
+  color: #ffffff;
+  font: 700 38px/63.19px 'roboto';
+  margin-bottom: 50px; }
+
+.confirmation .hero h1 span {
+  display: block;
+  font: 400 30px/49.89px 'roboto'; }
 
 @media (max-width: 991px) {
   .confirmation .hero h1 {
-    font: 700 24px/36px 'montserrat'; } }
+    font: 700 24px/36px 'roboto'; }
+  .confirmation .hero h1 span {
+    font: 400 18px/30px 'roboto'; } }
 
-@media (max-width: 320px) {
+@media (max-width: 575px) {
   .confirmation .hero h1 {
-    line-height: 1.2em; } }
+    font: 700 18px/24px 'roboto'; }
+  .confirmation .hero h1 span {
+    font: 400 16px/20px 'roboto'; } }
 
 .confirmation .hero .thankyou {
-  font: 500 32px 'Work Sans'; }
+  font: 500 18px 'Roboto';
+  color: #F9C9C9; }
 
-@media (max-width: 991px) {
+@media (max-width: 575px) {
   .confirmation .hero .thankyou {
-    font: 500 20px/32px 'Work Sans'; } }
+    font-size: 16px; } }
 
 .confirmation .hero h3 {
-  font: 400 28px/36px 'Oregano'; }
+  font: 400 24px 'Satisfy'; }
 
 @media (max-width: 991px) {
   .confirmation .hero h3 {
-    font: 400 18px/26px 'Oregano'; } }
+    font: 400 18px 'Satisfy'; } }
 
 .confirmation .hero .office {
-  font: 500 32px 'Work Sans'; }
+  color: #F9C9C9;
+  font: 400 20px 'Roboto'; }
+
+.confirmation .hero .office span {
+  font-weight: 700; }
 
 @media (max-width: 767px) {
   .confirmation .hero .office {
-    font-size: 24px; } }
+    font-size: 18px; } }
 
 .confirmation .hero .btn-primary {
-  text-transform: uppercase; }
-
-.confirmation footer {
-  padding: 80px 0; }
-
-.confirmation .disclouser-box {
-  margin: 50px auto 0;
-  padding: 0 15px;
-  max-width: 742px; }
-
-.confirmation .box {
-  float: right;
-  color: #000000;
-  margin-left: 50px;
-  max-width: 1405px;
-  padding: 50px;
-  border: 3px solid #000000;
-  border-right: none;
-  background: #ffffff;
-  position: relative; }
-
-@media (min-width: 1920px) {
-  .confirmation .box {
-    margin: 0 auto !important;
-    float: none !important;
-    border: 3px solid #000000 !important; } }
-
-.confirmation .box h2 {
-  color: #EA9342;
-  font: 300 22px 'Work Sans';
-  margin-bottom: 40px; }
-
-.confirmation .box h2 span {
   display: block;
-  margin-top: 10px;
-  color: #000000;
-  font: 700 24px 'Montserrat'; }
-
-.confirmation .box.box-alt {
-  float: left;
-  margin-left: 0;
-  margin-right: 50px;
-  border: 3px solid #000000;
-  border-left: none; }
-
-@media (max-width: 991px) {
-  .confirmation .box img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%; } }
+  max-width: 482px;
+  margin: 0 auto;
+  padding: .93em 1.25em; }
 
 .leadmagnet .navbar {
   padding: 1.6rem 4rem !important;

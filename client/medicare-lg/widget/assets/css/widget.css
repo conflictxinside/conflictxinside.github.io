@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&family=Work+Sans:ital,wght@0,500;0,700;1,500&display=swap");
 img {
   display: block;
   margin: 0 auto;
@@ -7,35 +7,36 @@ img {
 .ht-bo-exiting {
   font-family: 'Work Sans';
   line-height: 1.8em;
-  background-color: #F5D1C4;
+  background-color: #263C49;
   color: #fff;
-  padding: 2rem;
   text-align: center;
   min-height: 400px;
   display: flex;
   align-items: center;
   outline: 1px solid #aaa;
   margin: 0 auto;
-  max-width: 768px; }
+  max-width: 660px; }
 
 .ht-bo-exiting .ht-inner {
   width: 100%; }
 
 .ht-bo-exiting h2 {
-  color: #618F93;
-  font: 700 60px 'Montserrat' !important;
+  color: #263C49;
+  font: 400 55px/60.5px 'Alfa Slab One' !important;
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 85px 15px !important;
   text-transform: none !important;
   text-decoration: none !important;
-  background: none !important;
+  background: #FFF7E1 !important;
   border: none !important;
   width: 100% !important;
   height: auto !important; }
 
 @media (max-width: 1023px) {
   .ht-bo-exiting h2 {
-    font-size: 32px !important; } }
+    padding: 35px 15px;
+    font-size: 32px !important;
+    line-height: 36px !important; } }
 
 .ht-bo-exiting h3 {
   font: 400 32px 'Work Sans' !important;
@@ -56,7 +57,6 @@ img {
 .ht-bo-exiting p {
   font: 400 22px/36px 'Work Sans' !important;
   color: #A7A7AA;
-  margin: 1rem 0 !important;
   padding: 0 !important;
   text-transform: none !important;
   text-decoration: none !important;
@@ -72,47 +72,97 @@ img {
 .ht-bo-exiting .ht-form {
   display: block !important;
   margin: 0 auto;
-  max-width: 404px; }
+  max-width: 594px;
+  padding: 50px 15px; }
 
-.ht-bo-exiting .ht-form .ht-input {
-  background-color: #fff !important;
-  color: #737373 !important;
-  font: 400 18px 'Open Sans' !important;
-  margin: 5px auto !important;
-  box-sizing: border-box !important;
-  width: 100% !important;
-  padding: 0 1em !important;
-  border: 0 !important;
-  height: 40px !important;
-  vertical-align: middle !important; }
-
-.ht-bo-exiting .ht-form .ht-input::placeholder {
-  color: #6E5344 !important; }
-
-.ht-bo-exiting .ht-form .ht-input.error, .ht-bo-exiting .ht-form .ht-input:focus, .ht-bo-exiting .ht-form .ht-input:active {
-  border: 3px solid #fff !important;
-  box-shadow: none;
-  outline: none; }
+.ht-bo-exiting .ht-form .form-control {
+  border-radius: 0;
+  background: #EEC2C3; }
 
 .ht-bo-exiting .ht-form .ht-button {
-  background-color: #C55C42 !important;
+  background-color: #E63D36 !important;
   color: #fff !important;
-  font: 700 22px 'Work Sans' !important;
-  margin: 65px auto 10px !important;
+  font: 700 30px 'Work Sans' !important;
+  margin: 50px auto 0 !important;
   box-sizing: border-box !important;
-  width: 100% !important;
-  height: 60px !important;
+  width: 287px;
+  height: 64px !important;
   vertical-align: middle !important;
   padding: 0 1em !important;
   border: 0 !important;
-  border-radius: 40px;
-  box-shadow: 0px 4px 4px 0px #00000040; }
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.45);
+  border-radius: 48px; }
 
 .ht-bo-exiting .ht-form .ht-button:hover {
-  background: #CD7F70 !important; }
+  background: #A31414 !important; }
 
 .tooltip-inner {
   background-color: #444; }
 
 .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
   border-top-color: #444; }
+
+.floating-label {
+  position: relative;
+  margin-bottom: 1rem; }
+
+.floating-label > input, .floating-label > label {
+  height: 68px;
+  padding: .75rem; }
+
+.floating-label > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out; }
+
+.floating-label input::-webkit-input-placeholder {
+  color: transparent; }
+
+.floating-label input:-ms-input-placeholder {
+  color: transparent; }
+
+.floating-label input::-ms-input-placeholder {
+  color: transparent; }
+
+.floating-label input::-moz-placeholder {
+  color: transparent; }
+
+.floating-label input::placeholder {
+  color: transparent; }
+
+.floating-label input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem; }
+
+.floating-label input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 15px;
+  color: #263C49; }
+
+.floating-label label {
+  font: 400 18px "Roboto";
+  color: #263C49;
+  text-align: left; }
+
+@supports (-ms-ime-align: auto) {
+  .floating-label > label {
+    display: none; }
+  .floating-label input::-ms-input-placeholder {
+    color: #777; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .floating-label > label {
+    display: none; }
+  .floating-label input:-ms-input-placeholder {
+    color: #777; } }

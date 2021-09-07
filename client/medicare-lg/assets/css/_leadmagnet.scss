@@ -1,5 +1,5 @@
 .btn-primary {
-  span {font-weight: 400;}
+  font-weight: 400;
   @media(max-width:575px){
     font-size: 16px;
   }
@@ -104,33 +104,12 @@
     letter-spacing: -0.02em;
     padding-top: 40px;
     h1 {
-      color: $darkblue;
-      font-family: Bevan;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 59px;
-      line-height: 95px;
-      text-transform: uppercase;
-      margin-bottom: 50px;
-      @media(max-width: 991px){
-        font-size: 46px;
-        line-height: 74px;
-        margin-bottom: 25px;
-      }
-      @media(max-width: 767px){
-        font-size: 32px;
-        line-height: 51px;
-      }
-        @media(max-width: 575px){
-          font-size: 26px;
-          line-height: 36px;
-        }
-      span {
         font-family: Bevan;
         font-style: normal;
         font-weight: normal;
         font-size: 87px;
         line-height: 82px;
+        text-transform: uppercase;
         @media(max-width: 991px){
           font-size: 67px;
           line-height: 63px;
@@ -143,13 +122,34 @@
           font-size: 32px;
           line-height: 30px;
         }
+      small {
+        color: $darkblue;
+        font-family: Bevan;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 59px;
+        line-height: 95px;
+        margin-bottom: 50px;
+        @media(max-width: 991px){
+          font-size: 46px;
+          line-height: 74px;
+          margin-bottom: 25px;
+        }
+        @media(max-width: 767px){
+          font-size: 32px;
+          line-height: 51px;
+        }
+        @media(max-width: 575px){
+          font-size: 26px;
+          line-height: 36px;
+        }
       }
     }
     h2 {
       color: $darkblue;
       font-family: Allan;
       font-style: normal;
-      font-weight: bold;
+      font-weight: normal;
       font-size: 30px;
       line-height: 91.5%;
       margin-bottom: 40px;
@@ -242,16 +242,13 @@
   h3 {
     font-family: Allan;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 33px;
     line-height: 91.5%;
     color: $darkblue;
     margin-bottom: 30px;
     @media(max-width: 991px){
       font-size: 26px;
-    }
-    span {
-      font-weight: normal;
     }
   }
   p {

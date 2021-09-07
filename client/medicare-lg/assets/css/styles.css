@@ -570,7 +570,7 @@ footer .contact {
 .leadmagnet {
   background: #263C49 url(../img/bg_pills.png); }
 
-.leadmagnet .btn-primary span {
+.leadmagnet .btn-primary {
   font-weight: 400; }
 
 @media (max-width: 575px) {
@@ -688,58 +688,58 @@ footer .contact {
   padding-top: 40px; }
 
 .leadmagnet .hero .hero-box-main h1 {
+  font-family: Bevan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 87px;
+  line-height: 82px;
+  text-transform: uppercase; }
+
+@media (max-width: 991px) {
+  .leadmagnet .hero .hero-box-main h1 {
+    font-size: 67px;
+    line-height: 63px; } }
+
+@media (max-width: 767px) {
+  .leadmagnet .hero .hero-box-main h1 {
+    font-size: 46px;
+    line-height: 43px; } }
+
+@media (max-width: 575px) {
+  .leadmagnet .hero .hero-box-main h1 {
+    font-size: 32px;
+    line-height: 30px; } }
+
+.leadmagnet .hero .hero-box-main h1 small {
   color: #263C49;
   font-family: Bevan;
   font-style: normal;
   font-weight: normal;
   font-size: 59px;
   line-height: 95px;
-  text-transform: uppercase;
   margin-bottom: 50px; }
 
 @media (max-width: 991px) {
-  .leadmagnet .hero .hero-box-main h1 {
+  .leadmagnet .hero .hero-box-main h1 small {
     font-size: 46px;
     line-height: 74px;
     margin-bottom: 25px; } }
 
 @media (max-width: 767px) {
-  .leadmagnet .hero .hero-box-main h1 {
+  .leadmagnet .hero .hero-box-main h1 small {
     font-size: 32px;
     line-height: 51px; } }
 
 @media (max-width: 575px) {
-  .leadmagnet .hero .hero-box-main h1 {
+  .leadmagnet .hero .hero-box-main h1 small {
     font-size: 26px;
     line-height: 36px; } }
-
-.leadmagnet .hero .hero-box-main h1 span {
-  font-family: Bevan;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 87px;
-  line-height: 82px; }
-
-@media (max-width: 991px) {
-  .leadmagnet .hero .hero-box-main h1 span {
-    font-size: 67px;
-    line-height: 63px; } }
-
-@media (max-width: 767px) {
-  .leadmagnet .hero .hero-box-main h1 span {
-    font-size: 46px;
-    line-height: 43px; } }
-
-@media (max-width: 575px) {
-  .leadmagnet .hero .hero-box-main h1 span {
-    font-size: 32px;
-    line-height: 30px; } }
 
 .leadmagnet .hero .hero-box-main h2 {
   color: #263C49;
   font-family: Allan;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 30px;
   line-height: 91.5%;
   margin-bottom: 40px; }
@@ -847,7 +847,7 @@ footer .contact {
 .leadmagnet .lead-section h3 {
   font-family: Allan;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 33px;
   line-height: 91.5%;
   color: #263C49;
@@ -856,9 +856,6 @@ footer .contact {
 @media (max-width: 991px) {
   .leadmagnet .lead-section h3 {
     font-size: 26px; } }
-
-.leadmagnet .lead-section h3 span {
-  font-weight: normal; }
 
 .leadmagnet .lead-section p {
   font-family: Work Sans;

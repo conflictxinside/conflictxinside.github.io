@@ -1001,6 +1001,10 @@ footer .contact {
 .leadmagnet .document-section .document .document-row p.image:first-child {
   margin-top: 0; }
 
+@media (max-width: 575px) {
+  .leadmagnet .glove {
+    padding: 0 5px; } }
+
 .leadmagnet #inquiry {
   padding: 60px 0;
   background: #263C49; }

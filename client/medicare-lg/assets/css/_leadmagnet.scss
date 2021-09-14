@@ -373,7 +373,11 @@
   }
 }
 
-
+.glove {
+  @media(max-width: 575px){
+    padding: 0 5px;
+  }
+}
 
 #inquiry{
   padding: 60px 0;

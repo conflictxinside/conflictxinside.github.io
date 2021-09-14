@@ -203,21 +203,12 @@ footer .contact {
 .registration .hero {
   overflow: hidden;
   position: relative;
-  background: #263C49; }
+  background: linear-gradient(270deg, rgba(249, 201, 201, 0.95) -17%, rgba(249, 201, 201, 0.95) 22.52%, #263B49 22.8%, #263C49 83.46%);
+  mix-blend-mode: normal; }
 
-@media (min-width: 992px) {
-  .registration .hero .container, .registration .hero .container-fluid {
-    position: relative;
-    z-index: 2; }
-  .registration .hero:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 25%;
-    height: 100%;
-    z-index: 1;
-    background: #F9CCCC; } }
+@media (max-width: 991px) {
+  .registration .hero {
+    background: #263C49; } }
 
 .registration .hero p {
   font: 400 22px 'Montserrat';

@@ -1,20 +1,10 @@
 .hero {
   overflow: hidden;
   position: relative;
-  background: $darkblue;
-  @media(min-width: 992px){
-    .container, .container-fluid {position: relative; z-index: 2;}
-    &:after {
-      content: '';
-      position: absolute;
-      right: 0;
-      top: 0;
-      //width: 22.786%;
-      width: 25%;
-      height: 100%;
-      z-index: 1;
-      background: #F9CCCC;
-    }
+  background: linear-gradient(270deg, rgba(249, 201, 201, 0.95) -17%, rgba(249, 201, 201, 0.95) 22.52%, #263B49 22.8%, #263C49 83.46%);
+  mix-blend-mode: normal;
+  @media(max-width: 991px){
+    background: $darkblue;
   }
 
   p{

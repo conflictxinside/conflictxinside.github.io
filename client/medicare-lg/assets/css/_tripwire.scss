@@ -52,10 +52,10 @@
     .content2{
       h3 {color: $darkblue;}
       .btn-primary{
-        background: $white;
+        background: $paleyellow;
         color: $darkblue;
         &:hover{
-          color: $white;
+          color: $paleyellow;
           background: $darkblue;
         }
         &:focus{

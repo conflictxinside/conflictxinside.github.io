@@ -53,6 +53,11 @@ a {
   padding: .75em 1em;
   min-width: 287px; }
 
+@media (max-width: 575px) {
+  .btn.btn-cta {
+    min-width: 0;
+    width: 100%; } }
+
 .modal-content {
   border-radius: 0;
   border: 0; }
@@ -320,6 +325,11 @@ footer .contact {
 
 #opt-in .popup-form .btn-cta {
   width: 287px; }
+
+@media (max-width: 575px) {
+  #opt-in .popup-form .btn-cta {
+    min-width: 0;
+    width: 100%; } }
 
 #opt-in form {
   color: #ffffff;

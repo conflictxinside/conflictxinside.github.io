@@ -25,7 +25,13 @@
     color: #ADD6F9;
     font: 400 14px/16.41px "Roboto";
   }
-  .btn-cta {width: 287px;}
+  .btn-cta {
+    width: 287px;
+    @media (max-width: 575px) {
+      min-width: 0;
+      width: 100%;
+    }
+  }
 }
 
 form {

@@ -699,7 +699,8 @@ footer .contact {
   font-weight: normal;
   font-size: 87px;
   line-height: 82px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 40px; }
 
 @media (max-width: 991px) {
   .leadmagnet .hero .hero-box-main h1 {

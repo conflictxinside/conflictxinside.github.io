@@ -378,6 +378,11 @@
     padding: 0 5px;
   }
 }
+.part-d {
+  @media(max-width: 575px){
+    max-height: 102px;
+  }
+}
 
 #inquiry{
   padding: 60px 0;
@@ -434,6 +439,11 @@ footer {
   }
   .fine {
     padding: 85px 0;
+    p {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+    }
   }
 }
 

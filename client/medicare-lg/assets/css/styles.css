@@ -923,6 +923,7 @@ footer .contact {
     border-bottom: 3px dashed #ADD6F9; } }
 
 .leadmagnet .document-section .document .document-row {
+  color: #263C49;
   margin-top: 40px; }
 
 .leadmagnet .document-section .document .document-row:first-child {
@@ -992,7 +993,7 @@ footer .contact {
   font-size: 16px;
   line-height: 130.8%;
   letter-spacing: -0.02em;
-  color: #000000; }
+  color: #263C49; }
 
 .leadmagnet .document-section .document .document-row p.image {
   margin: 40px 0; }

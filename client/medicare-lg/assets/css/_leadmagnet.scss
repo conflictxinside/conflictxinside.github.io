@@ -301,6 +301,7 @@
       }
     }
     .document-row {
+      color: $darkblue;
       margin-top: 40px;
       &:first-child {margin-top: 0;}
       .headline {
@@ -361,7 +362,7 @@
           font-size: 16px;
           line-height: 130.8%;
           letter-spacing: -0.02em;
-          color: $black;
+          color: $darkblue;
         }
       }
       p.image {

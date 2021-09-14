@@ -183,7 +183,7 @@ footer .contact {
 
 @media (max-width: 575px) {
   .footer-inner {
-    padding-bottom: 25px; } }
+    padding: 25px 15px; } }
 
 .disclosure {
   font: 400 16px/20.93px "Work Sans"; }

@@ -139,6 +139,9 @@ textarea.form-control {
 .floating-label input:not(:placeholder-shown), .floating-label textarea:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}
 .floating-label input:not(:placeholder-shown)~label, .floating-label textarea:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:15px;color:$darkblue;}
 .floating-label label {font: 400 18px "Roboto"; color: $darkblue;}
+.floating-label ::placeholder {
+  opacity: 0;
+}
 
 footer {
   padding: 50px 0;

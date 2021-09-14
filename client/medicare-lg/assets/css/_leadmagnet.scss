@@ -211,10 +211,15 @@
     }
   }
   &.subscribe-yellow {
-    color: $darkblue; background: #FFEDBE;
+    color: $darkblue;
+    background: #FFEDBE;
     .btn.btn-primary {box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);}
   }
-  &.subscribe-lightblue {color: $darkblue; background: #B0DBFF;}
+  &.subscribe-lightblue {
+    color: $darkblue;
+    background: #B0DBFF;
+    .btn.btn-primary {box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);}
+  }
 }
 
 .lead-section {

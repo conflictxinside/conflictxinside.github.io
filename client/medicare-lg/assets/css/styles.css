@@ -1007,7 +1007,8 @@ footer .contact {
 
 .leadmagnet #inquiry .btn {
   width: 158px;
-  padding: 13.5px 0; }
+  padding: 13.5px 0;
+  font-weight: bold; }
 
 .leadmagnet #inquiry .form-wrapper .form-bg h2 {
   font-family: "Allan", cursive;

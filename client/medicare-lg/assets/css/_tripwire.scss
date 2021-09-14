@@ -74,6 +74,13 @@
   }
 }
 
+.btn-primary{
+  padding: .48em 1.25em;
+  display: block;
+  max-width: 291px;
+  margin: 0 auto;
+}
+
 #inquiry {
   color: $white;
   background: $darkblue;
@@ -95,13 +102,14 @@
   form {max-width: 1000px;}
   .form-control {color: $darkblue;}
   .form-control::placeholder {color: $darkblue;}
+  .btn-primary{
+    padding: 1.2em 1.25em;
+    display: block;
+    width: 238px;
+    margin: 0 auto;
+  }
 }
-.btn-primary{
-  padding: .48em 1.25em;
-  display: block;
-  max-width: 291px;
-  margin: 0 auto;
-}
+
 
 .disclouser-box {
   margin: 50px auto 0;

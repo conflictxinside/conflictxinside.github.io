@@ -466,6 +466,12 @@ footer .contact {
 .tripwire .hero h3 em {
   font: italic 400 30px 'Roboto'; }
 
+.tripwire .btn-primary {
+  padding: .48em 1.25em;
+  display: block;
+  max-width: 291px;
+  margin: 0 auto; }
+
 .tripwire #inquiry {
   color: #ffffff;
   background: #263C49; }
@@ -493,10 +499,10 @@ footer .contact {
 .tripwire #inquiry .form-control::placeholder {
   color: #263C49; }
 
-.tripwire .btn-primary {
-  padding: .48em 1.25em;
+.tripwire #inquiry .btn-primary {
+  padding: 1.2em 1.25em;
   display: block;
-  max-width: 291px;
+  width: 238px;
   margin: 0 auto; }
 
 .tripwire .disclouser-box {

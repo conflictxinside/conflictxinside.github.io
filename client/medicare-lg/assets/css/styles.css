@@ -1072,7 +1072,7 @@ footer .contact {
 .leadmagnet footer .fine p {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  word-break: break-word; }
+  word-break: break-all; }
 
 .preview .interstitial, .preview + #wrapper .conf + .interstitial {
   display: none !important; }

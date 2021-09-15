@@ -96,7 +96,7 @@ img {
 
 .ht-bo-exiting .ht-form .form-control {
   border-radius: 0;
-  font-family: 'work sans';
+  font-family: 'Work Sans', sans-serif !important;
   background: #EEC2C3; }
 
 .ht-bo-exiting .ht-form .ht-button {
@@ -171,7 +171,7 @@ img {
   color: #263C49; }
 
 .floating-label label {
-  font: 400 18px "Roboto";
+  font: 400 18px "Work Sans", sans-serif;
   color: #263C49;
   text-align: left; }
 

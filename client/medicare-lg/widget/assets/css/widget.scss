@@ -91,7 +91,7 @@ img {display: block; margin: 0 auto; max-width: 100%;}
     padding: 50px 15px;
     .form-control {
       border-radius: 0;
-      font-family: 'work sans';
+      font-family: 'Work Sans', sans-serif !important;
       background: #EEC2C3;
     }
     .ht-button {
@@ -123,7 +123,7 @@ img {display: block; margin: 0 auto; max-width: 100%;}
 }
 
 .floating-label{position:relative;margin-bottom:1rem}.floating-label>input,.floating-label>label{height:68px;padding:.75rem}.floating-label>label{position:absolute;top:0;left:0;display:block;width:100%;margin-bottom:0;line-height:1.5;color:#495057;pointer-events:none;cursor:text;border:1px solid transparent;border-radius:.25rem;transition:all .1s ease-in-out}.floating-label input::-webkit-input-placeholder{color:transparent}.floating-label input:-ms-input-placeholder{color:transparent}.floating-label input::-ms-input-placeholder{color:transparent}.floating-label input::-moz-placeholder{color:transparent}.floating-label input::placeholder{color:transparent}.floating-label input:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}.floating-label input:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:15px;color:#263C49;}
-.floating-label label {font: 400 18px "Roboto"; color: #263C49; text-align: left;}
+.floating-label label {font: 400 18px "Work Sans", sans-serif; color: #263C49; text-align: left;}
 
 @supports (-ms-ime-align: auto) {
   .floating-label > label {

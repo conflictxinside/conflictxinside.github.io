@@ -39,16 +39,16 @@ img {
     line-height: 36px !important; } }
 
 .ht-bo-exiting h3 {
-  font: 400 32px 'Work Sans' !important;
-  margin: 1rem 0 2rem !important;
-  padding: 0 !important;
-  text-transform: none !important;
-  text-decoration: none !important;
-  background: none !important;
-  border: none !important;
-  width: 100% !important;
-  height: auto !important;
-  color: #618F93; }
+  font-family: Work Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 542px;
+  margin: 0 auto;
+  padding: 0 15px; }
 
 @media (max-width: 1023px) {
   .ht-bo-exiting h3 {
@@ -61,7 +61,8 @@ img {
   font-weight: 500;
   line-height: 37px;
   letter-spacing: 0em;
-  text-align: center; }
+  text-align: center;
+  padding: 0 15px; }
 
 .ht-bo-exiting h4 strong {
   font-family: Work Sans;

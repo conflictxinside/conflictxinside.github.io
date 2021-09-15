@@ -54,6 +54,24 @@ img {
   .ht-bo-exiting h3 {
     font-size: 26px !important; } }
 
+.ht-bo-exiting h4 {
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center; }
+
+.ht-bo-exiting h4 strong {
+  font-family: Work Sans;
+  font-size: 33px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center; }
+
 .ht-bo-exiting p {
   font: 400 22px/36px 'Work Sans' !important;
   color: #A7A7AA;

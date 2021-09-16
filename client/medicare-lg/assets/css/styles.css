@@ -101,6 +101,11 @@ label {
 textarea.form-control {
   height: 100px; }
 
+.wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all; }
+
 .floating-label {
   position: relative; }
 
@@ -1068,11 +1073,6 @@ footer .contact {
 
 .leadmagnet footer .fine {
   padding: 85px 0; }
-
-.leadmagnet footer .fine p {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-all; }
 
 .preview .interstitial, .preview + #wrapper .conf + .interstitial {
   display: none !important; }

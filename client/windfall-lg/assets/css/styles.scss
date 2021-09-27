@@ -20,14 +20,14 @@ $stickybar: #578184;
 
 $paleyellow: #FFF7E1;
 $pinkpill: #F9C9C9;
-$pink: #E63D36;
+$pink: #E9278C;
 $darkpink: #A31414;
 $darkblue: #263C49;
 $lightpink: #EEC2C3;
 
 body {
   background: #fff;
-  font: 300 16px/1.5em 'Work Sans';
+  font: 300 18px/1.5em 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -49,11 +49,11 @@ a {
 .btn {
   border-radius: 0;
   border: 0;
-  font: 700 18px 'Work Sans';
-  padding: 1.2em 1.25em;
+  font: 700 28px 'Roboto';
+  padding: 0.65em 1.25em;
   white-space: normal;
   @media (max-width: 575px) {
-    font: 700 18px 'Work Sans';
+    font: 700 18px 'Roboto';
     padding: 1em 5px;
     width: 100%;
   }
@@ -166,12 +166,18 @@ footer {
 
 .footer-inner {
   margin: 0 auto;
-  border-bottom: 3px solid #14497C;
+  border-bottom: 3px solid $black;
   max-width: 760px;
   padding: 0 15px 48px;
   font-family: 'work sans', sans-serif;
   font-size: 16px;
   line-height: 20.93px;
+  @media(max-width: 991px){
+    max-width: 456px;
+  }
+  @media(max-width: 767px){
+    max-width: 344px;
+  }
   @media(max-width: 575px){
     padding: 25px 15px;
   }

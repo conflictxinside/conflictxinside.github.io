@@ -1,14 +1,17 @@
 .hero {
   padding: 40px 0;
   color: $white;
-  background: $darkblue;
+  background: $black;
   h1 {
     color: $white;
-    font: 700 38px/63.19px 'roboto';
+    font: 400 30px/34.8px 'roboto';
     margin-bottom: 50px;
-    span {
+    letter-spacing: -2%;
+    strong {
       display: block;
-      font: 400 30px/49.89px 'roboto';
+      font: 700 38px/41.8px 'roboto';
+      letter-spacing: -2%;
+      margin-bottom: 5px;
     }
     @media(max-width: 991px){
       font: 700 24px/36px 'roboto';
@@ -24,8 +27,8 @@
     }
   }
   .thankyou{
-    font: 500 18px 'Roboto';
-    color: $pinkpill;
+    font: 400 18px 'Roboto';
+    color: #E4E2D0;
     @media(max-width: 575px){
       font-size: 16px;
     }
@@ -37,17 +40,16 @@
     }
   }
   .office{
-    color: $pinkpill;
+    color: $white;
     font: 400 20px 'Roboto';
-    span {font-weight: 700;}
+    strong {font-weight: 700;}
     @media(max-width: 767px){
       font-size: 18px;
     }
   }
   .btn-primary{
     display: block;
-    max-width: 482px;
+    max-width: 450px;
     margin: 0 auto;
-    padding: .93em 1.25em;
   }
 }

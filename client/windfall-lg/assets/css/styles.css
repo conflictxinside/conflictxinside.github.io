@@ -1,8 +1,8 @@
 @import url("https://assets.snappykraken.com/global/css/utilities.css");
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan:wght@400;700&family=Bevan&family=Goblin+One&family=Roboto:wght@300;400;500;700&family=Work+Sans:ital,wght@0,400;0,700;1,500&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&family=Satisfy&family=Work+Sans&display=swap");
 body {
   background: #fff;
-  font: 300 16px/1.5em 'Work Sans';
+  font: 300 18px/1.5em 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 b, strong {
@@ -25,18 +25,18 @@ a {
 .btn {
   border-radius: 0;
   border: 0;
-  font: 700 18px 'Work Sans';
-  padding: 1.2em 1.25em;
+  font: 700 28px 'Roboto';
+  padding: 0.65em 1.25em;
   white-space: normal; }
 
 @media (max-width: 575px) {
   .btn {
-    font: 700 18px 'Work Sans';
+    font: 700 18px 'Roboto';
     padding: 1em 5px;
     width: 100%; } }
 
 .btn.btn-primary {
-  background: #E63D36;
+  background: #E9278C;
   color: #fff;
   box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.45);
   border-radius: 48px; }
@@ -46,7 +46,7 @@ a {
   color: #ffffff; }
 
 .btn.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(230, 61, 54, 0.5); }
+  box-shadow: 0 0 0 0.2rem rgba(233, 39, 140, 0.5); }
 
 .btn.btn-cta {
   font: 700 24px 'Work Sans';
@@ -182,12 +182,20 @@ footer .contact {
 
 .footer-inner {
   margin: 0 auto;
-  border-bottom: 3px solid #14497C;
+  border-bottom: 3px solid #000000;
   max-width: 760px;
   padding: 0 15px 48px;
   font-family: 'work sans', sans-serif;
   font-size: 16px;
   line-height: 20.93px; }
+
+@media (max-width: 991px) {
+  .footer-inner {
+    max-width: 456px; } }
+
+@media (max-width: 767px) {
+  .footer-inner {
+    max-width: 344px; } }
 
 @media (max-width: 575px) {
   .footer-inner {
@@ -517,16 +525,19 @@ footer .contact {
 .confirmation .hero {
   padding: 40px 0;
   color: #ffffff;
-  background: #263C49; }
+  background: #000000; }
 
 .confirmation .hero h1 {
   color: #ffffff;
-  font: 700 38px/63.19px 'roboto';
-  margin-bottom: 50px; }
+  font: 400 30px/34.8px 'roboto';
+  margin-bottom: 50px;
+  letter-spacing: -2%; }
 
-.confirmation .hero h1 span {
+.confirmation .hero h1 strong {
   display: block;
-  font: 400 30px/49.89px 'roboto'; }
+  font: 700 38px/41.8px 'roboto';
+  letter-spacing: -2%;
+  margin-bottom: 5px; }
 
 @media (max-width: 991px) {
   .confirmation .hero h1 {
@@ -541,8 +552,8 @@ footer .contact {
     font: 400 16px/20px 'roboto'; } }
 
 .confirmation .hero .thankyou {
-  font: 500 18px 'Roboto';
-  color: #F9C9C9; }
+  font: 400 18px 'Roboto';
+  color: #E4E2D0; }
 
 @media (max-width: 575px) {
   .confirmation .hero .thankyou {
@@ -556,10 +567,10 @@ footer .contact {
     font: 400 18px 'Satisfy'; } }
 
 .confirmation .hero .office {
-  color: #F9C9C9;
+  color: #ffffff;
   font: 400 20px 'Roboto'; }
 
-.confirmation .hero .office span {
+.confirmation .hero .office strong {
   font-weight: 700; }
 
 @media (max-width: 767px) {
@@ -568,9 +579,8 @@ footer .contact {
 
 .confirmation .hero .btn-primary {
   display: block;
-  max-width: 482px;
-  margin: 0 auto;
-  padding: .93em 1.25em; }
+  max-width: 450px;
+  margin: 0 auto; }
 
 .leadmagnet {
   background: #263C49 url(../img/bg_pills.png); }
@@ -833,7 +843,7 @@ footer .contact {
 
 .leadmagnet .lead-section a {
   font-weight: bold;
-  color: #E63D36; }
+  color: #E9278C; }
 
 .leadmagnet .lead-section h2 {
   font-family: Bevan;

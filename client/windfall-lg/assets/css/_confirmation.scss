@@ -2,42 +2,39 @@
   padding: 40px 0;
   color: $white;
   background: $black;
+  .container {
+    @media(max-width: 767px){
+      max-width: 472px;
+    }
+  }
   h1 {
     color: $white;
     font: 400 30px/34.8px 'roboto';
     margin-bottom: 50px;
-    letter-spacing: -2%;
+    letter-spacing: -0.02em;
+    @media(max-width: 575px){
+      font: 400 26px/30.16px 'roboto';
+    }
     strong {
       display: block;
       font: 700 38px/41.8px 'roboto';
-      letter-spacing: -2%;
+      letter-spacing: -0.02em;
       margin-bottom: 5px;
-    }
-    @media(max-width: 991px){
-      font: 700 24px/36px 'roboto';
-      span {
-        font: 400 18px/30px 'roboto';
+      @media(max-width: 767px){
+        margin-bottom: 10px;
       }
-    }
-    @media(max-width: 575px){
-      font: 700 18px/24px 'roboto';
-      span {
-        font: 400 16px/20px 'roboto';
+      @media(max-width: 575px){
+        font: 700 34px/37.4px 'roboto';
       }
     }
   }
   .thankyou{
     font: 400 18px 'Roboto';
     color: #E4E2D0;
-    @media(max-width: 575px){
-      font-size: 16px;
-    }
+    letter-spacing: -0.02em;
   }
   h3 {
     font: 400 24px 'Satisfy';
-    @media(max-width: 991px){
-      font: 400 18px 'Satisfy';
-    }
   }
   .office{
     color: $white;

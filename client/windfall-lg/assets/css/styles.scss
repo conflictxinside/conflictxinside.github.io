@@ -40,10 +40,10 @@ a {
 .section {clear: both; float: left; width: 100%;}
 
 .container {
-  width: 90%;
+  //width: 90%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0;
+  //padding: 0;
 }
 
 .btn {
@@ -52,9 +52,10 @@ a {
   font: 700 28px 'Roboto';
   padding: 0.65em 1.25em;
   white-space: normal;
+  letter-spacing: 0.05em;
   @media (max-width: 575px) {
-    font: 700 18px 'Roboto';
-    padding: 1em 5px;
+    font-size: 24px;
+    padding: 0.75em 5px;
     width: 100%;
   }
   &.btn-primary {

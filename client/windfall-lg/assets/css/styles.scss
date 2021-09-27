@@ -1,0 +1,257 @@
+@import url('https://assets.snappykraken.com/global/css/utilities.css');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&family=Satisfy&family=Work+Sans&display=swap');
+
+$black: #000000;
+$white: #ffffff;
+
+$linkblue: #4C67AC;
+$lightestblue: #FEFEFE;
+$lightblue: #63C1EF;
+$blue: #285073;
+$lightgrey: #ACACAC;
+$grey: #707070;
+$darkgrey: #96999C;
+$darkergrey: #252525;
+
+
+$yellow: #FFDC65;
+$orange: #EA9342;
+$stickybar: #578184;
+
+$paleyellow: #FFF7E1;
+$pinkpill: #F9C9C9;
+$pink: #E63D36;
+$darkpink: #A31414;
+$darkblue: #263C49;
+$lightpink: #EEC2C3;
+
+body {
+  background: #fff;
+  font: 300 16px/1.5em 'Work Sans';
+  -webkit-font-smoothing: antialiased;
+}
+
+b, strong {font-weight: 700;}
+
+a {
+  color: $linkblue;
+}
+
+.section {clear: both; float: left; width: 100%;}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 0;
+  border: 0;
+  font: 700 18px 'Work Sans';
+  padding: 1.2em 1.25em;
+  white-space: normal;
+  @media (max-width: 575px) {
+    font: 700 18px 'Work Sans';
+    padding: 1em 5px;
+    width: 100%;
+  }
+  &.btn-primary {
+    background: $pink;
+    color: #fff;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.45);
+    border-radius: 48px;
+    &:hover {
+      background: $darkpink;
+      color: $white;
+    }
+    &:focus{
+      box-shadow: 0 0 0 0.2rem rgba($pink,.5);
+    }
+  }
+  &.btn-cta {
+    // font: 700 30px 'Work Sans';
+    font: 700 24px 'Work Sans';
+    padding: .75em 1em;
+    min-width: 287px;
+    @media (max-width: 575px) {
+      min-width: 0;
+      width: 100%;
+    }
+  }
+}
+.modal-content {
+  border-radius: 0;
+  border: 0;
+  .dismiss {
+    color: $darkgrey;
+    font-size: 24px;
+    line-height: 1em;
+    opacity: .9;
+    z-index: 9;
+    &:hover {
+      opacity: .75;
+    }
+  }
+}
+.modal-backdrop.show {
+  background-color: $lightblue;
+  opacity: .61;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.form-control {
+  border-radius: 0;
+  height: 45px;
+  font: 400 18px 'Roboto';
+  color: $grey;
+  background: $lightpink;
+  @media(max-width: 320px){
+    font-size: 16px;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($grey, .25);
+    border: $grey;
+  }
+}
+.select-control{
+  color: $black;
+
+}
+textarea.form-control {
+  height: 100px;
+}
+
+.wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+
+.floating-label{position:relative;}
+.floating-label>input,.floating-label>label{height:3.125rem;padding:.75rem}
+.floating-label>textarea {padding:.75rem}
+.floating-label>label{position:absolute;top:0;left:0;display:block;width:100%;margin-bottom:0;line-height:1.5;color:#495057;pointer-events:none;cursor:text;border:1px solid transparent;border-radius:.25rem;transition:all .1s ease-in-out}
+.floating-label input::-webkit-input-placeholder, .floating-label textarea::-webkit-input-placeholder{color:transparent}
+.floating-label input:-ms-input-placeholder, .floating-label textarea:-ms-input-placeholder{color:transparent}
+.floating-label input::-ms-input-placeholder, .floating-label textarea::-ms-input-placeholder{color:transparent}
+.floating-label input::-moz-placeholder, .floating-label textarea::-moz-placeholder{color:transparent}
+.floating-label input::placeholder, .floating-label textarea::placeholder{color:transparent}
+.floating-label input:not(:placeholder-shown), .floating-label textarea:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}
+.floating-label input:not(:placeholder-shown)~label, .floating-label textarea:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:15px;color:$darkblue;}
+.floating-label label {font: 400 18px "Roboto"; color: $darkblue;}
+.floating-label ::placeholder {
+  opacity: 0;
+}
+
+footer {
+  padding: 50px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: $black;
+  background: $white;
+  a {color: $black;}
+  .contact {
+    font-size: 19px;
+    @media(max-width: 575px){
+      font-size: 16px;
+    }
+  }
+}
+
+
+.footer-inner {
+  margin: 0 auto;
+  border-bottom: 3px solid #14497C;
+  max-width: 760px;
+  padding: 0 15px 48px;
+  font-family: 'work sans', sans-serif;
+  font-size: 16px;
+  line-height: 20.93px;
+  @media(max-width: 575px){
+    padding: 25px 15px;
+  }
+}
+.disclosure {
+  font: 400 16px/20.93px "Work Sans";
+}
+
+.bg_pills {
+  display: block;
+  width: 100%;
+  height: 102px;
+  background: #F8665B url(../img/bg_pills.png);
+  &.bg_pills_large {height: 318px;}
+}
+
+.registration {
+  @import 'registration';
+}
+#opt-in {
+  @import 'opt-in';
+}
+#exit{
+  @import 'exit';
+}
+.tripwire {
+  @import 'tripwire';
+}
+.confirmation {
+  @import 'confirmation';
+}
+.leadmagnet {
+  background: $darkblue url(../img/bg_pills.png);
+  @import 'leadmagnet';
+}
+
+//Platform Styling
+.preview {
+  .interstitial,  + #wrapper  .conf + .interstitial {
+    display: none !important;
+  }
+}
+// .preview + .display-modal, #exit{
+//   .modal-content{
+//     border: 30px solid #fff !important;
+//     outline: 1px solid #ccc;
+//   }
+// }
+.preview + #opt-in{
+  .modal-content{
+    border: 1px solid #ccc !important;
+  }
+}
+.display-modal {
+  position: relative !important;
+  display: block !important;
+  z-index: 1 !important;
+  border-top: 1px solid #707070;
+  padding: 3rem 0;
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+
+@supports (-ms-ime-align: auto) {
+  .floating-label > label {
+    display: none;
+  }
+  .floating-label input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .floating-label > label {
+    display: none;
+  }
+  .floating-label input:-ms-input-placeholder {
+    color: #777;
+  }
+}

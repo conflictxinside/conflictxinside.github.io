@@ -1,0 +1,82 @@
+.hero {
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(270deg, rgba(249, 201, 201, 0.95) -17%, rgba(249, 201, 201, 0.95) 22.52%, #263B49 22.8%, #263C49 83.46%);
+  mix-blend-mode: normal;
+  @media(max-width: 991px){
+    background: $darkblue;
+  }
+
+  p{
+    font: 400 22px 'Montserrat';
+    margin: 0;
+    color: $darkgrey;
+    @media(max-width: 767px){
+      font: 400 18px/24px 'Montserrat';
+    }
+  }
+  .btn {max-width: 287px;}
+  .mobile-image-1 img {
+    @media (max-width: 767px) {
+      max-height: 350px;
+    }
+  }
+  em {
+    display: block;
+    color: $paleyellow;
+    //font: 400 23px/28px 'Work Sans';
+    font: 400 20px/26px 'Work Sans';
+    margin-bottom: 20px;
+  }
+  h1 {
+    // font: 700 54px/59px 'Work Sans';
+    font: 700 42px/52px 'Work Sans';
+    text-transform: uppercase;
+    color: $white;
+    margin-bottom: 30px;
+    strong{
+      font-weight: 700;
+    }
+    @media (max-width: 767px) {
+      font: 700 32px/1.1em 'Work Sans';
+    }
+    @media(max-width:420px){
+      font: 700 24px/1.1em 'Work Sans';
+    }
+  }
+  h2 {
+    font: 500 24px 'Work Sans';
+    font-style: italic;
+    color: $pinkpill;
+    @media (max-width: 767px) {
+      font-weight: 900;      
+    }
+  }
+  ul {
+    padding: 0 .5em 0 15px;
+    @media (max-width: 575px) {
+      padding: 0;
+    }
+    li {
+      // font: 400 20px/24px 'Work Sans';
+      font: 400 16px/22px 'Work Sans';
+      color: $pinkpill;
+      position: relative;
+      padding-left: 5px;
+      @media (max-width: 768px) {
+        font: 300 14px 'Work Sans';
+      }
+    }
+  }
+}
+.quote {
+  background: $paleyellow;
+  color: #0D2646;
+  padding: 60px 30px;
+  blockquote {
+    font: 400 28px/36.62px 'Allan';
+    @media (max-width: 575px) {
+      font-size: 21px;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&family=Work+Sans:ital,wght@0,500;0,700;1,500&display=swap");
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
+.ht-bo-exiting {
+  font-family: 'Work Sans';
+  line-height: 1.8em;
+  background-color: #263C49;
+  color: #fff;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  outline: 1px solid #aaa;
+  margin: 0 auto;
+  max-width: 660px; }
+
+.ht-bo-exiting .ht-inner {
+  width: 100%; }
+
+.ht-bo-exiting h2 {
+  color: #263C49;
+  font: 400 55px/60.5px 'Alfa Slab One' !important;
+  margin: 0 !important;
+  padding: 85px 15px !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  background: #FFF7E1 !important;
+  border: none !important;
+  width: 100% !important;
+  height: auto !important; }
+
+@media (max-width: 1023px) {
+  .ht-bo-exiting h2 {
+    padding: 35px 15px;
+    font-size: 32px !important;
+    line-height: 36px !important; } }
+
+.ht-bo-exiting h3 {
+  font-family: Work Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 542px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+@media (max-width: 1023px) {
+  .ht-bo-exiting h3 {
+    font-size: 26px !important; } }
+
+.ht-bo-exiting h4 {
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0 15px; }
+
+.ht-bo-exiting h4 strong {
+  font-family: Work Sans;
+  font-size: 33px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center; }
+
+.ht-bo-exiting p {
+  font: 400 22px/36px 'Work Sans' !important;
+  color: #A7A7AA;
+  padding: 0 !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+  height: auto !important; }
+
+.ht-bo-exiting p.ht-small {
+  font: 400 14px/16.41px 'Roboto' !important;
+  color: #45AFED !important; }
+
+.ht-bo-exiting .ht-form {
+  display: block !important;
+  margin: 0 auto;
+  max-width: 594px;
+  padding: 50px 15px; }
+
+.ht-bo-exiting .ht-form .form-control {
+  border-radius: 0;
+  font-family: 'Work Sans', sans-serif !important;
+  background: #EEC2C3; }
+
+.ht-bo-exiting .ht-form .ht-button {
+  background-color: #E63D36 !important;
+  color: #fff !important;
+  font: 700 30px 'Work Sans' !important;
+  margin: 50px auto 0 !important;
+  box-sizing: border-box !important;
+  width: 287px;
+  height: 64px !important;
+  vertical-align: middle !important;
+  padding: 0 1em !important;
+  border: 0 !important;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.45);
+  border-radius: 48px; }
+
+.ht-bo-exiting .ht-form .ht-button:hover {
+  background: #A31414 !important; }
+
+.tooltip-inner {
+  background-color: #444; }
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+  border-top-color: #444; }
+
+.floating-label {
+  position: relative;
+  margin-bottom: 1rem; }
+
+.floating-label > input, .floating-label > label {
+  height: 68px;
+  padding: .75rem; }
+
+.floating-label > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out; }
+
+.floating-label input::-webkit-input-placeholder {
+  color: transparent; }
+
+.floating-label input:-ms-input-placeholder {
+  color: transparent; }
+
+.floating-label input::-ms-input-placeholder {
+  color: transparent; }
+
+.floating-label input::-moz-placeholder {
+  color: transparent; }
+
+.floating-label input::placeholder {
+  color: transparent; }
+
+.floating-label input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem; }
+
+.floating-label input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 15px;
+  color: #263C49; }
+
+.floating-label label {
+  font: 400 18px "Work Sans", sans-serif;
+  color: #263C49;
+  text-align: left; }
+
+@supports (-ms-ime-align: auto) {
+  .floating-label > label {
+    display: none; }
+  .floating-label input::-ms-input-placeholder {
+    color: #777; } }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .floating-label > label {
+    display: none; }
+  .floating-label input:-ms-input-placeholder {
+    color: #777; } }

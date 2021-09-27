@@ -1,0 +1,46 @@
+.modal-dialog {
+  max-width: 1106px;
+}
+.modal-content {
+  color: #fff;
+  background: $darkblue;
+  h3 {
+    color: $white;
+    font: 400 55px/60.5px 'Alfa Slab One';
+    margin-bottom: 40px;
+  }
+  h4 {
+    font: 400 32px/37.54px 'Work Sans';
+    color: $paleyellow;
+  }
+  p {
+    font: 700 24px 'Work Sans';
+  }
+  .btn-link {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .dismiss {
+    display: inline-block;
+    text-align: right;
+    color: #c4c4c4;
+    right: 20px;
+    top: 20px;
+  }
+  .spam{
+    font-size: 14px;
+    line-height: 16.41px;
+    font-style: normal;
+    font-weight: 400;
+    color: #45AFED;
+    font-family: "roboto";
+  }
+}
+form {
+  color: $black;
+  display: block;
+  margin: 0 auto;
+  max-width: 1026px;
+}

@@ -1,0 +1,124 @@
+.hero {
+  background: $paleyellow;
+  h1 {
+    text-transform: uppercase;
+    font: 600 31px/130.8% 'Work Sans';
+    color: #45AFED;
+    @media(max-width: 575px) {
+      font-size: 26px;
+    }
+    @media(max-width: 420px){
+      font-size: 24px;
+    }
+    @media(max-width: 320px){
+      font-size: 20px;
+    }
+  }
+  h2 {
+    font: 400 43px/91.5% 'Allan', cursive;
+    color: #0D2646;
+    @media(max-width: 575px){
+      font-size: 20px;
+      line-height: 26px;
+    }
+    margin: 25px auto 0;
+  }
+  .box {
+    position: relative;
+    background: $darkblue;
+    &.right {background: #F5D354;}
+    .btn-primary {
+        color: #fff;
+        font-size: 30px;
+        @media(max-width: 991px){
+          font-size: 24px;
+        }
+    }
+    p {
+      font: 400 22px/30px 'Roboto';
+      color: #fff;
+      margin: 0;
+    }
+    .content{
+      min-height: 150px;
+      h3{
+        font: 700 20px/110% 'Roboto';
+      }
+      p, h3 span{
+        font: 400 20px/110% 'Roboto';
+      }
+    }
+    .content1 {color: $white;}
+    .content2{
+      h3 {color: $darkblue;}
+      .btn-primary{
+        background: $paleyellow;
+        color: $darkblue;
+        &:hover{
+          color: $paleyellow;
+          background: $darkblue;
+        }
+        &:focus{
+          box-shadow: 0 0 0 0.2rem rgba($blue,0.5);
+        }
+      }
+    }
+  }
+  h3 {
+    font: 700 28px 'Roboto';
+    color: #fff;
+
+    em {
+      font: italic 400 30px 'Roboto';
+    }
+  }
+}
+
+.btn-primary{
+  padding: .48em 1.25em;
+  display: block;
+  max-width: 291px;
+  margin: 0 auto;
+}
+
+#inquiry {
+  color: $white;
+  background: $darkblue;
+  h2 {
+    color: $white;
+    font: 500 italic 31px/43.4px 'Roboto';
+    @media(max-width: 767px){
+      font: 500 italic 24px/32px 'Roboto';
+    }
+  }
+  small {
+    font-style: italic;
+  }
+  .custom-select{
+    &::placeholder{
+      color: $lightgrey !important;
+    }
+  }
+  form {max-width: 1000px;}
+  .form-control {color: $darkblue;}
+  .form-control::placeholder {color: $darkblue;}
+  .btn-primary{
+    padding: 1.2em 1.25em;
+    display: block;
+    width: 238px;
+    margin: 0 auto;
+  }
+}
+
+
+.disclouser-box {
+  margin: 50px auto 0;
+  padding: 0 15px;
+  max-width: 742px;
+}
+
+.tripwire-boxes {
+  position: relative;
+  z-index: 1;
+  margin-top: -50px;
+}

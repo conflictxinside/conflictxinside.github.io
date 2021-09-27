@@ -1,0 +1,43 @@
+.modal-dialog {
+  max-width: 640px;
+  border: 0;
+  @media(max-width: 767px){
+    margin: .5rem !important;
+  }
+}
+.image {
+    background: $darkblue;
+}
+.popup-form {
+  padding: 20px 5px;
+  background: $darkblue;
+  h3 {
+    color: $white;
+    font: 400 55px/60.5px 'Alfa Slab One', cursive;
+    margin-bottom: 30px;
+  }
+  h4 {
+    color: $white;
+    font: 500 25px/29.33px 'Work Sans';
+    margin-bottom: 40px;
+  }
+  p {
+    color: #ADD6F9;
+    font: 400 14px/16.41px "Roboto";
+  }
+  .btn-cta {
+    width: 287px;
+    @media (max-width: 575px) {
+      min-width: 0;
+      width: 100%;
+    }
+  }
+}
+
+form {
+  color: $white;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  max-width: 538px;
+}

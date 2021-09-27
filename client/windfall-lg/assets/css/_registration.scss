@@ -1,12 +1,7 @@
 .hero {
   overflow: hidden;
   position: relative;
-  background: linear-gradient(270deg, rgba(249, 201, 201, 0.95) -17%, rgba(249, 201, 201, 0.95) 22.52%, #263B49 22.8%, #263C49 83.46%);
-  mix-blend-mode: normal;
-  @media(max-width: 991px){
-    background: $darkblue;
-  }
-
+  background: $black;
   p{
     font: 400 22px 'Montserrat';
     margin: 0;
@@ -23,34 +18,44 @@
   }
   em {
     display: block;
-    color: $paleyellow;
-    //font: 400 23px/28px 'Work Sans';
-    font: 400 20px/26px 'Work Sans';
+    color: $brightyellow;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 122%;
     margin-bottom: 20px;
+    letter-spacing: 0.015em;
   }
   h1 {
-    // font: 700 54px/59px 'Work Sans';
-    font: 700 42px/52px 'Work Sans';
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    //font-size: 88px;
+    font-size: 76px;
+    line-height: 110%;
+    letter-spacing: 0.015em;
     text-transform: uppercase;
     color: $white;
     margin-bottom: 30px;
-    strong{
-      font-weight: 700;
+    @media (max-width: 991px) {
+      //font-size: 75px;
+      font-size: 64px;
     }
-    @media (max-width: 767px) {
-      font: 700 32px/1.1em 'Work Sans';
-    }
-    @media(max-width:420px){
-      font: 700 24px/1.1em 'Work Sans';
+    @media (max-width: 575px) {
+      //font-size: 65px;
+      font-size: 56px;
     }
   }
   h2 {
-    font: 500 24px 'Work Sans';
+    font-family: "Roboto", sans-serif;
     font-style: italic;
-    color: $pinkpill;
-    @media (max-width: 767px) {
-      font-weight: 900;      
-    }
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 122%;
+    color: $white;
+    letter-spacing: 0.015em;
+    margin-bottom: 25px;
   }
   ul {
     padding: 0 .5em 0 15px;
@@ -58,23 +63,30 @@
       padding: 0;
     }
     li {
-      // font: 400 20px/24px 'Work Sans';
-      font: 400 16px/22px 'Work Sans';
-      color: $pinkpill;
-      position: relative;
-      padding-left: 5px;
-      @media (max-width: 768px) {
-        font: 300 14px 'Work Sans';
-      }
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 122%;
+      letter-spacing: 0.015em;
+      color: $white;
+      margin-bottom: 10px;
+    }
+  }
+  .bottom {
+    @media (max-width: 1199px) {
+      display: block;
+      margin: 0 auto;
+      max-width: 660px;
     }
   }
 }
 .quote {
-  background: $paleyellow;
+  background: $lightpink;
   color: #0D2646;
-  padding: 60px 30px;
+  padding: 60px 0;
   blockquote {
-    font: 400 28px/36.62px 'Allan';
+    font: 400 28px/36.68px 'Roboto', sans-serif;
     @media (max-width: 575px) {
       font-size: 21px;
     }

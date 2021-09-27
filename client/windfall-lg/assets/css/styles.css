@@ -84,7 +84,7 @@ label {
   height: 45px;
   font: 400 18px 'Roboto';
   color: #707070;
-  background: #EEC2C3; }
+  background: #ECEADF; }
 
 @media (max-width: 320px) {
   .form-control {
@@ -123,7 +123,6 @@ textarea.form-control {
   width: 100%;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #495057;
   pointer-events: none;
   cursor: text;
   border: 1px solid transparent;
@@ -152,12 +151,10 @@ textarea.form-control {
 .floating-label input:not(:placeholder-shown) ~ label, .floating-label textarea:not(:placeholder-shown) ~ label {
   padding-top: .25rem;
   padding-bottom: .25rem;
-  font-size: 15px;
-  color: #263C49; }
+  font-size: 15px; }
 
 .floating-label label {
-  font: 400 18px "Roboto";
-  color: #263C49; }
+  font: 400 18px "Roboto"; }
 
 .floating-label ::placeholder {
   opacity: 0; }
@@ -390,49 +387,23 @@ footer .contact {
   max-width: 1026px; }
 
 .tripwire .hero {
-  background: #FFF7E1; }
+  background: #E5E2DC; }
 
 .tripwire .hero h1 {
-  text-transform: uppercase;
-  font: 600 31px/130.8% 'Work Sans';
-  color: #45AFED; }
-
-@media (max-width: 575px) {
-  .tripwire .hero h1 {
-    font-size: 26px; } }
-
-@media (max-width: 420px) {
-  .tripwire .hero h1 {
-    font-size: 24px; } }
-
-@media (max-width: 320px) {
-  .tripwire .hero h1 {
-    font-size: 20px; } }
+  font: 900 64px/66.56px 'Roboto', sans-serif;
+  color: #000000; }
 
 .tripwire .hero h2 {
-  font: 400 43px/91.5% 'Allan', cursive;
-  color: #0D2646;
+  font: 400 35px/42.7px 'Roboto', sans-serif;
+  color: #000000;
   margin: 25px auto 0; }
-
-@media (max-width: 575px) {
-  .tripwire .hero h2 {
-    font-size: 20px;
-    line-height: 26px; } }
 
 .tripwire .hero .box {
   position: relative;
-  background: #263C49; }
+  background: #010101; }
 
 .tripwire .hero .box.right {
-  background: #F5D354; }
-
-.tripwire .hero .box .btn-primary {
-  color: #fff;
-  font-size: 30px; }
-
-@media (max-width: 991px) {
-  .tripwire .hero .box .btn-primary {
-    font-size: 24px; } }
+  background: #C3C1B0; }
 
 .tripwire .hero .box p {
   font: 400 22px/30px 'Roboto';
@@ -440,7 +411,7 @@ footer .contact {
   margin: 0; }
 
 .tripwire .hero .box .content {
-  min-height: 150px; }
+  min-height: 122px; }
 
 .tripwire .hero .box .content h3 {
   font: 700 20px/110% 'Roboto'; }
@@ -451,16 +422,19 @@ footer .contact {
 .tripwire .hero .box .content1 {
   color: #ffffff; }
 
+.tripwire .hero .box .content2 p {
+  color: #000000; }
+
 .tripwire .hero .box .content2 h3 {
-  color: #263C49; }
+  color: #000000; }
 
 .tripwire .hero .box .content2 .btn-primary {
-  background: #FFF7E1;
-  color: #263C49; }
+  background: #787765;
+  color: #ffffff; }
 
 .tripwire .hero .box .content2 .btn-primary:hover {
-  color: #FFF7E1;
-  background: #263C49; }
+  color: #ffffff;
+  background: #000000; }
 
 .tripwire .hero .box .content2 .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(40, 80, 115, 0.5); }
@@ -473,14 +447,13 @@ footer .contact {
   font: italic 400 30px 'Roboto'; }
 
 .tripwire .btn-primary {
-  padding: .48em 1.25em;
   display: block;
-  max-width: 291px;
+  max-width: 360px;
   margin: 0 auto; }
 
 .tripwire #inquiry {
   color: #ffffff;
-  background: #263C49; }
+  background: #1E8191; }
 
 .tripwire #inquiry h2 {
   color: #ffffff;
@@ -494,21 +467,22 @@ footer .contact {
   font-style: italic; }
 
 .tripwire #inquiry .custom-select::placeholder {
-  color: #ACACAC !important; }
+  color: #E5E2DC !important; }
 
 .tripwire #inquiry form {
-  max-width: 1000px; }
+  max-width: 1000px;
+  color: #010101; }
 
 .tripwire #inquiry .form-control {
-  color: #263C49; }
+  color: #010101; }
 
 .tripwire #inquiry .form-control::placeholder {
-  color: #263C49; }
+  color: #010101; }
 
 .tripwire #inquiry .btn-primary {
-  padding: 1.2em 1.25em;
+  padding: .65em 1.25em;
   display: block;
-  width: 238px;
+  width: 230px;
   margin: 0 auto; }
 
 .tripwire .disclouser-box {

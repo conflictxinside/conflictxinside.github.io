@@ -1,46 +1,25 @@
 .hero {
-  background: $paleyellow;
+  background: $lightgrey;
   h1 {
-    text-transform: uppercase;
-    font: 600 31px/130.8% 'Work Sans';
-    color: #45AFED;
-    @media(max-width: 575px) {
-      font-size: 26px;
-    }
-    @media(max-width: 420px){
-      font-size: 24px;
-    }
-    @media(max-width: 320px){
-      font-size: 20px;
-    }
+    font: 900 64px/66.56px 'Roboto', sans-serif;
+    color: $black;
   }
   h2 {
-    font: 400 43px/91.5% 'Allan', cursive;
-    color: #0D2646;
-    @media(max-width: 575px){
-      font-size: 20px;
-      line-height: 26px;
-    }
+    font: 400 35px/42.7px 'Roboto', sans-serif;
+    color: $black;
     margin: 25px auto 0;
   }
   .box {
     position: relative;
-    background: $darkblue;
-    &.right {background: #F5D354;}
-    .btn-primary {
-        color: #fff;
-        font-size: 30px;
-        @media(max-width: 991px){
-          font-size: 24px;
-        }
-    }
+    background: $darkestblue;
+    &.right {background: $lightkhaki;}
     p {
       font: 400 22px/30px 'Roboto';
       color: #fff;
       margin: 0;
     }
     .content{
-      min-height: 150px;
+      min-height: 122px;
       h3{
         font: 700 20px/110% 'Roboto';
       }
@@ -50,13 +29,14 @@
     }
     .content1 {color: $white;}
     .content2{
-      h3 {color: $darkblue;}
+      p {color: $black;}
+      h3 {color: $black;}
       .btn-primary{
-        background: $paleyellow;
-        color: $darkblue;
+        background: $darkkhaki;
+        color: $white;
         &:hover{
-          color: $paleyellow;
-          background: $darkblue;
+          color: $white;
+          background: $black;
         }
         &:focus{
           box-shadow: 0 0 0 0.2rem rgba($blue,0.5);
@@ -75,15 +55,14 @@
 }
 
 .btn-primary{
-  padding: .48em 1.25em;
   display: block;
-  max-width: 291px;
+  max-width: 360px;
   margin: 0 auto;
 }
 
 #inquiry {
   color: $white;
-  background: $darkblue;
+  background: $teal;
   h2 {
     color: $white;
     font: 500 italic 31px/43.4px 'Roboto';
@@ -99,13 +78,13 @@
       color: $lightgrey !important;
     }
   }
-  form {max-width: 1000px;}
-  .form-control {color: $darkblue;}
-  .form-control::placeholder {color: $darkblue;}
+  form {max-width: 1000px; color: $darkestblue;}
+  .form-control {color: $darkestblue;}
+  .form-control::placeholder {color: $darkestblue;}
   .btn-primary{
-    padding: 1.2em 1.25em;
+    padding: .65em 1.25em;
     display: block;
-    width: 238px;
+    width: 230px;
     margin: 0 auto;
   }
 }

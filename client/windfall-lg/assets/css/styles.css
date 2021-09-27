@@ -393,10 +393,26 @@ footer .contact {
   font: 900 64px/66.56px 'Roboto', sans-serif;
   color: #000000; }
 
+@media (max-width: 991px) {
+  .tripwire .hero h1 {
+    font: 900 58px/104% 'Roboto', sans-serif; } }
+
+@media (max-width: 575px) {
+  .tripwire .hero h1 {
+    font: 900 52.24px/104% 'Roboto', sans-serif; } }
+
 .tripwire .hero h2 {
   font: 400 35px/42.7px 'Roboto', sans-serif;
   color: #000000;
   margin: 25px auto 0; }
+
+@media (max-width: 991px) {
+  .tripwire .hero h2 {
+    font: 400 32px/122% 'Roboto', sans-serif; } }
+
+@media (max-width: 575px) {
+  .tripwire .hero h2 {
+    font: 400 28.8px/122% 'Roboto', sans-serif; } }
 
 .tripwire .hero .box {
   position: relative;
@@ -439,6 +455,10 @@ footer .contact {
 .tripwire .hero .box .content2 .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(40, 80, 115, 0.5); }
 
+@media (max-width: 991px) {
+  .tripwire .hero .box {
+    max-width: 536px; } }
+
 .tripwire .hero h3 {
   font: 700 28px 'Roboto';
   color: #fff; }
@@ -450,6 +470,10 @@ footer .contact {
   display: block;
   max-width: 360px;
   margin: 0 auto; }
+
+@media (max-width: 575px) {
+  .tripwire .btn-primary {
+    font-size: 22px; } }
 
 .tripwire #inquiry {
   color: #ffffff;
@@ -470,7 +494,7 @@ footer .contact {
   color: #E5E2DC !important; }
 
 .tripwire #inquiry form {
-  max-width: 1000px;
+  max-width: 974px;
   color: #010101; }
 
 .tripwire #inquiry .form-control {

@@ -3,11 +3,23 @@
   h1 {
     font: 900 64px/66.56px 'Roboto', sans-serif;
     color: $black;
+    @media(max-width: 991px){
+      font: 900 58px/104% 'Roboto', sans-serif;
+    }
+    @media(max-width: 575px){
+      font: 900 52.24px/104% 'Roboto', sans-serif;
+    }
   }
   h2 {
     font: 400 35px/42.7px 'Roboto', sans-serif;
     color: $black;
     margin: 25px auto 0;
+    @media(max-width: 991px){
+      font: 400 32px/122% 'Roboto', sans-serif;
+    }
+    @media(max-width: 575px){
+      font: 400 28.8px/122% 'Roboto', sans-serif;
+    }
   }
   .box {
     position: relative;
@@ -43,6 +55,9 @@
         }
       }
     }
+    @media(max-width: 991px){
+      max-width: 536px;
+    }
   }
   h3 {
     font: 700 28px 'Roboto';
@@ -58,6 +73,9 @@
   display: block;
   max-width: 360px;
   margin: 0 auto;
+  @media(max-width: 575px){
+    font-size: 22px;
+  }
 }
 
 #inquiry {
@@ -78,7 +96,7 @@
       color: $lightgrey !important;
     }
   }
-  form {max-width: 1000px; color: $darkestblue;}
+  form {max-width: 974px; color: $darkestblue;}
   .form-control {color: $darkestblue;}
   .form-control::placeholder {color: $darkestblue;}
   .btn-primary{

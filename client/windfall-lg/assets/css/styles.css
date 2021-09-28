@@ -1,5 +1,5 @@
 @import url("https://assets.snappykraken.com/global/css/utilities.css");
-@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&family=Satisfy&family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&family=Satisfy&family=Work+Sans:wght@400;700&display=swap");
 body {
   background: #fff;
   font: 300 18px/1.5em 'Roboto', sans-serif;
@@ -72,7 +72,7 @@ a {
   opacity: .75; }
 
 .modal-backdrop.show {
-  background-color: #63C1EF;
+  background-color: #ffffff;
   opacity: .61; }
 
 label {
@@ -200,15 +200,6 @@ footer .contact {
 .disclosure {
   font: 400 16px/20.93px "Work Sans"; }
 
-.bg_pills {
-  display: block;
-  width: 100%;
-  height: 102px;
-  background: #F8665B url(../img/bg_pills.png); }
-
-.bg_pills.bg_pills_large {
-  height: 318px; }
-
 .registration .hero {
   overflow: hidden;
   position: relative;
@@ -314,40 +305,66 @@ footer .contact {
     margin: .5rem !important; } }
 
 #opt-in .image {
-  background: #263C49; }
+  padding: 0 15px;
+  background: #000000; }
 
 #opt-in .popup-form {
-  padding: 20px 5px;
-  background: #263C49; }
+  padding: 20px 40px 0;
+  background: #000000; }
 
 #opt-in .popup-form h3 {
   color: #ffffff;
-  font: 400 55px/60.5px 'Alfa Slab One', cursive;
+  font-family: "Monda", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 110%;
   margin-bottom: 30px; }
+
+@media (max-width: 575px) {
+  #opt-in .popup-form h3 {
+    font-size: 40px; } }
 
 #opt-in .popup-form h4 {
   color: #ffffff;
-  font: 500 25px/29.33px 'Work Sans';
+  font: 400 41px/116% 'Roboto', sans-serif;
   margin-bottom: 40px; }
 
-#opt-in .popup-form p {
-  color: #ADD6F9;
-  font: 400 14px/16.41px "Roboto"; }
+@media (max-width: 575px) {
+  #opt-in .popup-form h4 {
+    font-size: 20px; } }
 
 #opt-in .popup-form .btn-cta {
-  width: 287px; }
+  width: 287px;
+  padding: .4em 1em;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 147%;
+  text-align: center;
+  letter-spacing: 0.05em; }
 
 @media (max-width: 575px) {
   #opt-in .popup-form .btn-cta {
     min-width: 0;
     width: 100%; } }
 
-#opt-in form {
-  color: #ffffff;
-  font-size: 18px;
-  display: block;
-  margin: 0 auto;
-  max-width: 538px; }
+@media (max-width: 575px) {
+  #opt-in .popup-form {
+    padding: 20px 20px 0; } }
+
+#opt-in .sp {
+  padding: 0 5px 20px;
+  background: #000000; }
+
+#opt-in .sp p {
+  color: #0EDAFF;
+  font: 400 14px/16px "Roboto", sans-serif; }
+
+@media (max-width: 575px) {
+  #opt-in .sp {
+    padding: 0 15px 20px; } }
 
 #exit .modal-dialog {
   max-width: 1106px; }
@@ -584,9 +601,6 @@ footer .contact {
   display: block;
   max-width: 450px;
   margin: 0 auto; }
-
-.leadmagnet {
-  background: #263C49 url(../img/bg_pills.png); }
 
 .leadmagnet .btn-primary {
   font-weight: 400; }
@@ -1073,7 +1087,7 @@ footer .contact {
 
 .leadmagnet footer .footer-contact {
   padding: 75px 0;
-  background: #263C49 url(../img/bg_pills.png) repeat center top; }
+  background: #263C49; }
 
 .leadmagnet footer .footer-contact .footer-box {
   padding: 60px 0;

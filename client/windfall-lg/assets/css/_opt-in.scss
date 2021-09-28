@@ -6,38 +6,59 @@
   }
 }
 .image {
-    background: $darkblue;
+  padding: 0 15px;
+  background: $black;
 }
 .popup-form {
-  padding: 20px 5px;
-  background: $darkblue;
+  padding: 20px 40px 0;
+  background: $black;
   h3 {
     color: $white;
-    font: 400 55px/60.5px 'Alfa Slab One', cursive;
+    font-family: "Monda", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 110%;
     margin-bottom: 30px;
+    @media (max-width: 575px) {
+      font-size: 40px;
+    }
   }
   h4 {
     color: $white;
-    font: 500 25px/29.33px 'Work Sans';
+    font: 400 41px/116% 'Roboto', sans-serif;
     margin-bottom: 40px;
-  }
-  p {
-    color: #ADD6F9;
-    font: 400 14px/16.41px "Roboto";
+    @media (max-width: 575px) {
+      font-size: 20px;
+    }
   }
   .btn-cta {
     width: 287px;
+    padding: .4em 1em;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 147%;
+    text-align: center;
+    letter-spacing: 0.05em;
     @media (max-width: 575px) {
       min-width: 0;
       width: 100%;
     }
   }
+  @media (max-width: 575px) {
+    padding: 20px 20px 0;
+  }
 }
-
-form {
-  color: $white;
-  font-size: 18px;
-  display: block;
-  margin: 0 auto;
-  max-width: 538px;
+.sp {
+  padding: 0 5px 20px;
+  background: $black;
+  p {
+    color: #0EDAFF;
+    font: 400 14px/16px "Roboto", sans-serif;
+  }
+  @media (max-width: 575px) {
+    padding: 0 15px 20px;
+  }
 }

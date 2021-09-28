@@ -1,5 +1,5 @@
 @import url('https://assets.snappykraken.com/global/css/utilities.css');
-@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&family=Satisfy&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,700&family=Satisfy&family=Work+Sans:wght@400;700&display=swap');
 
 $black: #000000;
 $white: #ffffff;
@@ -101,7 +101,7 @@ a {
   }
 }
 .modal-backdrop.show {
-  background-color: $lightblue;
+  background-color: $white;
   opacity: .61;
 }
 label {
@@ -191,13 +191,7 @@ footer {
   font: 400 16px/20.93px "Work Sans";
 }
 
-.bg_pills {
-  display: block;
-  width: 100%;
-  height: 102px;
-  background: #F8665B url(../img/bg_pills.png);
-  &.bg_pills_large {height: 318px;}
-}
+
 
 .registration {
   @import 'registration';
@@ -215,7 +209,6 @@ footer {
   @import 'confirmation';
 }
 .leadmagnet {
-  background: $darkblue url(../img/bg_pills.png);
   @import 'leadmagnet';
 }
 

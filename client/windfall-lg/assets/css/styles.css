@@ -354,16 +354,16 @@ footer .contact {
   #opt-in .popup-form {
     padding: 20px 20px 0; } }
 
-#opt-in .sp {
+#opt-in .spam {
   padding: 0 5px 20px;
   background: #000000; }
 
-#opt-in .sp p {
+#opt-in .spam p {
   color: #0EDAFF;
   font: 400 14px/16px "Roboto", sans-serif; }
 
 @media (max-width: 575px) {
-  #opt-in .sp {
+  #opt-in .spam {
     padding: 0 15px 20px; } }
 
 #exit .modal-dialog {
@@ -371,25 +371,44 @@ footer .contact {
 
 #exit .modal-content {
   color: #fff;
-  background: #263C49; }
+  background: #000000; }
 
 #exit .modal-content h3 {
   color: #ffffff;
-  font: 400 55px/60.5px 'Alfa Slab One';
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 67px;
+  line-height: 110%;
   margin-bottom: 40px; }
 
+@media (max-width: 767px) {
+  #exit .modal-content h3 {
+    font-size: 48px; } }
+
+@media (max-width: 575px) {
+  #exit .modal-content h3 {
+    font-size: 35px; } }
+
+@media (max-width: 375px) {
+  #exit .modal-content h3 {
+    font-size: 22px; } }
+
 #exit .modal-content h4 {
-  font: 400 32px/37.54px 'Work Sans';
-  color: #FFF7E1; }
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 116%;
+  color: #C3C1B0; }
 
-#exit .modal-content p {
-  font: 700 24px 'Work Sans'; }
+@media (max-width: 767px) {
+  #exit .modal-content h4 {
+    font-size: 27px; } }
 
-#exit .modal-content .btn-link {
-  font-size: 16px;
-  color: #fff;
-  font-style: italic;
-  font-weight: 400; }
+@media (max-width: 575px) {
+  #exit .modal-content h4 {
+    font-size: 18px; } }
 
 #exit .modal-content .dismiss {
   display: inline-block;
@@ -399,18 +418,15 @@ footer .contact {
   top: 20px; }
 
 #exit .modal-content .spam {
-  font-size: 14px;
-  line-height: 16.41px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  color: #45AFED;
-  font-family: "roboto"; }
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #0EDAFF; }
 
 #exit form {
-  color: #000000;
-  display: block;
-  margin: 0 auto;
-  max-width: 1026px; }
+  color: #000000; }
 
 .tripwire .hero {
   background: #E5E2DC; }

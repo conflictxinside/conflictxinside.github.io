@@ -3,24 +3,38 @@
 }
 .modal-content {
   color: #fff;
-  background: $darkblue;
+  background: $black;
   h3 {
     color: $white;
-    font: 400 55px/60.5px 'Alfa Slab One';
+    font-family: "Monda", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 110%;
     margin-bottom: 40px;
+    @media(max-width: 767px){
+      font-size: 48px;
+    }
+    @media(max-width: 575px){
+      font-size: 35px;
+    }
+    @media(max-width: 375px){
+      font-size: 22px;
+    }
   }
   h4 {
-    font: 400 32px/37.54px 'Work Sans';
-    color: $paleyellow;
-  }
-  p {
-    font: 700 24px 'Work Sans';
-  }
-  .btn-link {
-    font-size: 16px;
-    color: #fff;
-    font-style: italic;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 116%;
+    color: $lightkhaki;
+    @media(max-width: 767px){
+      font-size: 27px;
+    }
+    @media(max-width: 575px){
+      font-size: 18px;
+    }
   }
   .dismiss {
     display: inline-block;
@@ -29,18 +43,15 @@
     right: 20px;
     top: 20px;
   }
-  .spam{
-    font-size: 14px;
-    line-height: 16.41px;
+  .spam {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-weight: 400;
-    color: #45AFED;
-    font-family: "roboto";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0EDAFF;
   }
 }
 form {
   color: $black;
-  display: block;
-  margin: 0 auto;
-  max-width: 1026px;
 }

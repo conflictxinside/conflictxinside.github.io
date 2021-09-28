@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&family=Work+Sans:ital,wght@0,500;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Roboto&family=Work+Sans:wght@700&display=swap");
 img {
   display: block;
   margin: 0 auto;
@@ -7,7 +7,7 @@ img {
 .ht-bo-exiting {
   font-family: 'Work Sans';
   line-height: 1.8em;
-  background-color: #263C49;
+  background-color: #000;
   color: #fff;
   text-align: center;
   min-height: 400px;
@@ -21,38 +21,39 @@ img {
   width: 100%; }
 
 .ht-bo-exiting h2 {
-  color: #263C49;
-  font: 400 55px/60.5px 'Alfa Slab One' !important;
+  color: #fff;
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 110%;
   margin: 0 !important;
-  padding: 85px 15px !important;
+  padding: 40px 15px 10px !important;
   text-transform: none !important;
   text-decoration: none !important;
-  background: #FFF7E1 !important;
+  background: #000 !important;
   border: none !important;
   width: 100% !important;
   height: auto !important; }
 
-@media (max-width: 1023px) {
+@media (max-width: 374px) {
   .ht-bo-exiting h2 {
-    padding: 35px 15px;
-    font-size: 32px !important;
-    line-height: 36px !important; } }
+    font-size: 42px; } }
 
 .ht-bo-exiting h3 {
-  font-family: Work Sans;
-  font-size: 28px;
+  font-family: "Monda", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: 0em;
+  font-weight: normal;
+  font-size: 41px;
+  line-height: 116%;
   text-align: center;
   max-width: 542px;
   margin: 0 auto;
-  padding: 0 15px; }
+  padding: 0 15px 60px; }
 
-@media (max-width: 1023px) {
+@media (max-width: 374px) {
   .ht-bo-exiting h3 {
-    font-size: 26px !important; } }
+    font-size: 22px; } }
 
 .ht-bo-exiting h4 {
   font-family: Work Sans;
@@ -85,8 +86,9 @@ img {
   height: auto !important; }
 
 .ht-bo-exiting p.ht-small {
-  font: 400 14px/16.41px 'Roboto' !important;
-  color: #45AFED !important; }
+  font: 400 14px/16px 'Roboto', sans-serif !important;
+  color: #0EDAFF !important;
+  padding: 0 15px !important; }
 
 .ht-bo-exiting .ht-form {
   display: block !important;
@@ -96,22 +98,24 @@ img {
 
 .ht-bo-exiting .ht-form .form-control {
   border-radius: 0;
-  font-family: 'Work Sans', sans-serif !important;
-  background: #EEC2C3; }
+  color: #010101;
+  font-family: 'Roboto', sans-serif !important;
+  background: #ECEADF; }
 
 .ht-bo-exiting .ht-form .ht-button {
-  background-color: #E63D36 !important;
+  background-color: #E9278C !important;
   color: #fff !important;
-  font: 700 30px 'Work Sans' !important;
+  font: 700 30px 'Work Sans', sans-serif !important;
   margin: 50px auto 0 !important;
   box-sizing: border-box !important;
   width: 287px;
-  height: 64px !important;
+  height: 68px !important;
   vertical-align: middle !important;
   padding: 0 1em !important;
   border: 0 !important;
   box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.45);
-  border-radius: 48px; }
+  border-radius: 48px;
+  letter-spacing: 0.05em; }
 
 .ht-bo-exiting .ht-form .ht-button:hover {
   background: #A31414 !important; }
@@ -138,7 +142,6 @@ img {
   width: 100%;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #495057;
   pointer-events: none;
   cursor: text;
   border: 1px solid transparent;
@@ -167,12 +170,11 @@ img {
 .floating-label input:not(:placeholder-shown) ~ label {
   padding-top: .25rem;
   padding-bottom: .25rem;
-  font-size: 15px;
-  color: #263C49; }
+  font-size: 15px; }
 
 .floating-label label {
-  font: 400 18px "Work Sans", sans-serif;
-  color: #263C49;
+  font: 400 18px "Roboto", sans-serif;
+  color: #010101;
   text-align: left; }
 
 @supports (-ms-ime-align: auto) {

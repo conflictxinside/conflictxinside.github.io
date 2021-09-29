@@ -12,7 +12,7 @@ $blue: #285073;
 $grey: #707070;
 $darkgrey: #96999C;
 $darkergrey: #252525;
-$yellow: #FFDC65;
+$yellow: #F0DA0F;
 $orange: #EA9342;
 $stickybar: #578184;
 $paleyellow: #FFF7E1;
@@ -156,10 +156,10 @@ textarea.form-control {
 footer {
   padding: 50px 0;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 20.94px;
   color: $black;
   background: $white;
-  a {color: $black;}
+  a {color: $darkestblue;}
   .contact {
     font-size: 19px;
     @media(max-width: 575px){

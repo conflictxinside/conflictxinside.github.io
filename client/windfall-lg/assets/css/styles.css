@@ -9,7 +9,7 @@ b, strong {
   font-weight: 700; }
 
 a {
-  color: #4C67AC; }
+  color: #0EDAFF; }
 
 .section {
   clear: both;
@@ -625,6 +625,16 @@ footer .contact {
   .leadmagnet .btn-primary {
     font-size: 16px; } }
 
+.leadmagnet hr {
+  height: 2px;
+  color: #000000;
+  border-color: #000000;
+  background: #000000;
+  display: block;
+  padding: 0;
+  margin: 60px auto;
+  max-width: 1033px; }
+
 .leadmagnet .navbar {
   display: block;
   text-align: center;
@@ -676,6 +686,10 @@ footer .contact {
   min-height: 796px;
   border-bottom: 15px solid #000000;
   background: #000000 url(../img/bg_lead-magnet.jpg) no-repeat center top/cover; }
+
+@media (max-width: 375px) {
+  .leadmagnet .hero {
+    overflow: hidden; } }
 
 .leadmagnet .hero .title {
   float: left;
@@ -743,7 +757,133 @@ footer .contact {
     left: calc(50% - 210px); } }
 
 .leadmagnet .lead-section {
+  padding: 100px 0 60px;
   background: linear-gradient(180deg, #E4E2D0 0%, #F2F0EB 100%); }
+
+.leadmagnet .lead-section .point {
+  border-top: 2px solid #000000;
+  padding: 80px 0 40px 0; }
+
+.leadmagnet .lead-section .point:first-child {
+  border-top: none;
+  padding-top: 0; }
+
+.leadmagnet .lead-section .point:last-child {
+  padding-bottom: 0; }
+
+.leadmagnet .lead-section .lead-content {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 131%;
+  color: #000000; }
+
+.leadmagnet .lead-section ul li {
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 150%; }
+
+.leadmagnet .lead-section .icon {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.leadmagnet .lead-section h3 {
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 114%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  background: transparent url(../img/bg_tag-yellow.png) no-repeat center center; }
+
+.leadmagnet .lead-section h4 {
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 116%;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: capitalize; }
+
+.leadmagnet .lead-section.must-knows h3 {
+  background: transparent url(../img/bg_tag-blue.png) no-repeat center center; }
+
+.leadmagnet .lead-header {
+  min-height: 600px;
+  border-top: 15px solid #000000;
+  border-bottom: 15px solid #000000;
+  position: relative; }
+
+.leadmagnet .lead-header.lead-header-left {
+  background: #000000 url(../img/bg_header-risks.jpg) no-repeat left bottom/cover; }
+
+@media (max-width: 991px) {
+  .leadmagnet .lead-header.lead-header-left {
+    background-position: center bottom; } }
+
+@media (max-width: 767px) {
+  .leadmagnet .lead-header.lead-header-left {
+    min-height: 480px;
+    background: #F0DA0F; } }
+
+@media (max-width: 575px) {
+  .leadmagnet .lead-header.lead-header-left {
+    overflow: hidden; } }
+
+.leadmagnet .lead-header .title {
+  float: left;
+  width: 670px;
+  height: 462px;
+  overflow: hidden;
+  padding: 175px 116px 100px 124px;
+  color: #ffffff;
+  text-align: center;
+  background: transparent url(../img/bg_title-header-risks.png) no-repeat center top/cover; }
+
+.leadmagnet .lead-header .title h2 {
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 67px;
+  line-height: 90%;
+  text-transform: uppercase;
+  margin-bottom: 0; }
+
+@media (max-width: 1199px) {
+  .leadmagnet .lead-header .title h2 {
+    font-size: 54.3px; } }
+
+@media (max-width: 991px) {
+  .leadmagnet .lead-header .title h2 {
+    font-size: 50px; } }
+
+@media (max-width: 575px) {
+  .leadmagnet .lead-header .title h2 {
+    font-size: 35px; } }
+
+@media (max-width: 991px) {
+  .leadmagnet .lead-header .title {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 480px;
+    height: 443px;
+    padding: 200px 71px 100px 77px; } }
+
+@media (max-width: 575px) {
+  .leadmagnet .lead-header .title {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: calc(50% - 240px); } }
 
 .leadmagnet .subscribe {
   color: #787765;
@@ -766,6 +906,30 @@ footer .contact {
   font-size: 21px;
   line-height: 131%;
   letter-spacing: 0; }
+
+.leadmagnet #final {
+  padding: 90px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 131%;
+  color: #E5E2DC;
+  background: #000000; }
+
+.leadmagnet #final a {
+  font-weight: bold; }
+
+.leadmagnet #final h2 {
+  font-family: "Monda", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 116%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  color: #ffffff; }
 
 .leadmagnet #inquiry {
   padding: 60px 0;

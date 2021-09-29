@@ -4,6 +4,16 @@
     font-size: 16px;
   }
 }
+hr {
+  height: 2px;
+  color: $black;
+  border-color: $black;
+  background: $black;
+  display: block;
+  padding: 0;
+  margin: 60px auto;
+  max-width: 1033px;
+}
 .navbar{
   //display: flex;
   display: block;
@@ -54,6 +64,9 @@
   min-height: 796px;
   border-bottom: 15px solid $black;
   background: $black url(../img/bg_lead-magnet.jpg) no-repeat center top / cover;
+  @media(max-width:375px){
+    overflow: hidden;
+  }
   .title {
     float: left;
     width: 670px;
@@ -116,7 +129,126 @@
 }
 
 .lead-section {
+  padding: 100px 0 60px;
   background: linear-gradient(180deg, #E4E2D0 0%, #F2F0EB 100%);
+  .point {
+    border-top: 2px solid $black;
+    padding: 80px 0 40px 0;
+    &:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+    &:last-child {padding-bottom: 0;}
+  }
+  .lead-content {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 131%;
+    color: $black;
+  }
+  ul {
+    li {
+      font-family: "Monda", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 150%;
+    }
+  }
+  .icon {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-family: "Monda", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 114%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    background: transparent url(../img/bg_tag-yellow.png) no-repeat center center;
+  }
+  h4 {
+    font-family: "Monda", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 116%;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+  }
+  &.must-knows h3 {
+    background: transparent url(../img/bg_tag-blue.png) no-repeat center center;
+  }
+}
+
+.lead-header {
+  min-height: 600px;
+  border-top: 15px solid $black;
+  border-bottom: 15px solid $black;
+  position: relative;
+  &.lead-header-left {
+    background: $black url(../img/bg_header-risks.jpg) no-repeat left bottom / cover;
+    @media(max-width:991px){
+      background-position: center bottom;
+    }
+    @media(max-width:767px){
+      min-height: 480px;
+      background: $brightyellow;
+    }
+    @media(max-width:575px){
+      overflow: hidden;
+    }
+  }
+  .title {
+    float: left;
+    width: 670px;
+    height: 462px;
+    overflow: hidden;
+    padding: 175px 116px 100px 124px;
+    color: $white;
+    text-align: center;
+    background: transparent url(../img/bg_title-header-risks.png) no-repeat center top / cover;
+    h2 {
+      font-family: "Monda", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 67px;
+      line-height: 90%;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      @media(max-width:1199px){
+        font-size: 54.3px;
+      }
+      @media(max-width:991px){
+        font-size: 50px;
+      }
+      @media(max-width:575px){
+        font-size: 35px;
+      }
+    }
+    @media(max-width:991px){
+      float: none;
+      display: block;
+      margin: 0 auto;
+      width: 480px;
+      height: 443px;
+      padding: 200px 71px 100px 77px;
+    }
+    @media(max-width:575px){
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: calc(50% - 240px);
+    }
+  }
 }
 
 
@@ -137,6 +269,29 @@
     font-size: 21px;
     line-height: 131%;
     letter-spacing: 0;
+  }
+}
+
+#final {
+  padding: 90px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 131%;
+  color: $lightgrey;
+  background: $black;
+  a {font-weight: bold;}
+  h2 {
+    font-family: "Monda", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 116%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    color: $white;
   }
 }
 

@@ -183,6 +183,12 @@ hr {
     text-align: center;
     margin-bottom: 15px;
     text-transform: capitalize;
+    @media(max-width:991px){
+      font-size: 48px;
+    }
+    @media(max-width:575px){
+      font-size: 40px;
+    }
   }
   &.must-knows h3 {
     background: transparent url(../img/bg_tag-blue.png) no-repeat center center;
@@ -195,7 +201,7 @@ hr {
   border-bottom: 15px solid $black;
   position: relative;
   &.lead-header-left {
-    background: $black url(../img/bg_header-risks.jpg) no-repeat left bottom / cover;
+    background: $black url(../img/bg_header-risks.jpg) no-repeat center bottom / cover;
     @media(max-width:991px){
       background-position: center bottom;
     }
@@ -205,6 +211,20 @@ hr {
     }
     @media(max-width:575px){
       overflow: hidden;
+    }
+  }
+  &.lead-header-right {
+    min-height: 670px;
+    background: $black url(../img/bg_header-must-knows.jpg) no-repeat center bottom / cover;
+    @media(max-width:991px){
+      background-position: center bottom;
+    }
+    @media(max-width:767px){
+      min-height: 480px;
+      background: $linkblue;
+    }
+    @media(max-width:575px){
+      padding-top: 100px;
     }
   }
   .title {
@@ -247,6 +267,50 @@ hr {
       overflow: hidden;
       top: 0;
       left: calc(50% - 240px);
+    }
+  }
+  &.lead-header-right .title {
+    float: right;
+    position: absolute;
+    width: 806px;
+    height: 444px;
+    bottom: 50px;
+    right: 0;
+    padding: 175px 50px 100px 22px;
+    background-image: url(../img/bg_title-header-must-knows.png);
+    @media(max-width:1399px){
+      width: 690px;
+      height: 443px;
+      padding: 140px 100px 150px 123px;
+      bottom: 0;
+      background-size: 100% 100%;
+    }
+    @media(max-width:1199px){
+      width: 571px;
+      height: 443px;
+      padding: 140px 100px 150px 123px;
+    }
+    @media(max-width:767px){
+      position: static;
+      float: none;
+      display: block;
+      margin: 0 auto;
+    }
+    @media(max-width:575px){
+      width: 320px;
+      height: 320px;
+      padding: 100px 0 0 0;
+    }
+    h2 {
+      @media(max-width:1199px){
+        font-size: 67px;
+      }
+      @media(max-width:991px){
+        font-size: 67px;
+      }
+      @media(max-width:575px){
+        font-size: 51px;
+      }
     }
   }
 }
@@ -292,6 +356,12 @@ hr {
     text-transform: capitalize;
     margin-bottom: 50px;
     color: $white;
+    @media(max-width:991px){
+      font-size: 48px;
+    }
+    @media(max-width:575px){
+      font-size: 40px;
+    }
   }
 }
 

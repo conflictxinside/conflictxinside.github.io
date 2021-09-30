@@ -147,6 +147,9 @@ hr {
     font-size: 18px;
     line-height: 131%;
     color: $black;
+    @media(max-width:575px){
+      font-size: 16px;
+    }
   }
   ul {
     li {
@@ -155,6 +158,9 @@ hr {
       font-weight: normal;
       font-size: 25px;
       line-height: 150%;
+      @media(max-width:575px){
+        font-size: 20px;
+      }
     }
   }
   .icon {
@@ -322,9 +328,6 @@ hr {
   font-size: 22px;
   line-height: 116%;
   font-weight: 400;
-  @media(max-width: 575px){
-    font-size: 14px;
-  }
   p {margin-bottom: 20px;}
   .btn-primary {
     padding: .58em 1.35em;
@@ -346,6 +349,9 @@ hr {
   color: $lightgrey;
   background: $black;
   a {font-weight: bold;}
+  @media(max-width:575px){
+    font-size: 16px;
+  }
   h2 {
     font-family: "Monda", sans-serif;
     font-style: normal;

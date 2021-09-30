@@ -779,12 +779,20 @@ footer .contact {
   line-height: 131%;
   color: #000000; }
 
+@media (max-width: 575px) {
+  .leadmagnet .lead-section .lead-content {
+    font-size: 16px; } }
+
 .leadmagnet .lead-section ul li {
   font-family: "Monda", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   line-height: 150%; }
+
+@media (max-width: 575px) {
+  .leadmagnet .lead-section ul li {
+    font-size: 20px; } }
 
 .leadmagnet .lead-section .icon {
   text-align: center;
@@ -966,10 +974,6 @@ footer .contact {
   line-height: 116%;
   font-weight: 400; }
 
-@media (max-width: 575px) {
-  .leadmagnet .subscribe {
-    font-size: 14px; } }
-
 .leadmagnet .subscribe p {
   margin-bottom: 20px; }
 
@@ -993,6 +997,10 @@ footer .contact {
 
 .leadmagnet #final a {
   font-weight: bold; }
+
+@media (max-width: 575px) {
+  .leadmagnet #final {
+    font-size: 16px; } }
 
 .leadmagnet #final h2 {
   font-family: "Monda", sans-serif;

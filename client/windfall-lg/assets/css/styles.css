@@ -207,6 +207,9 @@ footer .contact {
   .footer-inner .logoBox {
     padding-bottom: 40px; } }
 
+.footer-inner p:last-child {
+  margin-bottom: 0; }
+
 .disclosure {
   font: 400 16px/20.93px "Work Sans"; }
 

@@ -41,7 +41,7 @@ a {
   border-radius: 48px; }
 
 .btn.btn-primary:hover {
-  background: #A31414;
+  background: #970D55;
   color: #ffffff; }
 
 .btn.btn-primary:focus {
@@ -179,11 +179,17 @@ footer .contact {
 .footer-inner {
   margin: 0 auto;
   border-bottom: 3px solid #000000;
-  max-width: 760px;
-  padding: 0 15px 48px;
+  max-width: 900px;
+  padding: 0 165px 48px;
   font-family: 'work sans', sans-serif;
   font-size: 16px;
   line-height: 20.93px; }
+
+@media (max-width: 1199px) {
+  .footer-inner {
+    max-width: 584px;
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 @media (max-width: 991px) {
   .footer-inner {
@@ -603,7 +609,7 @@ footer .contact {
   font: 400 24px 'Satisfy'; }
 
 .confirmation .hero .office {
-  color: #ffffff;
+  color: #E4E2D0;
   font: 400 20px 'Roboto'; }
 
 .confirmation .hero .office strong {
@@ -678,7 +684,7 @@ footer .contact {
   line-height: 130%; }
 
 .leadmagnet .navbar .btn-primary:hover {
-  background: #A31414;
+  background: #970D55;
   color: #ffffff; }
 
 .leadmagnet .hero {

@@ -9,7 +9,7 @@ $blue: #285073;
 $grey: #707070;
 $darkgrey: #96999C;
 $pink: #E9278C;
-$darkpink: #A31414;
+$darkpink: #970D55;
 
 $linkblue: #0EDAFF;
 $lightkhaki: #C3C1B0;
@@ -163,11 +163,16 @@ footer {
 .footer-inner {
   margin: 0 auto;
   border-bottom: 3px solid $black;
-  max-width: 760px;
-  padding: 0 15px 48px;
+  max-width: 900px;
+  padding: 0 165px 48px;
   font-family: 'work sans', sans-serif;
   font-size: 16px;
   line-height: 20.93px;
+  @media(max-width: 1199px){
+    max-width: 584px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   @media(max-width: 991px){
     max-width: 456px;
   }

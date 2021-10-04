@@ -182,6 +182,11 @@ footer {
   @media(max-width: 575px){
     padding: 25px 15px;
   }
+  .logoBox {
+    @media(max-width: 991px){
+      padding-bottom: 40px;
+    }
+  }
 }
 .disclosure {
   font: 400 16px/20.93px "Work Sans";

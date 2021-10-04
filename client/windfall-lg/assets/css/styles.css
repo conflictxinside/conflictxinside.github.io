@@ -203,6 +203,10 @@ footer .contact {
   .footer-inner {
     padding: 25px 15px; } }
 
+@media (max-width: 991px) {
+  .footer-inner .logoBox {
+    padding-bottom: 40px; } }
+
 .disclosure {
   font: 400 16px/20.93px "Work Sans"; }
 

@@ -1,3 +1,4 @@
+.modal-body {background: $black;}
 .modal-dialog {
   max-width: 640px;
   border: 0;
@@ -25,7 +26,7 @@
     }
   }
   h4 {
-    color: $white;
+    color: #E4E2D0;
     font: 400 41px/116% 'Roboto', sans-serif;
     margin-bottom: 40px;
     @media (max-width: 575px) {
@@ -58,7 +59,7 @@
     color: #0EDAFF;
     font: 400 14px/16px "Roboto", sans-serif;
   }
-  @media (max-width: 575px) {
-    padding: 0 15px 20px;
+  @media (max-width: 767px) {
+    padding: 0 40px 20px;
   }
 }

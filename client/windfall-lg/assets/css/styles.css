@@ -306,6 +306,9 @@ footer .contact {
   .registration .quote blockquote {
     font-size: 21px; } }
 
+#opt-in .modal-body {
+  background: #000000; }
+
 #opt-in .modal-dialog {
   max-width: 640px;
   border: 0; }
@@ -336,7 +339,7 @@ footer .contact {
     font-size: 40px; } }
 
 #opt-in .popup-form h4 {
-  color: #ffffff;
+  color: #E4E2D0;
   font: 400 41px/116% 'Roboto', sans-serif;
   margin-bottom: 40px; }
 
@@ -372,9 +375,9 @@ footer .contact {
   color: #0EDAFF;
   font: 400 14px/16px "Roboto", sans-serif; }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   #opt-in .spam {
-    padding: 0 15px 20px; } }
+    padding: 0 40px 20px; } }
 
 #exit .modal-dialog {
   max-width: 1106px; }
